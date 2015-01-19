@@ -184,7 +184,8 @@ figcaption {
 #menu > ul > li > a.current {
 	color: #ffffff;
 	display:block;
-	background: #43728A;	
+	background: #43728A;
+	text-decoration: none;	
 }
 
 .navicon {
