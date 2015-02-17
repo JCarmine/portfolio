@@ -1,10 +1,12 @@
 {
     "debug": false,
     "lintScripts": false,
-    "preprocessorLocations": null,
-    "preprocessorScriptOutput": "js",
+    "preprocessorLocations": [
+        "css"
+    ],
+    "preprocessorScriptOutput": null,
     "preprocessorStyleOutput": "css",
-    "projectName": "Project Name",
+    "projectName": "Portfolio",
     "projectDescription": "Project Description",
     "publishedId": null,
     "serverHostname": null,

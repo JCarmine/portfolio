@@ -185,10 +185,10 @@
   <script type="text/javascript">
     $(document).ready(function (){
 			
-			/* Form Validation and Submission */
+			// Form Validation and Submission
       var submitForm = function(){
       
-				/* Basic Field Validation */
+				// Basic Field Validation
 				missingField = false;
 		
 				$("input[type='text'],input[type='file'],textarea").each(function(){
@@ -240,7 +240,7 @@
 				});
       };
       
-			/* Bind form submission to "Submit" button. */
+			// Bind form submission to "Submit" button.
 			$(".submit").click(function(e){
           e.preventDefault();
           submitForm();
@@ -250,7 +250,7 @@
           submitForm();
       });
 			
-			/* Toggle the "35" logo to resize, using jQuery, when Menu items are clicked. */
+			// Toggle the "35" logo to resize, using jQuery, when Menu items are clicked.
       $(".i1").click(function() {
         $(".magic").animate({height:'120', width: '63'}, 200);
       });
@@ -258,7 +258,7 @@
         $(".magic").animate({height:'396', width: '206'}, 200);
       });
       
-			<!-- Set options for JS navigation. -->
+			// Set options for JS navigation.
       $("#menu ul li").slidingPage({
 				easing : 'easeInOutQuint',
 				speed : 800,

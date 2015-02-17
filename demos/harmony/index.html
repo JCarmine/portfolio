@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Clinical Study Sign-up Form</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <div id="myBackground">
+        <div class="wrapper">
+            <header>
+                <img src="img/logo.png" alt="Harmony Logo" width="201" height="78">
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="">WHAT ARE CLINICAL RESEARCH&nbsp;STUDIES</a>
+                        </li>
+                        <li>
+                            <a href="">ABOUT THE STUDY</a>  
+                        </li>
+                        <li>
+                            <a href="">ABOUT THE CONDITION</a>
+                        </li>
+                    </ul>
+                </nav>   
+            </header>
+
+            <section class="body">
+                <div class="left">
+                    <img src="img/arc_left.png" alt="">
+                </div>
+                <div class="center">
+                    <h1>CLINICAL STUDY <span class="nobr">SIGN-UP</span></h1>
+                    <h2>A FULLY RESPONSIVE <span class="nobr">SIGN-UP</span>&nbsp;FORM.</h2>
+                    <p>This template was designed by BBK Worldwide, and developed by <a href="http://jessecarmine.com" target="_blank">Jesse Carmine</a>. It provides a place where parents can go to enroll their children in a clinical research study. Please note that the original content has been removed per the client’s request, and the internal links have been disabled. The site features a background image that uses jQuery to scale its width and height. This allows the background to maintain its proportions and properly align itself with the page’s contents. Additional site features include a fully responsive design, mobile menu, and&nbsp;custom&nbsp;form.</p>
+                </div>
+                <div class="right">
+                    <img src="img/arc_right.png" alt="">
+                </div>
+            </section>
+
+            <section class="qualify">
+                <div class="tagLine">
+                    <p>SEE IF YOUR CHILD MAY BE ELIGIBLE&nbsp;TO&nbsp;PARTICIPATE</p>    
+                </div>
+                <form>
+                    <div class="questions">
+                        <div class="one">
+                            <div class="circle">
+                                <p>1</p>    
+                            </div>
+                            <div class="input">
+                                <div class="copy">
+                                    <p>What is your ZIP/Postal code?</p>  
+                                </div>
+                                <div class="field">
+                                    <div class="left"></div>
+                                    <input class="right" type="text">
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="two">
+                            <div class="circle">
+                                <p>2</p>    
+                            </div>
+                            <div class="input">
+                                <div class="copy">
+                                    <p>What is your child’s gender?</p>  
+                                </div>
+                                <div class="radio">
+                                    <label for="male">
+                                        <input id="male" type="radio" name="gender" value="male"> Male
+                                    </label>  
+                                    <br>
+                                    <label for="female">
+                                        <input id="female" type="radio" name="gender" value="female"> Female
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">CONTINUE</button> 
+                </form>
+            </section>
+        </div>
+        <footer>
+            <a href="" target="_blank">privacy policy</a>
+            <a class="right" href="" target="_blank">terms &#38; conditions</a>
+        </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script>
+        $(document).ready(function () {
+          $(window).bind('resizeEnd', function () {
+            $("#myBackground").height($(window).height());
+        });
+
+          $(window).resize(function () {
+              if (this.resizeTO) clearTimeout(this.resizeTO);
+              this.resizeTO = setTimeout(function () {
+                  $(this).trigger('resizeEnd');
+              }, 300);
+          }).trigger("resize");
+      });
+        $(function(){
+            $('#menu').slicknav({
+                label: '',
+                closeOnClick: true,
+            });
+        });
+    </script>
+
+</body>
+</html>
