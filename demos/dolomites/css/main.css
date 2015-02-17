@@ -656,7 +656,7 @@ header {
   position: absolute;
   top: 50%;
   width: 100%;
-  padding: 5px;
+  padding: 5px 0;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%); }
 
