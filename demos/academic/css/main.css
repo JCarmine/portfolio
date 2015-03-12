@@ -254,7 +254,8 @@ body {
 .bodyContainer {
   width: 80%;
   margin: 0 auto;
-  padding-top: 100px; }
+  padding-top: 100px;
+  background: #FAFAFA; }
 
 .clearFix {
   clear: both;
@@ -277,13 +278,6 @@ body {
   left: 71px;
   z-index: -1;
   margin-bottom: 5px; }
-
-#home,
-#research,
-#publications,
-#programs,
-#contact {
-  background: #FAFAFA; }
 
 .homeList {
   list-style-type: circle;
@@ -314,7 +308,7 @@ body {
   float: none !important;
   z-index: 1;
   top: 0;
-  background: #ffffff; }
+  background-color: #FAFAFA; }
 
 /* Large Image on Home Page */
 figure {
@@ -805,7 +799,6 @@ a.icon {
 
   .body {
     margin-left: 0;
-    background-color: #ffffff;
     padding-top: 59px; }
 
   .bodyContainer {
@@ -896,7 +889,8 @@ a.icon {
   .wrapper {
     width: 100%;
     max-width: 1366px;
-    height: inherit; } }
+    height: inherit;
+    background-color: #FAFAFA; } }
 @media only screen and (max-width: 500px) {
   #team li {
     width: 50%; } }
