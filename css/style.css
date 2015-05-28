@@ -605,7 +605,7 @@ outline:none;
 	width:100%;
 	min-height:100%;
 	float:none !important;
-	z-index:9990;
+	z-index:4900;
 	top:0;
 	background:#ffffff;
 }
@@ -618,7 +618,7 @@ outline:none;
 	top:0;
 	left:0;
 	width:100%;
-	z-index:10000;
+	z-index:5000;
 }
 
 #top .set-size {
@@ -636,7 +636,7 @@ outline:none;
 	position:absolute;
 	top:65px;
 	width:100%; 
-	z-index:9999;
+	z-index:5000;
 }
 
 /* NavButtons */
