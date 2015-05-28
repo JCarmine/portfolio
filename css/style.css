@@ -264,7 +264,7 @@ strong {
 }
 
 .copywrite:before {
-	content: " © Jesse Carmine 2013";
+	content: " © Jesse Carmine 2015";
 	color:#848484;
 	font-size: 0.8em;
 }
@@ -595,6 +595,7 @@ outline:none;
 #contentSlide{
 	width:100%;
 	min-height:100%;
+	padding-bottom: 100px;
 	overflow:hidden;
 	position:absolute;
 	top:0; 
