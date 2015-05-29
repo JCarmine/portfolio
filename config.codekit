@@ -11,206 +11,132 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fancybox\/fancybox_overlay.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1003,
-		"inputAbbreviatedPath": "\/css\/fancybox\/fancybox_overlay.png",
-		"outputAbbreviatedPath": "\/css\/fancybox\/fancybox_overlay.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/fancybox\/fancybox_sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1362,
-		"inputAbbreviatedPath": "\/css\/fancybox\/fancybox_sprite.png",
-		"outputAbbreviatedPath": "\/css\/fancybox\/fancybox_sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/fancybox\/fancybox_sprite@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6553,
-		"inputAbbreviatedPath": "\/css\/fancybox\/fancybox_sprite@2x.png",
-		"outputAbbreviatedPath": "\/css\/fancybox\/fancybox_sprite@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/fancybox\/helpers\/fancybox_buttons.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1080,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/fancybox_buttons.png",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/fancybox_buttons.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-buttons.css": {
+	"\/css\/main.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-buttons.css",
+		"inputAbbreviatedPath": "\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-buttons.js": {
-		"fileType": 64,
+	"\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-buttons.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/min\/jquery.fancybox-buttons-min.js",
+		"inputAbbreviatedPath": "\/css\/main.scss",
+		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-buttons.min.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/css\/scss\/base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-buttons.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-buttons.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-buttons.min.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/min\/jquery.fancybox-buttons.min-min.js",
+		"inputAbbreviatedPath": "\/css\/scss\/base.scss",
+		"outputAbbreviatedPath": "\/css\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-media.js": {
-		"fileType": 64,
-		"ignore": 0,
+	"\/css\/scss\/fancybox.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-media.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/min\/jquery.fancybox-media-min.js",
+		"inputAbbreviatedPath": "\/css\/scss\/fancybox.scss",
+		"outputAbbreviatedPath": "\/css\/css\/fancybox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-media.min.js": {
-		"fileType": 64,
-		"ignore": 0,
+	"\/css\/scss\/font-awesome.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-media.min.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/min\/jquery.fancybox-media.min-min.js",
+		"inputAbbreviatedPath": "\/css\/scss\/font-awesome.scss",
+		"outputAbbreviatedPath": "\/css\/css\/font-awesome.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/css\/scss\/helpers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/min\/jquery.fancybox-thumbs-min.js",
+		"inputAbbreviatedPath": "\/css\/scss\/helpers.scss",
+		"outputAbbreviatedPath": "\/css\/css\/helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.min.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/css\/scss\/normalize.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/helpers\/jquery.fancybox-thumbs.min.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/helpers\/min\/jquery.fancybox-thumbs.min-min.js",
+		"inputAbbreviatedPath": "\/css\/scss\/normalize.scss",
+		"outputAbbreviatedPath": "\/css\/css\/normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
-	"\/css\/fancybox\/jquery.fancybox.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/css\/scss\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/jquery.fancybox.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/fancybox\/jquery.fancybox.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/jquery.fancybox.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/min\/jquery.fancybox-min.js",
+		"inputAbbreviatedPath": "\/css\/scss\/style.scss",
+		"outputAbbreviatedPath": "\/css\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/css\/fancybox\/jquery.fancybox.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/jquery.fancybox.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/fancybox\/jquery.fancybox.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fancybox\/jquery.fancybox.min.js",
-		"outputAbbreviatedPath": "\/css\/fancybox\/min\/jquery.fancybox.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/style.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -822,15 +748,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/fonts\/font-awesome\/css\/font-awesome.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/font-awesome\/css\/font-awesome.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/images\/academic_large_image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -896,6 +813,152 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/images\/fancybox\/fancybox_overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1003,
+		"inputAbbreviatedPath": "\/images\/fancybox\/fancybox_overlay.png",
+		"outputAbbreviatedPath": "\/images\/fancybox\/fancybox_overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fancybox\/fancybox_sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1362,
+		"inputAbbreviatedPath": "\/images\/fancybox\/fancybox_sprite.png",
+		"outputAbbreviatedPath": "\/images\/fancybox\/fancybox_sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fancybox\/fancybox_sprite@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6553,
+		"inputAbbreviatedPath": "\/images\/fancybox\/fancybox_sprite@2x.png",
+		"outputAbbreviatedPath": "\/images\/fancybox\/fancybox_sprite@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fancybox\/helpers\/fancybox_buttons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1080,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/fancybox_buttons.png",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/fancybox_buttons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-buttons.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-buttons.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-buttons.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-buttons.js",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/min\/jquery.fancybox-buttons-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-buttons.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-buttons.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-buttons.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-buttons.min.js",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/min\/jquery.fancybox-buttons.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-media.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-media.js",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/min\/jquery.fancybox-media-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-media.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-media.min.js",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/min\/jquery.fancybox-media.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.js",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/min\/jquery.fancybox-thumbs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/images\/fancybox\/helpers\/jquery.fancybox-thumbs.min.js",
+		"outputAbbreviatedPath": "\/images\/fancybox\/helpers\/min\/jquery.fancybox-thumbs.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/images\/harmony_large_image.jpg": {
 		"fileType": 16384,
