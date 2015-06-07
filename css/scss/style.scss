@@ -61,6 +61,8 @@ h2 {
 h3 {
     font-size: 1.7em;
     color: $md-grey;
+    text-align: center;
+    margin: 0 0 30px 0;
 }
 
 
@@ -617,6 +619,10 @@ textarea:focus {
     float: right;
 }
 
+.contactP {
+    padding: 0 5% 0 3%;
+}
+
 
 /* Revolver.js*/
 .loading {
@@ -793,13 +799,15 @@ textarea:focus {
     html {
         overflow-y: auto;
     }
+
+
     /*General Styles Tablet*/
-    
     .wrap {
         width: 100%;
     }
+
+
     /* Responsive Grid Tablet*/
-    
     .span_3_of_3 {
         width: 98%;
     }
@@ -897,6 +905,7 @@ textarea:focus {
     }
     h1 {
         color: $white;
+        line-height: 50px;
     }
     p.mobile {
         font-size: 2em;
