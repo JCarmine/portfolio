@@ -1,101 +1,62 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
   <title>Email Newsletters</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css">
-  
-  <style type="text/css">
-	  .button-right {
-			float: right;
-			margin-left: 8px;
-		}
-			
-		.button-left {
-			float: left;
-			margin-right: 8px;
-		}
-		
-		.footer {
-			width: 70%;
-			max-width: 350px;
-			margin: 0 auto;
-			margin-top: 15px;
-			margin-bottom: 55px;
-			background-color: #ffffff;
-		}	
-		
-		@media only screen and (max-width: 767px) {
-			.btn {
-				width: 100%;
-				display: block;
-				padding: 6px 0 4px 0;
-			}
-			
-			.button-left {
-				float: none;
-				margin: 0;	
-			}
-			
-			.button-right {
-				float: none;
-				margin: 10px 0 0 0;
-			}
-    }
-	</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/main.css"> 
 </head>
 
-<body>  
+<body>
+
   <header>
-    <h1 class="center">
+    <h1 class="bodyHeader center">
       EMAIL NEWSLETTERS
     </h1>
   </header>
   
-  <section>
-    <div class="container">
-      <div class="email">
-        <div class="row">
-          <img id="stop1" src="images/email_demo_01.jpg" width="100%" height="auto" alt="Header"> 
-        </div>
-        
-        <div class="row">
-          <img src="images/email_demo_02.jpg" width="100%" height="auto">
-        </div>
-        
-        <div class="row">
-        	<div style="width: 5.8333333333%; display: inline-block;"></div>
-          <img id="stop2" src="images/email_demo_04.jpg" width="90%" height="auto">
-        </div>
-        
-        <div class="row">
-          <div style="width: 5.166666666%; display: inline-block;"></div>
-          <img id="stop4" src="images/email_demo_07.jpg" width="66.6666666666%" height="auto" />
-          <div style="width: 4.166666666%; display: inline-block;"></div>
-          <img id="stop5" src="images/email_demo_09.jpg" width="16.666666666%" height="auto" /> 
-        </div>
-        
-        <div class="row">
-          <img src="images/email_demo_11.jpg" alt="" width="100%" height="auto" /> 
-        </div>
-        
-        <div class="row">
-          <img src="images/email_demo_12.jpg" alt="" width="100%" height="auto" /> 
-        </div>
+  <div class="wrapper">
+    <div class="email">
+      <div class="row">
+        <img class="fullWidth" id="stop1" src="images/email_demo_01.jpg" width="600" height="158" alt="Header"> 
       </div>
-      <div class="footer">
-        <div id="target" class="btn btn-primary button-left center">
-          <p id="button">Replay the Tour</p>
-        </div>
-        <a href="resources/carminej@gmail.com_email_demo.zip" target="_blank" style="text-decoration:none;">
-          <div class="btn btn-primary button-right center">
-            <p id="button">Get the Code</p>
-          </div>
-        </a>
-      </div> 
+      
+      <div class="row">
+        <img class="fullWidth" src="images/email_demo_02.jpg" width="600" height="34" alt="Spacer">
+      </div>
+      
+      <div class="row">
+      	<div class="marginLeft one"></div>
+        <img class="img04" id="stop2" src="images/email_demo_04.jpg" width="540" height="109" alt="Body">
+      </div>
+      
+      <div class="row">
+        <div class="marginLeft two"></div>
+        <img class="img07" id="stop4" src="images/email_demo_07.jpg" width="400" height="240" alt="Call to Action"/>
+        <div class="marginLeft three"></div>
+        <img class="img09" id="stop5" src="images/email_demo_09.jpg" width="100" height="240" alt="Social Icons"/>
+      </div>
+      
+      <div class="row">
+        <img class="fullWidth" src="images/email_demo_11.jpg" width="600" height="13" alt="Footer Bar"/> 
+      </div>
+      
+      <div class="row">
+        <img class="fullWidth" src="images/email_demo_12.jpg" width="600" height="18" alt="bottom"/> 
+      </div>
     </div>
-  </section>
+    <div class="footer">
+      <div id="target" class="btn btn-primary button-left center">
+        <p>Replay the Tour</p>
+      </div>
+      <a href="resources/carminej@gmail.com_email_demo.zip" target="_blank" style="text-decoration:none;">
+        <div class="btn btn-primary button-right center">
+          <p>Get the Code</p>
+        </div>
+      </a>
+    </div> 
+  </div>
+
   
   <ol id="joyRideTipContent">
     <li  data-text="Start the Tour">
@@ -146,10 +107,10 @@
     ga('send', 'pageview');
   </script> 
   
-  <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   
   <script type="text/javascript" src="js/jquery.joyride-2.1.js"></script>
-  
+
   <script>
     $(window).load(function() {
       $('#joyRideTipContent').joyride({
@@ -166,8 +127,8 @@
     $('#target').click(function() {
        location.reload();
     });
-  </script>		
-      
+  </script>	
+ 
 </body>
 </html>
 
