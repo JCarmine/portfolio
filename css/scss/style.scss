@@ -800,10 +800,21 @@ textarea:focus {
         overflow-y: auto;
     }
 
-
     /*General Styles Tablet*/
     .wrap {
         width: 100%;
+    }
+    
+    .fancybox-nav span {
+        top: 55%;
+    }
+
+    .fancybox-next span {
+        right: -15px;
+    }
+
+    .fancybox-prev span {
+        left: -15px;
     }
 
 
@@ -817,8 +828,8 @@ textarea:focus {
     .span_1_of_3 {
         width: 31.7%;
     }
+
     /*Carousel 3 Tablet*/
-    
     .carousel-inner {
         position: relative;
         overflow: hidden;
