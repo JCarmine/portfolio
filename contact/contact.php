@@ -55,7 +55,7 @@ if(isset($_POST['submitted'])) {
 <head> 
     <title>Contact Form</title>
     <script type="text/javascript" src="../js/jquery-1.8.2.min.js"></script>
-    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body style="overflow:hidden; font-size: 16px;">
