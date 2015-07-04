@@ -60,15 +60,15 @@ if(isset($_POST['submitted'])) {
 
 <body style="overflow:hidden; font-size: 16px;">
     <!-- @begin contact -->
-	<div id="contact">
+	<div id="contactForm">
 		<div class="container content">
 		
-	        <?php if(isset($emailSent) && $emailSent == true) { ?>
-                <p class="info">Thank you! I will get back to you shortly.</p>
-            <?php } else { ?>
+	      <?php if(isset($emailSent) && $emailSent == true) { ?>
+            <p class="info">Thank you! I will get back to you shortly.</p>
+        <?php } else { ?>
 
 				
-				<div id="contact-form">
+				<div id="contact-input">
 					<?php if(isset($hasError) || isset($captchaError) ) { ?>
                         <p class="alert">Sorry, there was an error submitting the form.</p>
                     <?php } ?>

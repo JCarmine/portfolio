@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,12 +7,13 @@
     <meta name="description" content="Hello, I'm Jesse Carmine and welcome to my portfolio, I’m a Web Developer from Portland, OR U.S.A. I create unique and elegant responsive web designs that look great and work perfectly, on any device." />
     <meta name="author" content="Jesse Carmine">
     <title>Jesse Carmine - Web Developer</title>
+    <script>document.documentElement.className = "";</script>
     <link rel="icon" href="images/favicon.ico?v=2">
-    <link rel="shortcut icon" href="images/favicon.ico?v=2">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css"> 
 </head>
 
 <body>
+
     <div id="contentSlide">
         <!--Nav-->
         <div id="top">
@@ -46,7 +47,7 @@
         </div>
         <div class="shadow"></div>
         <!-- Home Page -->
-        <div id="homepage" style="display:none">
+        <div id="homepage">
             <div class="wrap">
                 <div class="whiteBox background">
                     <h3>
@@ -90,7 +91,7 @@
             </div>
         </div>
         <!-- About Page -->
-        <div id="about" style="display:none;">
+        <div id="about">
             <div class="wrap">
                 <div class="whiteBox">
                     <h3>
@@ -158,7 +159,7 @@
             </div>
         </div>
         <!-- Portfolio Page -->
-        <div id="portfolio" style="display:none;">
+        <div id="portfolio">
             <div class="wrap">
                 <div class="whiteBox">
                     <h3>
@@ -325,7 +326,7 @@
             <!--/.wrap-->
         </div>
         <!-- Contact Page -->
-        <div id="contact" style="display:none">
+        <div id="contact">
             <div class="wrap">
                 <div class="whiteBox">
                     <h3>
@@ -389,9 +390,15 @@
     ga('create', 'UA-45115716-2', 'jessecarmine.com');
     ga('send', 'pageview');
     </script>
+
     <!-- Initialize the JS navigation and carousel. -->
     <script type="text/javascript">
+        
+    </script>
+
+    <script type="text/javascript">
     $(document).ready(function() {
+
         $("#menu ul li").slidingPage({
             easing: 'fade',
             speed: 700,

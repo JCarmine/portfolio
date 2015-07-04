@@ -603,14 +603,20 @@ img {
 .pull-right {
   float: right; }
 
-strong {
-  font-weight: bold; }
-
 #homepage,
 #about,
 #contact,
 #portfolio {
-  background: #light-grey; }
+  background: #light-grey;
+  display: none; }
+
+.no-js #homepage,
+.no-js #about,
+.no-js #portfolio,
+.no-js #contact {
+  display: block; }
+.no-js #contentSlide > div:not(:last-child) .footerBox {
+  display: none; }
 
 .wrap {
   margin: 0 auto;
@@ -882,36 +888,31 @@ a.fancybox img:hover {
   text-shadow: none; }
 
 /*Contact Form*/
-#contact .desc h2 {
+#contactForm .desc h2 {
   font-family: Georgia, Tahoma, sans-serif;
   font-weight: normal;
   letter-spacing: -0.03em;
   color: #444;
   font-size: 2.4em;
   margin-bottom: 8px; }
-
-#contact .desc p {
+#contactForm .desc p {
   font-family: Verdana, Arial, sans-serif;
   font-size: 1.2em;
   color: #333;
   line-height: 1.3em;
   margin-bottom: 15px; }
-
-#contact-form {
+#contactForm #contact-input {
   width: 100%;
   height: 0px;
   background: #ffffff;
   background-color: rgba(255, 255, 255, 0.95); }
-
-#contact-us {
+#contactForm #contact-us {
   width: 95%; }
-
-#contact .formblock {
+#contactForm .formblock {
   display: block;
   width: 100%;
   margin: 0 0 11px 0; }
-
-#contact .formblock label {
+#contactForm .formblock label {
   font-size: 1.1em;
   display: block;
   font-style: italic;
@@ -919,8 +920,7 @@ a.fancybox img:hover {
   color: #232323;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #5f6d7a; }
-
-#contact .formblock .txt {
+#contactForm .formblock .txt {
   padding: 6px 6px;
   font-size: 1.6em;
   font-family: Arial, Tahoma, sans-serif;
@@ -931,20 +931,17 @@ a.fancybox img:hover {
   border-radius: 0;
   border: 1px solid #979797;
   background-color: #ffffff; }
-
-#contact .formblock .txt:focus {
+#contactForm .formblock .txt:focus {
   border: 1px solid #74b9f0;
   outline: none; }
-
-#contact .formblock .txtarea {
+#contactForm .formblock .txtarea {
   font-size: 1.5em;
   font-family: Arial, Tahoma, sans-serif;
   padding: 3px 5px;
   color: #666;
   width: 100%;
   height: 160px; }
-
-textarea {
+#contactForm textarea {
   font-size: 1.5em;
   font-family: Verdana, Arial, sans-serif;
   padding: 6px 4px;
@@ -964,36 +961,30 @@ textarea {
   -webkit-rtl-ordering: logical;
   -webkit-user-select: text;
   cursor: auto; }
-
-textarea:focus {
+#contactForm textarea:focus {
   border: 1px solid #74b9f0;
   outline: none; }
-
-#contact .formblock .error {
+#contactForm .formblock .error {
   font-weight: bold;
   font-size: 1.2em;
   font-style: normal;
   font-family: Verdana, Arial, sans-serif;
   color: #9d3131; }
-
-#contact .info {
+#contactForm .info {
   font-weight: bold;
   font-size: 1.3em;
   color: #59913d;
   margin-bottom: 10px;
   font-family: Verdana, Arial, sans-serif; }
-
-#contact p.tick {
+#contactForm p.tick {
   font-size: 1.25em;
   text-decoration: none;
   color: #474747;
   line-height: 1.9em;
   font-weight: normal; }
-
-#contact .subbutton {
+#contactForm .subbutton {
   float: right; }
-
-.contactP {
+#contactForm .contactP {
   padding: 0 5% 0 3%; }
 
 /* Revolver.js*/

@@ -167,15 +167,26 @@ img {
     float: right;
 }
 
-strong {
-    font-weight: bold;
-}
-
 #homepage,
 #about,
 #contact,
 #portfolio {
     background: #light-grey;
+    display: none;
+}
+
+.no-js {
+    #homepage,
+    #about,
+    #portfolio,
+    #contact
+    {
+        display: block;
+    }
+
+    #contentSlide > div:not(:last-child) .footerBox {
+        display: none;
+    }
 }
 
 .wrap {
@@ -493,134 +504,137 @@ a.fancybox img:hover {
 
 
 /*Contact Form*/
-#contact .desc h2 {
-    font-family: Georgia, Tahoma, sans-serif;
-    font-weight: normal;
-    letter-spacing: -0.03em;
-    color: #444;
-    font-size: 2.4em;
-    margin-bottom: 8px;
-}
+#contactForm {
 
-#contact .desc p {
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 1.2em;
-    color: #333;
-    line-height: 1.3em;
-    margin-bottom: 15px;
-}
+    .desc h2 {
+        font-family: Georgia, Tahoma, sans-serif;
+        font-weight: normal;
+        letter-spacing: -0.03em;
+        color: #444;
+        font-size: 2.4em;
+        margin-bottom: 8px;
+    }
 
-#contact-form {
-    width: 100%;
-    height: 0px;
-    background: $white;
-    background-color: rgba(255, 255, 255, 0.95);
-}
+    .desc p {
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 1.2em;
+        color: #333;
+        line-height: 1.3em;
+        margin-bottom: 15px;
+    }
 
-#contact-us {
-    width: 95%;
-}
+    #contact-input {
+        width: 100%;
+        height: 0px;
+        background: $white;
+        background-color: rgba(255, 255, 255, 0.95);
+    }
 
-#contact .formblock {
-    display: block;
-    width: 100%;
-    margin: 0 0 11px 0;
-}
+    #contact-us {
+        width: 95%;
+    }
 
-#contact .formblock label {
-    font-size: 1.1em;
-    display: block;
-    font-style: italic;
-    font-weight: normal;
-    color: #232323;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #5f6d7a;
-}
+    .formblock {
+        display: block;
+        width: 100%;
+        margin: 0 0 11px 0;
+    }
 
-#contact .formblock .txt {
-    padding: 6px 6px;
-    font-size: 1.6em;
-    font-family: Arial, Tahoma, sans-serif;
-    color: #666;
-    width: 99.5%;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    border: 1px solid #979797;
-    background-color: $white;
-}
+    .formblock label {
+        font-size: 1.1em;
+        display: block;
+        font-style: italic;
+        font-weight: normal;
+        color: #232323;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #5f6d7a;
+    }
 
-#contact .formblock .txt:focus {
-    border: 1px solid #74b9f0;
-    outline: none;
-}
+    .formblock .txt {
+        padding: 6px 6px;
+        font-size: 1.6em;
+        font-family: Arial, Tahoma, sans-serif;
+        color: #666;
+        width: 99.5%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border: 1px solid #979797;
+        background-color: $white;
+    }
 
-#contact .formblock .txtarea {
-    font-size: 1.5em;
-    font-family: Arial, Tahoma, sans-serif;
-    padding: 3px 5px;
-    color: #666;
-    width: 100%;
-    height: 160px;
-}
+    .formblock .txt:focus {
+        border: 1px solid #74b9f0;
+        outline: none;
+    }
 
-textarea {
-    font-size: 1.5em;
-    font-family: Verdana, Arial, sans-serif;
-    padding: 6px 4px;
-    color: #666;
-    width: 100%;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-appearance: textfield;
-    background-color: white;
-    border: 1px solid #979797;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    -webkit-rtl-ordering: logical;
-    -webkit-user-select: text;
-    cursor: auto;
-}
+    .formblock .txtarea {
+        font-size: 1.5em;
+        font-family: Arial, Tahoma, sans-serif;
+        padding: 3px 5px;
+        color: #666;
+        width: 100%;
+        height: 160px;
+    }
 
-textarea:focus {
-    border: 1px solid #74b9f0;
-    outline: none;
-}
+    textarea {
+        font-size: 1.5em;
+        font-family: Verdana, Arial, sans-serif;
+        padding: 6px 4px;
+        color: #666;
+        width: 100%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-appearance: textfield;
+        background-color: white;
+        border: 1px solid #979797;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        -webkit-rtl-ordering: logical;
+        -webkit-user-select: text;
+        cursor: auto;
+    }
 
-#contact .formblock .error {
-    font-weight: bold;
-    font-size: 1.2em;
-    font-style: normal;
-    font-family: Verdana, Arial, sans-serif;
-    color: #9d3131;
-}
+    textarea:focus {
+        border: 1px solid #74b9f0;
+        outline: none;
+    }
 
-#contact .info {
-    font-weight: bold;
-    font-size: 1.3em;
-    color: #59913d;
-    margin-bottom: 10px;
-    font-family: Verdana, Arial, sans-serif;
-}
+    .formblock .error {
+        font-weight: bold;
+        font-size: 1.2em;
+        font-style: normal;
+        font-family: Verdana, Arial, sans-serif;
+        color: #9d3131;
+    }
 
-#contact p.tick {
-    font-size: 1.25em;
-    text-decoration: none;
-    color: $dk-grey;
-    line-height: 1.9em;
-    font-weight: normal;
-}
+    .info {
+        font-weight: bold;
+        font-size: 1.3em;
+        color: #59913d;
+        margin-bottom: 10px;
+        font-family: Verdana, Arial, sans-serif;
+    }
 
-#contact .subbutton {
-    float: right;
-}
+    p.tick {
+        font-size: 1.25em;
+        text-decoration: none;
+        color: $dk-grey;
+        line-height: 1.9em;
+        font-weight: normal;
+    }
 
-.contactP {
-    padding: 0 5% 0 3%;
+    .subbutton {
+        float: right;
+    }
+
+    .contactP {
+        padding: 0 5% 0 3%;
+    }
 }
 
 
