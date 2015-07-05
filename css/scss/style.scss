@@ -40,7 +40,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: BebasNeue;
     text-decoration: none;
 }
@@ -63,6 +64,12 @@ h3 {
     color: $md-grey;
     text-align: center;
     margin: 0 0 30px 0;
+}
+
+h4 {
+    font-size: 1.6em;
+    color: $dk-grey;
+    margin: 0px;
 }
 
 
@@ -491,11 +498,14 @@ a.fancybox img:hover {
 }
 
 
-/*Contact Form*/
+/*Contact Page*/
+.contactPara {
+    margin: 0;
+}
+
 #contactForm {
 
     .desc h2 {
-        font-family: Georgia, Tahoma, sans-serif;
         font-weight: normal;
         letter-spacing: -0.03em;
         color: #444;
@@ -504,8 +514,6 @@ a.fancybox img:hover {
     }
 
     .desc p {
-        font-family: Verdana, Arial, sans-serif;
-        font-size: 1.2em;
         color: #333;
         line-height: 1.3em;
         margin-bottom: 15px;
@@ -529,24 +537,16 @@ a.fancybox img:hover {
     }
 
     .formblock label {
-        font-size: 1.1em;
         display: block;
-        font-style: italic;
         font-weight: normal;
         color: #232323;
-        font-family: Georgia, "Times New Roman", Times, serif;
         color: #5f6d7a;
     }
 
     .formblock .txt {
         padding: 6px 6px;
-        font-size: 1.6em;
-        font-family: Arial, Tahoma, sans-serif;
         color: #666;
         width: 99.5%;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        border-radius: 0;
         border: 1px solid #979797;
         background-color: $white;
     }
@@ -557,8 +557,6 @@ a.fancybox img:hover {
     }
 
     .formblock .txtarea {
-        font-size: 1.5em;
-        font-family: Arial, Tahoma, sans-serif;
         padding: 3px 5px;
         color: #666;
         width: 100%;
@@ -566,8 +564,6 @@ a.fancybox img:hover {
     }
 
     textarea {
-        font-size: 1.5em;
-        font-family: Verdana, Arial, sans-serif;
         padding: 6px 4px;
         color: #666;
         width: 100%;
@@ -594,22 +590,17 @@ a.fancybox img:hover {
 
     .formblock .error {
         font-weight: bold;
-        font-size: 1.2em;
         font-style: normal;
-        font-family: Verdana, Arial, sans-serif;
         color: #9d3131;
     }
 
     .info {
         font-weight: bold;
-        font-size: 1.3em;
         color: #48b348;
         margin-bottom: 10px;
-        font-family: Verdana, Arial, sans-serif;
     }
 
     p.tick {
-        font-size: 1.25em;
         text-decoration: none;
         color: $dk-grey;
         line-height: 1.9em;
@@ -618,10 +609,6 @@ a.fancybox img:hover {
 
     .subbutton {
         float: right;
-    }
-
-    .contactP {
-        padding: 0 5% 0 3%;
     }
 }
 
@@ -858,7 +845,7 @@ a.fancybox img:hover {
 
 @media only screen and (max-width: 745px) {
     body {
-        font-size: 14px;
+        font-size: 10px;
     }
     .carousel {
         margin-top: 70px;
@@ -881,8 +868,13 @@ a.fancybox img:hover {
     .mobile {
         display: block;
     }
+
+    .formblock .txt,
+    .formblock .txtarea {
+        font-size: 16px;
+    }
+
     /*Responsive Grid Mobile*/
-    
     .section {
         clear: both;
         padding: 0 1%;
@@ -910,9 +902,6 @@ a.fancybox img:hover {
         background-image: url(../images/ny_mobile.jpg);
         padding: 50px 0 0 0;
     }
-    body {
-        font-size: 10px;
-    }
     .iportfolio {
         margin-top: 38px;
         height: 1300px;
@@ -921,6 +910,9 @@ a.fancybox img:hover {
         color: $white;
         line-height: 50px;
     }
+    h4 {
+        font-size: 2em;
+    }
     p.mobile {
         font-size: 2em;
         padding: 0 2px;
@@ -928,8 +920,8 @@ a.fancybox img:hover {
     .contactItem {
         font-size: 1.7em;
     }
+
     /* NavBar Mobile */
-    
     #top {
         height: 38px;
     }
@@ -954,8 +946,8 @@ a.fancybox img:hover {
     .progress {
         width: 100%;
     }
+
     /* NavButtons Mobile */
-    
     #menu > ul > li {
         margin: 0px 3px;
     }
