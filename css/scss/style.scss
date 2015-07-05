@@ -40,7 +40,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: BebasNeue;
     text-decoration: none;
 }
@@ -63,6 +64,12 @@ h3 {
     color: $md-grey;
     text-align: center;
     margin: 0 0 30px 0;
+}
+
+h4 {
+    font-size: 1.6em;
+    color: $dk-grey;
+    margin: 0px;
 }
 
 
@@ -167,15 +174,12 @@ img {
     float: right;
 }
 
-strong {
-    font-weight: bold;
-}
-
 #homepage,
 #about,
 #contact,
 #portfolio {
     background: #light-grey;
+    display: none;
 }
 
 .wrap {
@@ -313,65 +317,67 @@ a.fancybox img:hover {
 .carousel {
     position: relative;
     margin-top: 30px;
-}
 
-.carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
 
-.carousel-inner > .item {
-    display: none;
-    position: relative;
-    -webkit-transition: 0.6s ease-in-out left;
-    transition: 0.6s ease-in-out left;
-}
+    .carousel-inner {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    line-height: 1;
-}
+        .item {
+            display: none;
+            position: relative;
+            -webkit-transition: 0.6s ease-in-out left;
+            transition: 0.6s ease-in-out left;
+        }
 
-.carousel-inner > .active,
-.carousel-inner > .next,
-.carousel-inner > .prev {
-    display: block;
-}
+        .item > img,
+        .item > a > img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            line-height: 1;
+        }
 
-.carousel-inner > .active {
-    left: 0;
-}
+        .active,
+        .next,
+        .prev {
+            display: block;
+        }
 
-.carousel-inner > .next,
-.carousel-inner > .prev {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+        .active {
+            left: 0;
+        }
 
-.carousel-inner > .next {
-    left: 100%;
-}
+        .next,
+        .prev {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
 
-.carousel-inner > .prev {
-    left: -100%;
-}
+        .next {
+            left: 100%;
+        }
 
-.carousel-inner > .next.left,
-.carousel-inner > .prev.right {
-    left: 0;
-}
+        .prev {
+            left: -100%;
+        }
 
-.carousel-inner > .active.left {
-    left: -100%;
-}
+        .next.left,
+        .prev.right {
+            left: 0;
+        }
 
-.carousel-inner > .active.right {
-    left: 100%;
+        .active.left {
+            left: -100%;
+        }
+
+        .active.right {
+            left: 100%;
+        }
+    }
 }
 
 .carousel-control {
@@ -492,135 +498,118 @@ a.fancybox img:hover {
 }
 
 
-/*Contact Form*/
-#contact .desc h2 {
-    font-family: Georgia, Tahoma, sans-serif;
-    font-weight: normal;
-    letter-spacing: -0.03em;
-    color: #444;
-    font-size: 2.4em;
-    margin-bottom: 8px;
+/*Contact Page*/
+.contactPara {
+    margin: 0;
 }
 
-#contact .desc p {
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 1.2em;
-    color: #333;
-    line-height: 1.3em;
-    margin-bottom: 15px;
-}
+#contactForm {
 
-#contact-form {
-    width: 100%;
-    height: 0px;
-    background: $white;
-    background-color: rgba(255, 255, 255, 0.95);
-}
+    .desc h2 {
+        font-weight: normal;
+        letter-spacing: -0.03em;
+        color: #444;
+        font-size: 2.4em;
+        margin-bottom: 8px;
+    }
 
-#contact-us {
-    width: 95%;
-}
+    .desc p {
+        color: #333;
+        line-height: 1.3em;
+        margin-bottom: 15px;
+    }
 
-#contact .formblock {
-    display: block;
-    width: 100%;
-    margin: 0 0 11px 0;
-}
+    #contact-input {
+        width: 100%;
+        height: 0px;
+        background: $white;
+        background-color: rgba(255, 255, 255, 0.95);
+    }
 
-#contact .formblock label {
-    font-size: 1.1em;
-    display: block;
-    font-style: italic;
-    font-weight: normal;
-    color: #232323;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #5f6d7a;
-}
+    #contact-us {
+        width: 95%;
+    }
 
-#contact .formblock .txt {
-    padding: 6px 6px;
-    font-size: 1.6em;
-    font-family: Arial, Tahoma, sans-serif;
-    color: #666;
-    width: 99.5%;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    border: 1px solid #979797;
-    background-color: $white;
-}
+    .formblock {
+        display: block;
+        width: 100%;
+        margin: 0 0 11px 0;
+    }
 
-#contact .formblock .txt:focus {
-    border: 1px solid #74b9f0;
-    outline: none;
-}
+    .formblock label {
+        display: block;
+        font-weight: normal;
+        color: #232323;
+        color: #5f6d7a;
+    }
 
-#contact .formblock .txtarea {
-    font-size: 1.5em;
-    font-family: Arial, Tahoma, sans-serif;
-    padding: 3px 5px;
-    color: #666;
-    width: 100%;
-    height: 160px;
-}
+    .formblock .txt {
+        padding: 6px 6px;
+        color: #666;
+        width: 99.5%;
+        border: 1px solid #979797;
+        background-color: $white;
+    }
 
-textarea {
-    font-size: 1.5em;
-    font-family: Verdana, Arial, sans-serif;
-    padding: 6px 4px;
-    color: #666;
-    width: 100%;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-appearance: textfield;
-    background-color: white;
-    border: 1px solid #979797;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    -webkit-rtl-ordering: logical;
-    -webkit-user-select: text;
-    cursor: auto;
-}
+    .formblock .txt:focus {
+        border: 1px solid #74b9f0;
+        outline: none;
+    }
 
-textarea:focus {
-    border: 1px solid #74b9f0;
-    outline: none;
-}
+    .formblock .txtarea {
+        padding: 3px 5px;
+        color: #666;
+        width: 100%;
+        height: 160px;
+    }
 
-#contact .formblock .error {
-    font-weight: bold;
-    font-size: 1.2em;
-    font-style: normal;
-    font-family: Verdana, Arial, sans-serif;
-    color: #9d3131;
-}
+    textarea {
+        padding: 6px 4px;
+        color: #666;
+        width: 100%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-appearance: textfield;
+        background-color: white;
+        border: 1px solid #979797;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        -webkit-rtl-ordering: logical;
+        -webkit-user-select: text;
+        cursor: auto;
+    }
 
-#contact .info {
-    font-weight: bold;
-    font-size: 1.3em;
-    color: #59913d;
-    margin-bottom: 10px;
-    font-family: Verdana, Arial, sans-serif;
-}
+    textarea:focus {
+        border: 1px solid #74b9f0;
+        outline: none;
+    }
 
-#contact p.tick {
-    font-size: 1.25em;
-    text-decoration: none;
-    color: $dk-grey;
-    line-height: 1.9em;
-    font-weight: normal;
-}
+    .formblock .error {
+        font-weight: bold;
+        font-style: normal;
+        color: #9d3131;
+    }
 
-#contact .subbutton {
-    float: right;
-}
+    .info {
+        font-weight: bold;
+        color: #48b348;
+        margin-bottom: 10px;
+    }
 
-.contactP {
-    padding: 0 5% 0 3%;
+    p.tick {
+        text-decoration: none;
+        color: $dk-grey;
+        line-height: 1.9em;
+        font-weight: normal;
+    }
+
+    .subbutton {
+        float: right;
+    }
 }
 
 
@@ -663,15 +652,15 @@ textarea:focus {
     left: 0;
     width: 100%;
     z-index: 5000;
-}
 
-#top .set-size {
-    position: relative;
-}
+    .set-size {
+        position: relative;
+    }
 
-#top #logo {
-    float: left;
-    padding: 5px 15px 0 0;
+    #logo {
+        float: left;
+        padding: 5px 15px 0 0;
+    }
 }
 
 .shadow {
@@ -690,57 +679,58 @@ textarea:focus {
     position: absolute;
     right: 10px;
     font-family: BebasNeue;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: BebasNeue;
+    }
+
+    a {
+        font-size: 1em;
+        text-decoration: none;
+        font-family: BebasNeue;
+    }
+
+    > ul > li {
+        float: left;
+        margin: 15px 5px;
+        position: relative;
+    }
+
+    > ul > li > a {
+        line-height: 1.4em;
+        color: $md-grey;
+        padding: 7px 15px 0 15px;
+    }
+
+    > ul > li:hover > a {
+        color: $dk-grey;
+    }
+
+    > ul > li > a.current {
+        color: $dk-grey;
+    }
+
+    .menu-label {
+        padding-right: 0;
+    }
+
+    .menu-drop:hover .menu-label {
+        background-position: right -23px;
+    }
+
+    .menu-right {
+        float: right;
+    }
+
+    li:hover ul {
+        left: 0;
+        opacity: 1;
+    }
 }
 
-#menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: BebasNeue;
-}
-
-#menu a {
-    font-size: 1em;
-    text-decoration: none;
-    font-family: BebasNeue;
-}
-
-#menu > ul > li {
-    float: left;
-    margin: 15px 5px;
-    position: relative;
-}
-
-#menu > ul > li > a {
-    line-height: 1.4em;
-    color: $md-grey;
-    padding: 7px 15px 0 15px;
-}
-
-#menu > ul > li:hover > a {
-    color: $dk-grey;
-}
-
-#menu > ul > li > a.current {
-    color: $dk-grey;
-}
-
-#menu .menu-label {
-    padding-right: 0;
-}
-
-#menu .menu-drop:hover .menu-label {
-    background-position: right -23px;
-}
-
-#menu .menu-right {
-    float: right;
-}
-
-#menu li:hover ul {
-    left: 0;
-    opacity: 1;
-}
 /* Responsive Grid */
 /*  SECTIONS  */
 
@@ -855,7 +845,7 @@ textarea:focus {
 
 @media only screen and (max-width: 745px) {
     body {
-        font-size: 14px;
+        font-size: 10px;
     }
     .carousel {
         margin-top: 70px;
@@ -878,8 +868,13 @@ textarea:focus {
     .mobile {
         display: block;
     }
+
+    .formblock .txt,
+    .formblock .txtarea {
+        font-size: 16px;
+    }
+
     /*Responsive Grid Mobile*/
-    
     .section {
         clear: both;
         padding: 0 1%;
@@ -907,9 +902,6 @@ textarea:focus {
         background-image: url(../images/ny_mobile.jpg);
         padding: 50px 0 0 0;
     }
-    body {
-        font-size: 10px;
-    }
     .iportfolio {
         margin-top: 38px;
         height: 1300px;
@@ -918,6 +910,9 @@ textarea:focus {
         color: $white;
         line-height: 50px;
     }
+    h4 {
+        font-size: 2em;
+    }
     p.mobile {
         font-size: 2em;
         padding: 0 2px;
@@ -925,8 +920,8 @@ textarea:focus {
     .contactItem {
         font-size: 1.7em;
     }
+
     /* NavBar Mobile */
-    
     #top {
         height: 38px;
     }
@@ -951,8 +946,8 @@ textarea:focus {
     .progress {
         width: 100%;
     }
+
     /* NavButtons Mobile */
-    
     #menu > ul > li {
         margin: 0px 3px;
     }
@@ -970,5 +965,20 @@ textarea:focus {
     }
     #portfolio {
         min-height: 1350px;
+    }
+}
+
+// Styles applied when JS is disabled.
+.no-js {
+    #homepage,
+    #about,
+    #portfolio,
+    #contact
+    {
+        display: block;
+    }
+
+    #contentSlide > div:not(:last-child) .footerBox {
+        display: none;
     }
 }
