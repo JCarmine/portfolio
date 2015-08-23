@@ -348,7 +348,7 @@
                                     <i class="icon-phone icon-2x"></i>&nbsp;&nbsp;+1 (971) 241-9112
                                 </div>
                                 <div class="contactItem">
-                                    <i class="icon-envelope icon-2x"></i>&nbsp;&nbsp;<a href="mailto:carminej@gmail.com" target="_blank">carminej@gmail.com</a>
+                                    <i class="icon-envelope icon-2x"></i>&nbsp;&nbsp;<a href="mailto:carminej@gmail.com" target="_self">carminej@gmail.com</a>
                                 </div>
                             </div>    
                         </div>
