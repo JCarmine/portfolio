@@ -44,32 +44,40 @@ h3,
 h4 {
     font-family: BebasNeue;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 h1 {
-    font-size: 4.38em;
-    margin: 0;
-    padding: 0 10%;
-    text-transform: uppercase;
+    display: none;
 }
 
 h2 {
-    font-size: 1.9em;
-    margin: 0;
-    font-style: normal !important;
-}
-
-h3 {
     font-size: 1.7em;
     color: $md-grey;
     text-align: center;
     margin: 0 0 30px 0;
 }
 
+h3 {
+    font-size: 1.9em;
+    margin: 0;
+    font-style: normal !important;
+}
+
 h4 {
     font-size: 1.6em;
     color: $dk-grey;
     margin: 0px;
+}
+
+#homepage p {
+    font-family: BebasNeue;
+    color: $white;
+    text-decoration: none;
+    font-size: 4.38em;
+    margin: 0;
+    padding: 0 10%;
+    text-transform: uppercase;
 }
 
 
@@ -84,7 +92,6 @@ a,
 a:hover,
 a:focus {
     cursor: pointer;
-    outline: none;
 }
 
 .btn-primary {
@@ -539,8 +546,6 @@ a.fancybox img:hover {
     .formblock label {
         display: block;
         font-weight: normal;
-        color: #232323;
-        color: #5f6d7a;
     }
 
     .formblock .txt {
@@ -702,7 +707,7 @@ a.fancybox img:hover {
     > ul > li > a {
         line-height: 1.4em;
         color: $md-grey;
-        padding: 7px 15px 0 15px;
+        padding: 0 15px;
     }
 
     > ul > li:hover > a {

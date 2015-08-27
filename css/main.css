@@ -501,29 +501,36 @@ h2,
 h3,
 h4 {
   font-family: BebasNeue;
-  text-decoration: none; }
+  text-decoration: none;
+  letter-spacing: 1px; }
 
 h1 {
-  font-size: 4.38em;
-  margin: 0;
-  padding: 0 10%;
-  text-transform: uppercase; }
+  display: none; }
 
 h2 {
-  font-size: 1.9em;
-  margin: 0;
-  font-style: normal !important; }
-
-h3 {
   font-size: 1.7em;
   color: #858484;
   text-align: center;
   margin: 0 0 30px 0; }
 
+h3 {
+  font-size: 1.9em;
+  margin: 0;
+  font-style: normal !important; }
+
 h4 {
   font-size: 1.6em;
   color: #474747;
   margin: 0px; }
+
+#homepage p {
+  font-family: BebasNeue;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 4.38em;
+  margin: 0;
+  padding: 0 10%;
+  text-transform: uppercase; }
 
 /*General Styles*/
 a {
@@ -533,8 +540,7 @@ a {
 a,
 a:hover,
 a:focus {
-  cursor: pointer;
-  outline: none; }
+  cursor: pointer; }
 
 .btn-primary {
   color: #ffffff;
@@ -901,9 +907,7 @@ a.fancybox img:hover {
   margin: 0 0 11px 0; }
 #contactForm .formblock label {
   display: block;
-  font-weight: normal;
-  color: #232323;
-  color: #5f6d7a; }
+  font-weight: normal; }
 #contactForm .formblock .txt {
   padding: 6px 6px;
   color: #666;
@@ -1027,7 +1031,7 @@ a.fancybox img:hover {
   #menu > ul > li > a {
     line-height: 1.4em;
     color: #858484;
-    padding: 7px 15px 0 15px; }
+    padding: 0 15px; }
   #menu > ul > li:hover > a {
     color: #474747; }
   #menu > ul > li > a.current {
