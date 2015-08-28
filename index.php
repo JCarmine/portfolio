@@ -13,13 +13,13 @@
 </head>
 
 <body>
-
+    <h1>I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
     <div id="contentSlide">
         <!--Nav-->
         <div id="top">
             <div id="logo">
                 <a class="revolver" href="#" data-nav="homepage" title="home">
-                    <img src="images/logo.png" alt="Jesse Carmine" title="Sliding Web Site" />
+                    <img src="images/logo.png" alt="Logo: Jesse Carmine - Web Developer"/>
                 </a>
             </div>
             <nav id="menu">
@@ -50,12 +50,12 @@
         <div id="homepage">
             <div class="wrap">
                 <div class="whiteBox background">
-                    <h3>
+                    <h2>
                         Welcome
-                    </h3>
-                    <h1 class="mobile center">
+                    </h2>
+                    <p class="mobile center">
 		              	I create unique and elegant websites that both look great and work perfectly, on any device.
-          			</h1>
+          			</p>
                     <!-- Load carousel on Home Page. -->
                     <div id="carousel-example-generic" class="carousel slide desktop">
                         <!-- Indicators for carousel -->
@@ -67,17 +67,17 @@
                         <!-- Carousel slides. -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="images/slider_1.jpg" alt="...">
+                                <img src="images/slider_1.jpg" alt="I create unique and elegant websites that both look great and work perfectly, on any device.">
                             </div>
                             <div class="item">
-                                <img src="images/slider_2.jpg" alt="...">
+                                <img src="images/slider_2.jpg" alt="Inspire your visitors to imagine the possibilities, with stunning imagery.">
                             </div>
                             <div class="item">
-                                <img src="images/slider_3.jpg" alt="...">
+                                <img src="images/slider_3.jpg" alt="Define your image with custom graphics and logos.">
                             </div>
                         </div>
                         <!-- Carousel controls. -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev" title="left nut">
                             <span class="icon-prev"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
@@ -94,14 +94,14 @@
         <div id="about">
             <div class="wrap">
                 <div class="whiteBox">
-                    <h3>
+                    <h2>
 	                   About
-	                </h3>
+	                </h2>
                     <div class="section group">
                         <div class="col span_2_of_3">
-                            <h2 class="center" style="line-height: 1.1em">
+                            <h3 class="center" style="line-height: 1.1em">
     		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
-    		                </h2>
+    		                </h3>
                             <br />
                             <p class="center">Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
                             <br>
@@ -162,15 +162,15 @@
         <div id="portfolio">
             <div class="wrap">
                 <div class="whiteBox">
-                    <h3>
+                    <h2>
     	                Portfolio
-    	            </h3>
+    	            </h2>
                     <div class="desktop">
                         <div class="section group">
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-1" href="images/stride_rite_large_image.jpg">
-                                        <img class="portfolioImage" src="images/stride_rite_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
                                     </a>
                                     <div id="title-1" class="hidden">
                                         <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
@@ -182,7 +182,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-2" href="images/academic_large_image.jpg">
-                                        <img class="portfolioImage" src="images/academic_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
                                     </a>
                                     <div id="title-2" class="hidden">
                                         <a href='demos/academic/' target='_blank'>
@@ -194,7 +194,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-3" href="images/dolomites_large_image.jpg">
-                                        <img class="portfolioImage" src="images/dolomites_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
                                     </a>
                                     <div id="title-3" class="hidden">
                                         <a href='demos/dolomites/' target='_blank'>
@@ -208,7 +208,7 @@
                              <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-4" href="images/harmony_large_image.jpg">
-                                        <img class="portfolioImage" src="images/harmony_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
                                     </a>
                                     <div id="title-4" class="hidden">
                                         <a href='demos/harmony/' target='_blank'>
@@ -220,7 +220,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-5" href="images/large_image.jpg">
-                                        <img class="portfolioImage" src="images/sc_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                                     </a>
                                     <div id="title-5" class="hidden">
                                         <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
@@ -232,7 +232,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-6" href="images/program35_large_image.jpg">
-                                        <img class="portfolioImage" src="images/program35_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
                                     </a>
                                     <div id="title-6" class="hidden">
                                         <a href='demos/program35/' target='_blank'>
@@ -246,7 +246,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-7" href="images/email_large_image.jpg">
-                                        <img class="portfolioImage" src="images/email_small_image.jpg" alt="">
+                                        <img class="portfolioImage" src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
                                     </a>
                                     <div id="title-7" class="hidden">
                                         <a href='demos/email/' target='_blank'>
@@ -263,53 +263,44 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
-                                        <img src="images/stride_rite_small_image.jpg" width="280" height="187">
+                                        <img src="images/stride_rite_small_image.jpg" width="280" height="187" alt="Portfolio example - Stride Rite Shoes">
                                     </a>
                                 </div>
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='demos/academic/' target='_blank'>
-                                        <img src="images/academic_small_image.jpg" width="280" height="187">
+                                        <img src="images/academic_small_image.jpg" width="280" height="187" alt="Portfolio example - Academic Portfolio">
                                     </a>
                                 </div>
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='demos/dolomites/' target='_blank'>
-                                        <img src="images/dolomites_small_image.jpg" width="280" height="187">
+                                        <img src="images/dolomites_small_image.jpg" width="280" height="187" alt="Portfolio example - Dolomites Website for BBK Worldwide">
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="section group">
-                        	<!--
-                            <div class="col span_1_of_3">
-                                <div class="center">
-                                    <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                                        <img src="images/sc_small_image.jpg">
-                                    </a>
-                                </div>
-                            </div>
-                            -->
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='demos/harmony/' target='_blank'>
-                                        <img src="images/harmony_small_image.jpg" width="280" height="187">
+                                        <img src="images/harmony_small_image.jpg" width="280" height="187" alt="Portfolio example - Harmony Website for BBK Worldwide">
                                     </a>
                                 </div>
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='demos/program35/' target='_blank'>
-                                        <img src="images/program35_small_image.jpg" width="280" height="187">
+                                        <img src="images/program35_small_image.jpg" width="280" height="187" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
                                     </a>
                                 </div>
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='demos/email/' target='_blank'>
-                                        <img src="images/email_small_image.jpg" width="280" height="187">
+                                        <img src="images/email_small_image.jpg" width="280" height="187" alt="Portfolio example - Email coding example and tour">
                                     </a>
                                 </div>
                             </div>
@@ -329,9 +320,9 @@
         <div id="contact">
             <div class="wrap">
                 <div class="whiteBox">
-                    <h3>
+                    <h2>
 			            Contact
-                    </h3>
+                    </h2>
                     <div class="section group">
                         <div class="col span_1_of_2">
                             <p class="desktop contactPara">
@@ -348,7 +339,7 @@
                                     <i class="icon-phone icon-2x"></i>&nbsp;&nbsp;+1 (971) 241-9112
                                 </div>
                                 <div class="contactItem">
-                                    <i class="icon-envelope icon-2x"></i>&nbsp;&nbsp;<a href="mailto:carminej@gmail.com" target="_blank">carminej@gmail.com</a>
+                                    <i class="icon-envelope icon-2x"></i>&nbsp;&nbsp;<a href="mailto:carminej@gmail.com" target="_self">carminej@gmail.com</a>
                                 </div>
                             </div>    
                         </div>
@@ -423,7 +414,7 @@
                                             
                                             <form id="contact-us" action="index.php" method="post">
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text"><h4>NAME:</h4></label>
+                                                    <label class="screen-reader-text" for="contactName"><h3>NAME:</h3></label>
                                                     <input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="" /><br>
                                                     <?php if($nameError != '') { ?>
                                                         <br /><span class="error"><?php echo $nameError;?></span> 
@@ -431,7 +422,7 @@
                                                 </div>
                                                     
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text"><h4>EMAIL:</h4></label>
+                                                    <label class="screen-reader-text" for="email"><h3>EMAIL:</h3></label>
                                                     <input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" /><br>
                                                     <?php if($emailError != '') { ?>
                                                         <br /><span class="error"><?php echo $emailError;?></span>
@@ -439,7 +430,7 @@
                                                 </div>
                                                     
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text"><h4>MESSAGE:</h4></label>
+                                                    <label class="screen-reader-text" for="commentsText"><h3>MESSAGE:</h3></label>
                                                      <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
                                                     <?php if($commentError != '') { ?>
                                                         <br /><span class="error"><?php echo $commentError;?></span> 
