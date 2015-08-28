@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <h1>I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
     <div id="contentSlide">
         <!--Nav-->
         <div id="top">
@@ -46,6 +45,7 @@
             </nav>
         </div>
         <div class="shadow"></div>
+        <h1>I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
         <!-- Home Page -->
         <div id="homepage">
             <div class="wrap">
