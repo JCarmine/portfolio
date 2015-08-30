@@ -77,8 +77,8 @@
                             </div>
                         </div>
                         <!-- Carousel controls. -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev" title="left nut">
-                            <span class="icon-prev"></span>
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev">left</span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
                             <span class="icon-next"></span>
@@ -102,12 +102,8 @@
                             <h3 class="center" style="line-height: 1.1em">
     		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
     		                </h3>
-                            <br />
                             <p class="center">Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
-                            <br>
                             <p class="center">Need more detail? Click below to download my resume.</p>
-                            <br>
-                            <br>
                             <div class="center">
                                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.4" target="_blank">
                                     <button type="button" class="btn btn-primary">Download Resume</button>
@@ -115,13 +111,6 @@
                             </div>
                         </div>
                         <div class="col span_1_of_3">
-                            <div class="mobile">
-                                <br />
-                                <br />
-                                <hr />
-                                <br />
-                                <br />
-                            </div>
                             HTML5/CSS3
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
@@ -132,13 +121,13 @@
                             </div>
                             PHP
                             <div class="progress">
-                                <div class="bar" style="width: 30%;"></div>
+                                <div class="bar" style="width: 60%;"></div>
                             </div>
                             WordPress
                             <div class="progress">
                                 <div class="bar" style="width: 80%;"></div>
                             </div>
-                            Freehand
+                            Hand Coding
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
