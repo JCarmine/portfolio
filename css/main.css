@@ -499,7 +499,8 @@ p {
 h1,
 h2,
 h3,
-h4 {
+h4,
+label {
   font-family: BebasNeue;
   text-decoration: none;
   letter-spacing: 1px; }
@@ -515,6 +516,7 @@ h2 {
 
 h3 {
   font-size: 1.9em;
+  line-height: 1.1em;
   margin: 0;
   font-style: normal !important; }
 
@@ -523,14 +525,23 @@ h4 {
   color: #474747;
   margin: 0px; }
 
+label {
+  font-size: 1.9em;
+  margin: 0;
+  font-style: normal !important; }
+
 #homepage p {
   font-family: BebasNeue;
   color: #ffffff;
   text-decoration: none;
   font-size: 4.38em;
+  line-height: 1.1em;
   margin: 0;
   padding: 0 10%;
   text-transform: uppercase; }
+
+#about p {
+  margin: 25px 5px; }
 
 /*General Styles*/
 a {
@@ -884,16 +895,6 @@ a.fancybox img:hover {
 .contactPara {
   margin: 0; }
 
-#contactForm .desc h2 {
-  font-weight: normal;
-  letter-spacing: -0.03em;
-  color: #444;
-  font-size: 2.4em;
-  margin-bottom: 8px; }
-#contactForm .desc p {
-  color: #333;
-  line-height: 1.3em;
-  margin-bottom: 15px; }
 #contactForm #contact-input {
   width: 100%;
   height: 0px;
@@ -1186,6 +1187,9 @@ a.fancybox img:hover {
 
   .span_1_of_2 {
     width: 100%; }
+
+  #about .span_1_of_3 {
+    margin-top: 25px; }
 
   .background {
     background-image: url(../images/ny_mobile.jpg);

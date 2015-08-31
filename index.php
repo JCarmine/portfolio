@@ -78,7 +78,7 @@
                         </div>
                         <!-- Carousel controls. -->
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev">left</span>
+                            <span class="icon-prev"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
                             <span class="icon-next"></span>
@@ -99,7 +99,7 @@
 	                </h2>
                     <div class="section group">
                         <div class="col span_2_of_3">
-                            <h3 class="center" style="line-height: 1.1em">
+                            <h3 class="center">
     		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
     		                </h3>
                             <p class="center">Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
@@ -389,7 +389,7 @@
 
                             <!-- @begin contact -->
                             <div id="contactForm">
-                                <div class="container content">
+                                <div class="container content desktop">
 
                                     <?php if(isset($emailSent) && $emailSent == true) { ?>
                                         <p class="info">Thank you! I will get back to you shortly.</p>
@@ -398,12 +398,12 @@
                                         
                                         <div id="contact-input">
                                             <?php if(isset($hasError) || isset($captchaError) ) { ?>
-                                                    <p class="alert">Sorry, there was an error submitting the form.</p>
-                                                <?php } ?>
+                                                <p class="alert">Sorry, there was an error submitting the form.</p>
+                                            <?php } ?>
                                             
                                             <form id="contact-us" action="index.php" method="post">
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text" for="contactName"><h3>NAME:</h3></label>
+                                                    <label class="screen-reader-text" for="contactName">NAME:</label>
                                                     <input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="" /><br>
                                                     <?php if($nameError != '') { ?>
                                                         <br /><span class="error"><?php echo $nameError;?></span> 
@@ -411,7 +411,7 @@
                                                 </div>
                                                     
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text" for="email"><h3>EMAIL:</h3></label>
+                                                    <label class="screen-reader-text" for="email">EMAIL:</label>
                                                     <input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" /><br>
                                                     <?php if($emailError != '') { ?>
                                                         <br /><span class="error"><?php echo $emailError;?></span>
@@ -419,7 +419,7 @@
                                                 </div>
                                                     
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text" for="commentsText"><h3>MESSAGE:</h3></label>
+                                                    <label class="screen-reader-text" for="commentsText">MESSAGE:</label>
                                                      <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
                                                     <?php if($commentError != '') { ?>
                                                         <br /><span class="error"><?php echo $commentError;?></span> 
