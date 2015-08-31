@@ -1,0 +1,190 @@
+/* ==========================================================================
+   media-queries.css
+   ========================================================================== */
+
+.mobile {
+   display: none;
+}
+
+@media screen and (max-width: 991px) {
+   html {
+       overflow-y: auto;
+   }
+
+   /*General Styles Tablet*/
+   .wrap {
+       width: 100%;
+   }
+   
+   .fancybox-nav span {
+       top: 55%;
+   }
+
+   .fancybox-next span {
+       right: -15px;
+   }
+
+   .fancybox-prev span {
+       left: -15px;
+   }
+
+
+   /* Responsive Grid Tablet*/
+   .span_3_of_3 {
+       width: 98%;
+   }
+   .span_2_of_3 {
+       width: 66.13%;
+   }
+   .span_1_of_3 {
+       width: 31.7%;
+   }
+
+   /*Carousel 3 Tablet*/
+   .carousel-inner {
+       position: relative;
+       overflow: hidden;
+       width: 100%;
+   }
+   .carousel-control .icon-prev,
+   .carousel-control .icon-next {
+       width: 30px;
+       height: 30px;
+       margin-top: -15px;
+       margin-left: -15px;
+   }
+   .carousel-caption {
+       left: 20%;
+       right: 20%;
+       padding-bottom: 30px;
+   }
+   .carousel-indicators {
+       bottom: 20px;
+   }
+}
+
+
+@media only screen and (max-width: 745px) {
+   body {
+       font-size: 10px;
+   }
+   .carousel {
+       margin-top: 70px;
+   }
+   #menu > ul > li > a {
+       line-height: 1.4em;
+       color: $md-grey;
+       padding: 7px 2px 0 2px;
+   }
+   .footerBox {
+       height: 15px;
+   }
+   #menu {
+       top: 4px;
+       right: 2px;
+   }
+   .desktop {
+       display: none;
+   }
+   .mobile {
+       display: block;
+   }
+
+   .formblock .txt,
+   .formblock .txtarea {
+       font-size: 16px;
+   }
+
+   /*Responsive Grid Mobile*/
+   .section {
+       clear: both;
+       padding: 0 1%;
+       margin: 0px;
+   }
+   .col {
+       margin: 1% 0 1% 0%;
+   }
+   .span_3_of_3 {
+       width: 98%;
+   }
+   .span_2_of_3 {
+       width: 98%;
+   }
+   .span_1_of_3 {
+       width: 100%;
+   }
+   .span_2_of_2 {
+       width: 100%;
+   }
+   .span_1_of_2 {
+       width: 100%;
+   }
+   .background {
+       background-image: url(../images/ny_mobile.jpg);
+       padding: 50px 0 0 0;
+   }
+   .iportfolio {
+       margin-top: 38px;
+       height: 1300px;
+   }
+   h1 {
+       color: $white;
+       line-height: 50px;
+   }
+   h4 {
+       font-size: 2em;
+   }
+   p.mobile {
+       font-size: 2em;
+       padding: 0 2px;
+   }
+   .contactItem {
+       font-size: 1.7em;
+   }
+
+   /* NavBar Mobile */
+   #top {
+       height: 38px;
+   }
+   #top #logo {
+       width: 105px;
+       text-align: center;
+       padding: 5px 5px 0 0;
+   }
+   #top #logo a img {
+       width: 105px;
+       height: 27.5px;
+   }
+   #menu {
+       height: 30px;
+       top: 10px;
+       right: 2px;
+   }
+   .footerBox {
+       height: 15px;
+       padding-top: 4px;
+   }
+   .progress {
+       width: 100%;
+   }
+
+   /* NavButtons Mobile */
+   #menu > ul > li {
+       margin: 0px 3px;
+   }
+   #menu > ul > li > a {
+       padding: 7px 0px 10px;
+   }
+   .shadow {
+       top: 38px;
+   }
+   .wrap {
+       padding-top: 38px;
+   }
+   .wrapPortfolio {
+       width: 100%;
+   }
+   #portfolio {
+       min-height: 1350px;
+   }
+}

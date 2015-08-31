@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <!-- Carousel controls. -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev" title="left nut">
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                             <span class="icon-prev"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
@@ -85,9 +85,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
-                </div>
+                <div class="footerBox center">
+                   <span>&#169; Jesse Carmine 2015</span>
+               </div>
             </div>
         </div>
         <!-- About Page -->
@@ -98,30 +98,19 @@
 	                   About
 	                </h2>
                     <div class="section group">
-                        <div class="col span_2_of_3">
-                            <h3 class="center" style="line-height: 1.1em">
+                        <div class="col span_2_of_3 center">
+                            <h3>
     		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
     		                </h3>
-                            <br />
-                            <p class="center">Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
-                            <br>
-                            <p class="center">Need more detail? Click below to download my resume.</p>
-                            <br>
-                            <br>
-                            <div class="center">
+                            <p>Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
+                            <p>Need more detail? Click below to download my resume.</p>
+                            <div>
                                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.4" target="_blank">
                                     <button type="button" class="btn btn-primary">Download Resume</button>
                                 </a>
                             </div>
                         </div>
                         <div class="col span_1_of_3">
-                            <div class="mobile">
-                                <br />
-                                <br />
-                                <hr />
-                                <br />
-                                <br />
-                            </div>
                             HTML5/CSS3
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
@@ -138,7 +127,7 @@
                             <div class="progress">
                                 <div class="bar" style="width: 80%;"></div>
                             </div>
-                            Freehand
+                            Hand Coding
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
@@ -153,8 +142,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
             </div>
         </div>
@@ -170,7 +159,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-1" href="images/stride_rite_large_image.jpg">
-                                        <img class="portfolioImage" src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                                        <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
                                     </a>
                                     <div id="title-1" class="hidden">
                                         <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
@@ -182,7 +171,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-2" href="images/academic_large_image.jpg">
-                                        <img class="portfolioImage" src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
+                                        <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
                                     </a>
                                     <div id="title-2" class="hidden">
                                         <a href='demos/academic/' target='_blank'>
@@ -194,7 +183,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-3" href="images/dolomites_large_image.jpg">
-                                        <img class="portfolioImage" src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
+                                        <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
                                     </a>
                                     <div id="title-3" class="hidden">
                                         <a href='demos/dolomites/' target='_blank'>
@@ -208,7 +197,7 @@
                              <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-4" href="images/harmony_large_image.jpg">
-                                        <img class="portfolioImage" src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                                        <img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
                                     </a>
                                     <div id="title-4" class="hidden">
                                         <a href='demos/harmony/' target='_blank'>
@@ -220,7 +209,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-5" href="images/large_image.jpg">
-                                        <img class="portfolioImage" src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                                        <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                                     </a>
                                     <div id="title-5" class="hidden">
                                         <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
@@ -232,7 +221,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-6" href="images/program35_large_image.jpg">
-                                        <img class="portfolioImage" src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                                        <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
                                     </a>
                                     <div id="title-6" class="hidden">
                                         <a href='demos/program35/' target='_blank'>
@@ -246,7 +235,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-7" href="images/email_large_image.jpg">
-                                        <img class="portfolioImage" src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
+                                        <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
                                     </a>
                                     <div id="title-7" class="hidden">
                                         <a href='demos/email/' target='_blank'>
@@ -309,8 +298,8 @@
                     <!--/.mobile-->
                 </div>
                 <!--/.whiteBox-->
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
                 <!--/.footerBox-->
             </div>
@@ -324,22 +313,19 @@
 			            Contact
                     </h2>
                     <div class="section group">
-                        <div class="col span_1_of_2">
-                            <p class="desktop contactPara">
+                        <div class="col span_1_of_2 center">
+                            <p>
                                 Interested in working together? Fill out the form with some info about your project and I will be in touch with you shortly.
                             </p>
-                            <p class="mobile center">
-                                Interested in working together? Send me a message with some info about your project and I will be in touch with you shortly.
-                            </p>
-                            <div class="center">
+                            <div>
                                 <div class="contactItem">
-                                    <i class="icon-map-marker icon-2x"></i>&nbsp;&nbsp;Boston, MA, U.S.A.
+                                    <i class="icon-map-marker icon-2x"></i>Boston, MA, U.S.A.
                                 </div>
                                 <div class="contactItem">
-                                    <i class="icon-phone icon-2x"></i>&nbsp;&nbsp;+1 (971) 241-9112
+                                    <i class="icon-phone icon-2x"></i>+1 (971) 241-9112
                                 </div>
                                 <div class="contactItem">
-                                    <i class="icon-envelope icon-2x"></i>&nbsp;&nbsp;<a href="mailto:carminej@gmail.com" target="_self">carminej@gmail.com</a>
+                                    <i class="icon-envelope icon-2x"></i><a href="mailto:carminej@gmail.com" target="_self">carminej@gmail.com</a>
                                 </div>
                             </div>    
                         </div>
@@ -414,7 +400,7 @@
                                             
                                             <form id="contact-us" action="index.php" method="post">
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text" for="contactName"><h3>NAME:</h3></label>
+                                                    <label class="screen-reader-text" for="contactName">NAME:</label>
                                                     <input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="" /><br>
                                                     <?php if($nameError != '') { ?>
                                                         <br /><span class="error"><?php echo $nameError;?></span> 
@@ -422,7 +408,7 @@
                                                 </div>
                                                     
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text" for="email"><h3>EMAIL:</h3></label>
+                                                    <label class="screen-reader-text" for="email">EMAIL:</label>
                                                     <input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" /><br>
                                                     <?php if($emailError != '') { ?>
                                                         <br /><span class="error"><?php echo $emailError;?></span>
@@ -430,7 +416,7 @@
                                                 </div>
                                                     
                                                 <div class="formblock">
-                                                    <label class="screen-reader-text" for="commentsText"><h3>MESSAGE:</h3></label>
+                                                    <label class="screen-reader-text" for="commentsText">MESSAGE:</label>
                                                      <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
                                                     <?php if($commentError != '') { ?>
                                                         <br /><span class="error"><?php echo $commentError;?></span> 
@@ -451,8 +437,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
             </div>
         </div>
