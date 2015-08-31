@@ -293,7 +293,7 @@
 
 /*Progress Bars*/
 .progress {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
     height: 20px;
     margin-bottom: 20px;
@@ -364,6 +364,10 @@ a.fancybox img:hover {
 
 
 /*Contact Page*/
+#contact p {
+	margin-top: 5px;
+}
+
 .contactItem {
     margin-top: 60px;
 }
@@ -396,7 +400,7 @@ i {
     }
 
     #contact-us {
-        width: 95%;
+        width: 100%;
     }
 
     .formblock {
@@ -413,7 +417,7 @@ i {
     .formblock .txt {
         padding: 6px 6px;
         color: #666;
-        width: 99.5%;
+        width: 100%;
         border: 1px solid #979797;
         background-color: $white;
     }
