@@ -14,13 +14,10 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <h1 class="visuallyhidden">I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
->>>>>>> release/v3.0_-_SMACSS_REWRITE
     <div id="contentSlide">
         <!--Nav-->
         <header>
@@ -55,7 +52,6 @@
             </nav>
         </header>
         <div class="shadow"></div>
-        <h1>I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
         <!-- Home Page -->
         <div id="homepage">
             <div class="wrap">
@@ -108,15 +104,6 @@
 	                   About
 	                </h2>
                     <div class="section group">
-<<<<<<< HEAD
-                        <div class="col span_2_of_3">
-                            <h3 class="center">
-    		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
-    		                </h3>
-                            <p class="center">Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
-                            <p class="center">Need more detail? Click below to download my resume.</p>
-                            <div class="center">
-=======
                         <div class="col span_2_of_3 center">
                             <h3>
     		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
@@ -124,19 +111,13 @@
                             <p>Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
                             <p>Need more detail? Click below to download my resume.</p>
                             <div>
->>>>>>> release/v3.0_-_SMACSS_REWRITE
                                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.4" target="_blank">
                                     <button type="button" class="btn btn-primary">Download Resume</button>
                                 </a>
                             </div>
                         </div>
-<<<<<<< HEAD
-                        <div class="col span_1_of_3">
-                            HTML5/CSS3
-=======
                         <div class="col span_1_of_3 lastColumn">
                             <span>HTML5/CSS3</span>
->>>>>>> release/v3.0_-_SMACSS_REWRITE
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
@@ -146,17 +127,13 @@
                             </div>
                             <span>PHP</span>
                             <div class="progress">
-                                <div class="bar" style="width: 60%;"></div>
+                                <div class="bar" style="width: 30%;"></div>
                             </div>
                             <span>WordPress</span>
                             <div class="progress">
                                 <div class="bar" style="width: 80%;"></div>
                             </div>
-<<<<<<< HEAD
-                            Hand Coding
-=======
                             <span>Hand Coding</span>
->>>>>>> release/v3.0_-_SMACSS_REWRITE
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
@@ -416,7 +393,7 @@
 
                             <!-- @begin contact -->
                             <div id="contactForm">
-                                <div class="container content desktop">
+                                <div class="container content">
 
                                     <?php if(isset($emailSent) && $emailSent == true) { ?>
                                         <p class="info">Thank you! I will get back to you shortly.</p>
@@ -425,8 +402,8 @@
                                         
                                         <div id="contact-input">
                                             <?php if(isset($hasError) || isset($captchaError) ) { ?>
-                                                <p class="alert">Sorry, there was an error submitting the form.</p>
-                                            <?php } ?>
+                                                    <p class="alert">Sorry, there was an error submitting the form.</p>
+                                                <?php } ?>
                                             
                                             <form id="contact-us" action="index.php" method="post">
                                                 <div class="formblock">
@@ -447,11 +424,7 @@
                                                     
                                                 <div class="formblock">
                                                     <label class="screen-reader-text" for="commentsText">MESSAGE:</label>
-<<<<<<< HEAD
-                                                     <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
-=======
                                                      <textarea name="comments" id="commentsText" class="requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
->>>>>>> release/v3.0_-_SMACSS_REWRITE
                                                     <?php if($commentError != '') { ?>
                                                         <br /><span class="error"><?php echo $commentError;?></span> 
                                                     <?php } ?>
