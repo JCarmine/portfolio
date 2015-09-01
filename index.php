@@ -29,7 +29,9 @@
             <nav id="menu">
                 <ul>
                     <li class="startPage">
-                        <a href="#" data-nav="homepage" title="" class="current">Home</a>
+                        <a href="#" data-nav="homepage" title="" class="current">
+                            <span class="menu-label">Home</span>
+                        </a>
                     </li>
                     <li>
                         <a href="#" data-nav="about" title="" class="">
@@ -51,7 +53,7 @@
         </header>
         <div class="shadow"></div>
         <!-- Home Page -->
-        <section id="homepage">
+        <div id="homepage">
             <div class="wrap">
                 <div class="whiteBox background">
                     <h2>
@@ -93,7 +95,7 @@
                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- About Page -->
         <section id="about">
             <div class="wrap">
@@ -114,32 +116,32 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col span_1_of_3">
-                            HTML5/CSS3
+                        <div class="col span_1_of_3 lastColumn">
+                            <span>HTML5/CSS3</span>
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
-                            JavaScript/jQuery
+                            <span>JavaScript/jQuery</span>
                             <div class="progress">
                                 <div class="bar" style="width: 90%;"></div>
                             </div>
-                            PHP
+                            <span>PHP</span>
                             <div class="progress">
                                 <div class="bar" style="width: 30%;"></div>
                             </div>
-                            WordPress
+                            <span>WordPress</span>
                             <div class="progress">
                                 <div class="bar" style="width: 80%;"></div>
                             </div>
-                            Hand Coding
+                            <span>Hand Coding</span>
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
-                            Photoshop
+                            <span>Photoshop</span>
                             <div class="progress">
                                 <div class="bar" style="width: 97%;"></div>
                             </div>
-                            Illustrator
+                            <span>Illustrator</span>
                             <div class="progress">
                                 <div class="bar" style="width: 90%;"></div>
                             </div>
@@ -334,7 +336,7 @@
                                 </div>
                             </div>    
                         </div>
-                        <div class="col span_1_of_2">
+                        <div class="col span_1_of_2 lastColumn">
                             <?php 
                             error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
@@ -422,7 +424,7 @@
                                                     
                                                 <div class="formblock">
                                                     <label class="screen-reader-text" for="commentsText">MESSAGE:</label>
-                                                     <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
+                                                     <textarea name="comments" id="commentsText" class="requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
                                                     <?php if($commentError != '') { ?>
                                                         <br /><span class="error"><?php echo $commentError;?></span> 
                                                     <?php } ?>

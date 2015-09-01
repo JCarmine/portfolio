@@ -7,21 +7,6 @@ $light-grey: #f2f2f2;
 $md-grey: #858484;
 $dk-grey: #474747;
 
-// Styles applied when JS is disabled.
-.no-js {
-    #homepage,
-    #about,
-    #portfolio,
-    #contact
-    {
-        display: block;
-    }
-
-    #contentSlide > div:not(:last-child) .footerBox {
-        display: none;
-    }
-}
-
 @font-face {
     font-family: BebasNeue;
     src: url(../fonts/BebasNeue.otf);
@@ -44,7 +29,7 @@ body {
     background: $white;
     color: $dk-grey;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 ::-moz-selection {
@@ -91,7 +76,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 2.8em;
     color: $md-grey;
     text-align: center;
     margin: 22px 0 30px 0;
@@ -99,7 +84,7 @@ h2 {
 
 h3,
 label {
-    font-size: 1.9em;
+    font-size: 2.9em;
     margin: 0;
     line-height: 1.1em;
     font-style: normal !important;
@@ -111,7 +96,9 @@ h4 {
     margin: 0px;
 }
 
-p {
+p,
+span {
+    font-size: 1.6em;
     line-height: 1.3em;
 }
 
@@ -136,7 +123,6 @@ a:hover,
 a:focus {
     cursor: pointer;
 }
-
 
 em {
     font-style: italic;

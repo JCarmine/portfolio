@@ -455,14 +455,6 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* ==========================================================================
    base.css
    ========================================================================== */
-.no-js #homepage,
-.no-js #about,
-.no-js #portfolio,
-.no-js #contact {
-  display: block; }
-.no-js #contentSlide > div:not(:last-child) .footerBox {
-  display: none; }
-
 @font-face {
   font-family: BebasNeue;
   src: url(../fonts/BebasNeue.otf);
@@ -481,7 +473,7 @@ body {
   background: #ffffff;
   color: #474747;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 16px; }
+  font-size: 10px; }
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -520,14 +512,14 @@ h1 {
   display: none; }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 2.8em;
   color: #858484;
   text-align: center;
   margin: 22px 0 30px 0; }
 
 h3,
 label {
-  font-size: 1.9em;
+  font-size: 2.9em;
   margin: 0;
   line-height: 1.1em;
   font-style: normal !important; }
@@ -537,7 +529,9 @@ h4 {
   color: #474747;
   margin: 0px; }
 
-p {
+p,
+span {
+  font-size: 1.6em;
   line-height: 1.3em; }
 
 #homepage p {
@@ -612,7 +606,6 @@ img {
 #contentSlide {
   width: 100%;
   min-height: 100%;
-  padding-bottom: 100px;
   overflow: hidden;
   position: absolute;
   background: #f2f2f2;
@@ -659,7 +652,6 @@ header {
 /*Body*/
 .whiteBox,
 .footerBox {
-  padding: 0 1em;
   position: relative;
   width: 100%;
   z-index: 2;
@@ -671,21 +663,25 @@ header {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
 
 .whiteBox {
-  min-height: 640px; }
+  min-height: 640px;
+  padding: 0 1.6em 4em 1.6em; }
+
+.footerBox {
+  margin-bottom: 100px; }
 
 #homepage .whiteBox {
   padding: 0; }
 
 .footerBox span {
-  color: #858484;
-  font-size: 0.8em; }
+  font-size: 1.1em;
+  color: #858484; }
 
 /*Responsive Grid*/
 /*  SECTIONS  */
 .section {
   clear: both;
-  padding: 0px;
-  margin: 0px; }
+  padding: 0;
+  margin: 0; }
 
 /*  COLUMN SETUP  */
 .col {
@@ -728,8 +724,8 @@ header {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
   .col {
-    margin: 1% 0 1% 0%; } }
-@media only screen and (max-width: 480px) {
+    margin: 1% 0 1% 0%; }
+
   .span_2_of_2,
   .span_1_of_2 {
     width: 100%; }
@@ -737,7 +733,10 @@ header {
   .span_3_of_3,
   .span_2_of_3,
   .span_1_of_3 {
-    width: 100%; } }
+    width: 100%; }
+
+  .lastColumn {
+    margin-top: 50px; } }
 /* ==========================================================================
    module.css
    ========================================================================== */
@@ -827,7 +826,7 @@ header {
   .carousel .carousel-control .glyphicon-chevron-left,
   .carousel .carousel-control .glyphicon-chevron-right {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     z-index: 5;
     display: inline-block; }
@@ -880,11 +879,11 @@ header {
   .carousel .carousel-caption .btn {
     text-shadow: none; }
 
+/* Primary Button */
 .btn {
   font-family: BebasNeue;
   font-weight: 100;
   text-align: center;
-  font-size: 1.3em;
   letter-spacing: 0.125em;
   display: inline-block;
   margin-bottom: 0;
@@ -912,9 +911,12 @@ header {
   background-color: #3276b1;
   border-color: #285e8e; }
 
+#about .btn,
+#contact .btn {
+  font-size: 2em; }
+
 /* NavButtons */
 #menu {
-  font-size: 1.5em;
   height: 65px;
   position: absolute;
   right: 10px;
@@ -925,7 +927,6 @@ header {
     padding: 0;
     font-family: BebasNeue; }
   #menu a {
-    font-size: 1em;
     text-decoration: none;
     font-family: BebasNeue; }
   #menu > ul > li {
@@ -940,6 +941,8 @@ header {
     color: #474747; }
   #menu > ul > li > a.current {
     color: #474747; }
+  #menu span {
+    font-size: 2.7em; }
   #menu .menu-label {
     padding-right: 0; }
   #menu .menu-drop:hover .menu-label {
@@ -1020,22 +1023,13 @@ a.fancybox img:hover {
   margin-top: 5px; }
 
 .contactItem {
-  margin-top: 60px; }
+  margin-top: 60px;
+  font-size: 1.6em; }
 
 i {
   color: #48b348;
   margin-right: 12px; }
 
-#contactForm .desc h2 {
-  font-weight: normal;
-  letter-spacing: -0.03em;
-  color: #444;
-  font-size: 2.4em;
-  margin-bottom: 8px; }
-#contactForm .desc p {
-  color: #333;
-  line-height: 1.3em;
-  margin-bottom: 15px; }
 #contactForm #contact-input {
   width: 100%;
   height: 0px;
@@ -1047,41 +1041,19 @@ i {
   display: block;
   width: 100%;
   margin: 0 0 11px 0; }
-#contactForm .formblock label {
-  display: block;
-  font-weight: normal; }
-#contactForm .formblock .txt {
-  padding: 6px 6px;
-  color: #666;
-  width: 100%;
-  border: 1px solid #979797;
-  background-color: #ffffff; }
-#contactForm .formblock .txt:focus {
-  border: 1px solid #74b9f0;
-  outline: none; }
-#contactForm .formblock .txtarea {
-  padding: 3px 5px;
-  color: #666;
-  width: 100%;
-  height: 160px; }
-#contactForm textarea {
-  padding: 6px 4px;
-  color: #666;
-  width: 100%;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  -webkit-appearance: textfield;
-  background-color: white;
-  border: 1px solid #979797;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  -webkit-rtl-ordering: logical;
-  -webkit-user-select: text;
-  cursor: auto; }
+  #contactForm .formblock label {
+    display: block;
+    font-weight: normal; }
+  #contactForm .formblock .txt,
+  #contactForm .formblock textarea {
+    font-size: 1.6em;
+    padding: 6px 6px;
+    color: #666;
+    width: 100%;
+    border: 1px solid #979797; }
+  #contactForm .formblock textarea {
+    height: 160px; }
+#contactForm .formblock .txt:focus,
 #contactForm textarea:focus {
   border: 1px solid #74b9f0;
   outline: none; }
@@ -1347,6 +1319,14 @@ i {
 /* ==========================================================================
    state.css
    ========================================================================== */
+.no-js #homepage,
+.no-js #about,
+.no-js #portfolio,
+.no-js #contact {
+  display: block; }
+.no-js #contentSlide > div:not(:last-child) .footerBox {
+  display: none; }
+
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -1443,6 +1423,7 @@ i {
   .wrap {
     width: 100%; }
 
+  /*Fancybox Tablet*/
   .fancybox-nav span {
     top: 55%; }
 
@@ -1494,9 +1475,11 @@ i {
   h4 {
     font-size: 2em; }
 
-  p.mobile {
-    font-size: 2em;
-    padding: 0 2px; }
+  #about p {
+    font-size: 1.4em; }
+
+  #contact p {
+    font-size: 1.7em; }
 
   .formblock .txt,
   .formblock .txtarea {
@@ -1510,7 +1493,8 @@ i {
     width: 100%; }
 
   .contactItem {
-    font-size: 1.7em; }
+    font-size: 1.7em;
+    margin-top: 30px; }
 
   /* NavBar Mobile */
   header {
@@ -1532,6 +1516,8 @@ i {
     height: 30px;
     top: 10px;
     right: 2px; }
+    #menu span {
+      font-size: 1.7em; }
 
   #menu > ul > li {
     margin: 0px 3px; }

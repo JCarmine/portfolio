@@ -123,7 +123,7 @@
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right {
         position: absolute;
-        top: 45%;
+        top: 40%;
         left: 50%;
         z-index: 5;
         display: inline-block;
@@ -195,11 +195,11 @@
 }
 
 
+/* Primary Button */
 .btn {
     font-family: BebasNeue;
     font-weight: 100;
     text-align: center;
-    font-size: 1.3em;
     letter-spacing: 0.125em;
     display: inline-block;
     margin-bottom: 0;
@@ -231,9 +231,14 @@
 }
 
 
+#about .btn,
+#contact .btn {
+  font-size: 2em;
+}
+
+
 /* NavButtons */
 #menu {
-    font-size: 1.5em;
     height: 65px;
     position: absolute;
     right: 10px;
@@ -247,7 +252,6 @@
     }
 
     a {
-        font-size: 1em;
         text-decoration: none;
         font-family: BebasNeue;
     }
@@ -270,6 +274,10 @@
 
     > ul > li > a.current {
         color: $dk-grey;
+    }
+
+    span {
+      font-size: 2.7em;
     }
 
     .menu-label {
@@ -370,6 +378,7 @@ a.fancybox img:hover {
 
 .contactItem {
     margin-top: 60px;
+    font-size: 1.6em;
 }
 
 i {
@@ -378,20 +387,6 @@ i {
 }
 
 #contactForm {
-    .desc h2 {
-        font-weight: normal;
-        letter-spacing: -0.03em;
-        color: #444;
-        font-size: 2.4em;
-        margin-bottom: 8px;
-    }
-
-    .desc p {
-        color: #333;
-        line-height: 1.3em;
-        margin-bottom: 15px;
-    }
-
     #contact-input {
         width: 100%;
         height: 0px;
@@ -407,53 +402,27 @@ i {
         display: block;
         width: 100%;
         margin: 0 0 11px 0;
+
+        label {
+            display: block;
+            font-weight: normal;
+        }
+
+        .txt,
+        textarea {
+            font-size: 1.6em;
+            padding: 6px 6px;
+            color: #666;
+            width: 100%;
+            border: 1px solid #979797;
+        }
+
+        textarea {
+          height: 160px;
+        }
     }
 
-    .formblock label {
-        display: block;
-        font-weight: normal;
-    }
-
-    .formblock .txt {
-        padding: 6px 6px;
-        color: #666;
-        width: 100%;
-        border: 1px solid #979797;
-        background-color: $white;
-    }
-
-    .formblock .txt:focus {
-        border: 1px solid #74b9f0;
-        outline: none;
-    }
-
-    .formblock .txtarea {
-        padding: 3px 5px;
-        color: #666;
-        width: 100%;
-        height: 160px;
-    }
-
-    textarea {
-        padding: 6px 4px;
-        color: #666;
-        width: 100%;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        border-radius: 0;
-        -webkit-appearance: textfield;
-        background-color: white;
-        border: 1px solid #979797;
-        border-image-source: initial;
-        border-image-slice: initial;
-        border-image-width: initial;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        -webkit-rtl-ordering: logical;
-        -webkit-user-select: text;
-        cursor: auto;
-    }
-
+    .formblock .txt:focus,
     textarea:focus {
         border: 1px solid #74b9f0;
         outline: none;

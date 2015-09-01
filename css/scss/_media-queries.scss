@@ -11,6 +11,8 @@
   .wrap {
      width: 100%;
   }
+
+  /*Fancybox Tablet*/
   .fancybox-nav span {
      top: 55%;
   }
@@ -50,26 +52,36 @@
   body {
      font-size: 10px;
   }
+
   .desktop {
      display: none;
   }
+
   .mobile {
      display: block;
   }
+
   .wrap {
      padding-top: 38px;
   }
+
   h1 {
      color: $white;
      line-height: 50px;
   }
+
   h4 {
      font-size: 2em;
   }
-  p.mobile {
-     font-size: 2em;
-     padding: 0 2px;
+
+  #about p {
+    font-size: 1.4em;
   }
+
+  #contact p {
+    font-size: 1.7em;
+  }
+
   .formblock .txt,
   .formblock .txtarea {
      font-size: 16px;
@@ -85,7 +97,8 @@
   }
 
   .contactItem {
-     font-size: 1.7em;
+    font-size: 1.7em;
+    margin-top: 30px;
   }
 
   /* NavBar Mobile */
@@ -108,6 +121,9 @@
      height: 30px;
      top: 10px;
      right: 2px;
+     span {
+       font-size: 1.7em;
+     }
   }
   #menu > ul > li {
      margin: 0px 3px;
