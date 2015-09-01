@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Hello, I'm Jesse Carmine and welcome to my portfolio, I’m a Web Developer from Portland, OR U.S.A. I create unique and elegant responsive web designs that look great and work perfectly, on any device." />
     <meta name="author" content="Jesse Carmine">
     <title>Jesse Carmine - Web Developer</title>
@@ -13,9 +14,16 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h1 class="visuallyhidden">I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
+>>>>>>> release/v3.0_-_SMACSS_REWRITE
     <div id="contentSlide">
         <!--Nav-->
-        <div id="top">
+        <header>
             <div id="logo">
                 <a class="revolver" href="#" data-nav="homepage" title="home">
                     <img src="images/logo.png" alt="Logo: Jesse Carmine - Web Developer"/>
@@ -24,7 +32,9 @@
             <nav id="menu">
                 <ul>
                     <li class="startPage">
-                        <a href="#" data-nav="homepage" title="" class="current">Home</a>
+                        <a href="#" data-nav="homepage" title="" class="current">
+                            <span class="menu-label">Home</span>
+                        </a>
                     </li>
                     <li>
                         <a href="#" data-nav="about" title="" class="">
@@ -43,7 +53,7 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
         <div class="shadow"></div>
         <h1>I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
         <!-- Home Page -->
@@ -85,19 +95,20 @@
                         </a>
                     </div>
                 </div>
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                   <span>&#169; Jesse Carmine 2015</span>
                 </div>
             </div>
         </div>
         <!-- About Page -->
-        <div id="about">
+        <section id="about">
             <div class="wrap">
                 <div class="whiteBox">
                     <h2>
 	                   About
 	                </h2>
                     <div class="section group">
+<<<<<<< HEAD
                         <div class="col span_2_of_3">
                             <h3 class="center">
     		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
@@ -105,50 +116,68 @@
                             <p class="center">Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
                             <p class="center">Need more detail? Click below to download my resume.</p>
                             <div class="center">
+=======
+                        <div class="col span_2_of_3 center">
+                            <h3>
+    		                   Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Boston, MA U.S.A.
+    		                </h3>
+                            <p>Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
+                            <p>Need more detail? Click below to download my resume.</p>
+                            <div>
+>>>>>>> release/v3.0_-_SMACSS_REWRITE
                                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.4" target="_blank">
                                     <button type="button" class="btn btn-primary">Download Resume</button>
                                 </a>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <div class="col span_1_of_3">
                             HTML5/CSS3
+=======
+                        <div class="col span_1_of_3 lastColumn">
+                            <span>HTML5/CSS3</span>
+>>>>>>> release/v3.0_-_SMACSS_REWRITE
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
-                            JavaScript/jQuery
+                            <span>JavaScript/jQuery</span>
                             <div class="progress">
                                 <div class="bar" style="width: 90%;"></div>
                             </div>
-                            PHP
+                            <span>PHP</span>
                             <div class="progress">
                                 <div class="bar" style="width: 60%;"></div>
                             </div>
-                            WordPress
+                            <span>WordPress</span>
                             <div class="progress">
                                 <div class="bar" style="width: 80%;"></div>
                             </div>
+<<<<<<< HEAD
                             Hand Coding
+=======
+                            <span>Hand Coding</span>
+>>>>>>> release/v3.0_-_SMACSS_REWRITE
                             <div class="progress">
                                 <div class="bar" style="width: 100%;"></div>
                             </div>
-                            Photoshop
+                            <span>Photoshop</span>
                             <div class="progress">
                                 <div class="bar" style="width: 97%;"></div>
                             </div>
-                            Illustrator
+                            <span>Illustrator</span>
                             <div class="progress">
                                 <div class="bar" style="width: 90%;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Portfolio Page -->
-        <div id="portfolio">
+        <section id="portfolio">
             <div class="wrap">
                 <div class="whiteBox">
                     <h2>
@@ -159,7 +188,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-1" href="images/stride_rite_large_image.jpg">
-                                        <img class="portfolioImage" src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                                        <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
                                     </a>
                                     <div id="title-1" class="hidden">
                                         <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
@@ -171,7 +200,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-2" href="images/academic_large_image.jpg">
-                                        <img class="portfolioImage" src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
+                                        <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
                                     </a>
                                     <div id="title-2" class="hidden">
                                         <a href='demos/academic/' target='_blank'>
@@ -183,7 +212,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-3" href="images/dolomites_large_image.jpg">
-                                        <img class="portfolioImage" src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
+                                        <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
                                     </a>
                                     <div id="title-3" class="hidden">
                                         <a href='demos/dolomites/' target='_blank'>
@@ -197,7 +226,7 @@
                              <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-4" href="images/harmony_large_image.jpg">
-                                        <img class="portfolioImage" src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                                        <img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
                                     </a>
                                     <div id="title-4" class="hidden">
                                         <a href='demos/harmony/' target='_blank'>
@@ -209,7 +238,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-5" href="images/large_image.jpg">
-                                        <img class="portfolioImage" src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                                        <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                                     </a>
                                     <div id="title-5" class="hidden">
                                         <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
@@ -221,7 +250,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-6" href="images/program35_large_image.jpg">
-                                        <img class="portfolioImage" src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                                        <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
                                     </a>
                                     <div id="title-6" class="hidden">
                                         <a href='demos/program35/' target='_blank'>
@@ -235,7 +264,7 @@
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a class="fancybox" data-title-id="title-7" href="images/email_large_image.jpg">
-                                        <img class="portfolioImage" src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
+                                        <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
                                     </a>
                                     <div id="title-7" class="hidden">
                                         <a href='demos/email/' target='_blank'>
@@ -298,41 +327,39 @@
                     <!--/.mobile-->
                 </div>
                 <!--/.whiteBox-->
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
                 <!--/.footerBox-->
             </div>
             <!--/.wrap-->
-        </div>
+        </section>
         <!-- Contact Page -->
-        <div id="contact">
+        <section id="contact">
             <div class="wrap">
                 <div class="whiteBox">
                     <h2>
 			            Contact
                     </h2>
                     <div class="section group">
-                        <div class="col span_1_of_2">
-                            <p class="desktop contactPara">
+                        <div class="col span_1_of_2 center">
+                            <p>
                                 Interested in working together? Fill out the form with some info about your project and I will be in touch with you shortly.
                             </p>
-                            <p class="mobile center">
-                                Interested in working together? Send me a message with some info about your project and I will be in touch with you shortly.
-                            </p>
-                            <div class="center">
+                            <div>
                                 <div class="contactItem">
-                                    <i class="icon-map-marker icon-2x"></i>&nbsp;&nbsp;Boston, MA, U.S.A.
+                                    <i class="icon-map-marker icon-2x"></i>Boston, MA, U.S.A.
                                 </div>
                                 <div class="contactItem">
-                                    <i class="icon-phone icon-2x"></i>&nbsp;&nbsp;+1 (971) 241-9112
+                                    <i class="icon-phone icon-2x"></i>+1 (971) 241-9112
                                 </div>
                                 <div class="contactItem">
-                                    <i class="icon-envelope icon-2x"></i>&nbsp;&nbsp;<a href="mailto:carminej@gmail.com" target="_self">carminej@gmail.com</a>
+                                    <i class="icon-envelope icon-2x"></i>
+                                    <a href="mailto:carminej@gmail.com" target="_self">carminej@gmail.com</a>
                                 </div>
                             </div>    
                         </div>
-                        <div class="col span_1_of_2">
+                        <div class="col span_1_of_2 lastColumn">
                             <?php 
                             error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
@@ -420,13 +447,17 @@
                                                     
                                                 <div class="formblock">
                                                     <label class="screen-reader-text" for="commentsText">MESSAGE:</label>
+<<<<<<< HEAD
                                                      <textarea name="comments" id="commentsText" class="txtarea requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
+=======
+                                                     <textarea name="comments" id="commentsText" class="requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea><br>
+>>>>>>> release/v3.0_-_SMACSS_REWRITE
                                                     <?php if($commentError != '') { ?>
                                                         <br /><span class="error"><?php echo $commentError;?></span> 
                                                     <?php } ?>
                                                 </div>
                                                     
-                                                <button name="submit" type="submit" class="subbutton btn btn-primary" style="margin-right: -12px;">
+                                                <button name="submit" type="submit" class="subbutton btn btn-primary">
                                                     Submit
                                                 </button>
                                                 <input type="hidden" name="submitted" id="submitted" value="true" />
@@ -440,11 +471,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerBox">
-                    <div class="copywrite center"></div>
+                <div class="footerBox center">
+                    <span>&#169; Jesse Carmine 2015</span>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
     <!--/.contentSlide-->
     <!-- Load jQuery -->
@@ -458,25 +489,24 @@
 
     <!-- Allows for site tracking with Google Analytics. -->
     <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-45115716-2', 'jessecarmine.com');
-    ga('send', 'pageview');
+        ga('create', 'UA-45115716-2', 'jessecarmine.com');
+        ga('send', 'pageview');
     </script>
 
     <script type="text/javascript">
         $(document).ready(function() {
-
             /* Initialize the JS navigation */ 
             $("#menu ul li").slidingPage({
                 easing: 'fade',

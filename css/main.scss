@@ -1,9 +1,12 @@
-@import 'scss/normalize';
-@import 'scss/base';
-@import 'scss/fancybox';
-@import 'scss/style';
-@import 'scss/helpers';
+@import 'scss/reset';
 @import 'scss/font-awesome';
+@import 'scss/base';
+@import 'scss/layout';
+@import 'scss/module';
+@import 'scss/fancybox';
+@import 'scss/state';
+@import 'scss/media-queries';
+
 
 
 
