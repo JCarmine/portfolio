@@ -508,9 +508,6 @@ label {
   text-decoration: none;
   letter-spacing: 1px; }
 
-h1 {
-  display: none; }
-
 h2 {
   font-size: 2.8em;
   color: #858484;
@@ -835,8 +832,7 @@ header {
     width: 20px;
     height: 20px;
     margin-top: -10px;
-    margin-left: -10px;
-    font-family: serif; }
+    margin-left: -10px; }
   .carousel .carousel-control .icon-prev:before {
     content: '\2039'; }
   .carousel .carousel-control .icon-next:before {
@@ -1319,13 +1315,19 @@ i {
 /* ==========================================================================
    state.css
    ========================================================================== */
-.no-js #homepage,
-.no-js #about,
-.no-js #portfolio,
-.no-js #contact {
-  display: block; }
-.no-js #contentSlide > div:not(:last-child) .footerBox {
-  display: none; }
+.no-js {
+  /*
+  #contentSlide > div:not(:last-child) .footerBox {
+      display: none;
+  }
+  */ }
+  .no-js #homepage,
+  .no-js #about,
+  .no-js #portfolio,
+  .no-js #contact {
+    display: block; }
+  .no-js nav {
+    display: none; }
 
 .hidden {
   display: none !important;
