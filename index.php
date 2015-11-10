@@ -97,7 +97,7 @@
             </div>
         </div>
         <!-- About Page -->
-        <section id="about">
+        <section id="about" style="display: none;">
             <div class="wrap">
                 <div class="whiteBox">
                     <h2>
@@ -154,7 +154,7 @@
             </div>
         </section>
         <!-- Portfolio Page -->
-        <section id="portfolio">
+        <section id="portfolio" style="display: none;">
             <div class="wrap">
                 <div class="whiteBox">
                     <h2>
@@ -312,7 +312,7 @@
             <!--/.wrap-->
         </section>
         <!-- Contact Page -->
-        <section id="contact">
+        <section id="contact" style="display: none;">
             <div class="wrap">
                 <div class="whiteBox">
                     <h2>
