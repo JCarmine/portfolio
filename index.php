@@ -162,12 +162,24 @@
     	            </h2>
                     <div class="desktop">
                         <div class="section group">
+                        		<div class="col span_1_of_3">
+                        		    <div class="center">
+                        		        <a class="fancybox" data-title-id="title-1" href="images/">
+                        		            <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
+                        		        </a>
+                        		        <div id="title-1" class="hidden">
+                        		            <a href='' target='_blank'>
+                        		                <button type="button" class="btn btn-primary">Visit Site</button>
+                        		            </a>
+                        		        </div>
+                        		    </div>
+                        		</div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a class="fancybox" data-title-id="title-1" href="images/stride_rite_large_image.jpg">
+                                    <a class="fancybox" data-title-id="title-2" href="images/stride_rite_large_image.jpg">
                                         <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
                                     </a>
-                                    <div id="title-1" class="hidden">
+                                    <div id="title-2" class="hidden">
                                         <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
                                             <button type="button" class="btn btn-primary">Visit Site</button>
                                         </a>
@@ -176,23 +188,11 @@
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a class="fancybox" data-title-id="title-2" href="images/academic_large_image.jpg">
+                                    <a class="fancybox" data-title-id="title-3" href="images/academic_large_image.jpg">
                                         <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
                                     </a>
-                                    <div id="title-2" class="hidden">
-                                        <a href='demos/academic/' target='_blank'>
-                                            <button type="button" class="btn btn-primary">Visit Site</button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col span_1_of_3">
-                                <div class="center">
-                                    <a class="fancybox" data-title-id="title-3" href="images/dolomites_large_image.jpg">
-                                        <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                                    </a>
                                     <div id="title-3" class="hidden">
-                                        <a href='demos/dolomites/' target='_blank'>
+                                        <a href='demos/academic/' target='_blank'>
                                             <button type="button" class="btn btn-primary">Visit Site</button>
                                         </a>
                                     </div>
@@ -214,11 +214,11 @@
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a class="fancybox" data-title-id="title-5" href="images/large_image.jpg">
-                                        <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                                    <a class="fancybox" data-title-id="title-5" href="images/dolomites_large_image.jpg">
+                                        <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
                                     </a>
                                     <div id="title-5" class="hidden">
-                                        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
+                                        <a href='demos/dolomites/' target='_blank'>
                                             <button type="button" class="btn btn-primary">Visit Site</button>
                                         </a>
                                     </div>
@@ -226,11 +226,11 @@
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a class="fancybox" data-title-id="title-6" href="images/program35_large_image.jpg">
-                                        <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                                    <a class="fancybox" data-title-id="title-6" href="images/large_image.jpg">
+                                        <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                                     </a>
                                     <div id="title-6" class="hidden">
-                                        <a href='demos/program35/' target='_blank'>
+                                        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
                                             <button type="button" class="btn btn-primary">Visit Site</button>
                                         </a>
                                     </div>
@@ -238,12 +238,24 @@
                             </div>
                         </div>
                         <div class="section group">
+                        		<div class="col span_1_of_3">
+                        		    <div class="center">
+                        		        <a class="fancybox" data-title-id="title-7" href="images/program35_large_image.jpg">
+                        		            <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                        		        </a>
+                        		        <div id="title-7" class="hidden">
+                        		            <a href='demos/program35/' target='_blank'>
+                        		                <button type="button" class="btn btn-primary">Visit Site</button>
+                        		            </a>
+                        		        </div>
+                        		    </div>
+                        		</div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a class="fancybox" data-title-id="title-7" href="images/email_large_image.jpg">
+                                    <a class="fancybox" data-title-id="title-8" href="images/email_large_image.jpg">
                                         <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
                                     </a>
-                                    <div id="title-7" class="hidden">
+                                    <div id="title-8" class="hidden">
                                         <a href='demos/email/' target='_blank'>
                                             <button type="button" class="btn btn-primary">Take the Tour</button>
                                         </a>
@@ -252,7 +264,7 @@
                             </div>      
                         </div>
                     </div>
-                    <!--/.desktop-->
+                    <!--end desktop-->
                     <div class="mobile">
                         <div class="section group">
                             <div class="col span_1_of_3">
