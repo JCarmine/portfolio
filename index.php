@@ -164,11 +164,11 @@
                         <div class="section group">
                         		<div class="col span_1_of_3">
                         		    <div class="center">
-                        		        <a class="fancybox" data-title-id="title-1" href="images/">
+                        		        <a class="fancybox" data-title-id="title-1" href="images/gazelle_large_image.jpg">
                         		            <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
                         		        </a>
                         		        <div id="title-1" class="hidden">
-                        		            <a href='' target='_blank'>
+                        		            <a href='http://buy.gazelle.com/' target='_blank'>
                         		                <button type="button" class="btn btn-primary">Visit Site</button>
                         		            </a>
                         		        </div>
@@ -267,6 +267,13 @@
                     <!--end desktop-->
                     <div class="mobile">
                         <div class="section group">
+                        		<div class="col span_1_of_3">
+                        		    <div class="center">
+                        		        <a href='http://buy.gazelle.com/' target='_blank'>
+                        		            <img src="images/gazelle_small_image.jpg" width="280" height="187" alt="Portfolio example - Gazelle">
+                        		        </a>
+                        		    </div>
+                        		</div>
                             <div class="col span_1_of_3">
                                 <div class="center">
                                     <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
@@ -281,13 +288,6 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col span_1_of_3">
-                                <div class="center">
-                                    <a href='demos/dolomites/' target='_blank'>
-                                        <img src="images/dolomites_small_image.jpg" width="280" height="187" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                         <div class="section group">
                             <div class="col span_1_of_3">
@@ -299,18 +299,34 @@
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a href='demos/program35/' target='_blank'>
-                                        <img src="images/program35_small_image.jpg" width="280" height="187" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                                    <a href='demos/dolomites/' target='_blank'>
+                                        <img src="images/dolomites_small_image.jpg" width="280" height="187" alt="Portfolio example - Dolomites Website for BBK Worldwide">
                                     </a>
                                 </div>
                             </div>
                             <div class="col span_1_of_3">
                                 <div class="center">
-                                    <a href='demos/email/' target='_blank'>
-                                        <img src="images/email_small_image.jpg" width="280" height="187" alt="Portfolio example - Email coding example and tour">
+                                    <a href='demos/program35/' target='_blank'>
+                                        <img src="images/program35_small_image.jpg" width="280" height="187" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                        <div class="section group">
+                        		<div class="col span_1_of_3">
+                        		    <div class="center">
+                        		        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
+                        		            <img src="images/sc_small_image.jpg" width="280" height="187" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                        		        </a>
+                        		    </div>
+                        		</div>
+                            <div class="col span_1_of_3">
+														   <div class="center">
+														       <a href='demos/email/' target='_blank'>
+														           <img src="images/email_small_image.jpg" width="280" height="187" alt="Portfolio example - Email coding example">
+														       </a>
+														   </div>
+														</div>
                         </div>
                     </div>
                     <!--/.mobile-->
@@ -510,7 +526,6 @@
             });
 
             /* Initialize lightbox feature on Portfolio page. */
-            $('.fancybox').fancybox();
             $(".fancybox")
                 .attr('rel', 'gallery')
                 .fancybox({

@@ -721,7 +721,7 @@ header {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
   .col {
-    margin: 1% 0 1% 0%; }
+    margin: 0 0 30px 0; }
 
   .span_2_of_2,
   .span_1_of_2 {
@@ -1092,7 +1092,8 @@ i {
   top: 0;
   left: 0;
   z-index: 8020;
-  vertical-align: top; }
+  vertical-align: top;
+  max-width: 808px; }
 
 .fancybox-skin {
   position: relative;
@@ -1134,8 +1135,9 @@ i {
   height: 100%; }
 
 .fancybox-image {
-  max-width: 100%;
-  max-height: 100%; }
+  max-width: 773px;
+  max-height: 478px;
+  height: auto; }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
   background-image: url("../images/fancybox/fancybox_sprite.png"); }
@@ -1311,6 +1313,13 @@ i {
 
 .fancybox-title a {
   color: #fff; }
+
+.fancybox-wrap {
+  max-height: 511px !important; }
+
+.fancybox-outer,
+.fancybox-inner {
+  max-height: 481px !important; }
 
 /* ==========================================================================
    state.css

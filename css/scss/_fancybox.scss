@@ -24,6 +24,7 @@
 	left: 0;
 	z-index: 8020;
 	vertical-align: top;
+	max-width: 808px;
 }
 
 .fancybox-skin {
@@ -73,8 +74,9 @@
 }
 
 .fancybox-image {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 773px;
+	max-height: 478px;
+	height: auto;
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
@@ -282,6 +284,16 @@
 .fancybox-title a {
  color: #fff;        
 }
+
+.fancybox-wrap {
+	max-height: 511px !important;
+}
+
+.fancybox-outer,
+.fancybox-inner {
+	max-height: 481px !important;	
+} 
+
 
 
 
