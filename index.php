@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div class="footerBox center">
-                   <span>&#169; Jesse Carmine 2015</span>
+                   <span>&#169; Jesse Carmine 2016</span>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="footerBox center">
-                    <span>&#169; Jesse Carmine 2015</span>
+                    <span>&#169; Jesse Carmine 2016</span>
                 </div>
             </div>
         </section>
@@ -333,7 +333,7 @@
                 </div>
                 <!--/.whiteBox-->
                 <div class="footerBox center">
-                    <span>&#169; Jesse Carmine 2015</span>
+                    <span>&#169; Jesse Carmine 2016</span>
                 </div>
                 <!--/.footerBox-->
             </div>
@@ -473,7 +473,7 @@
                     </div>
                 </div>
                 <div class="footerBox center">
-                    <span>&#169; Jesse Carmine 2015</span>
+                    <span>&#169; Jesse Carmine 2016</span>
                 </div>
             </div>
         </section>
