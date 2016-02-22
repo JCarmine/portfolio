@@ -8,38 +8,40 @@ $md-grey: #858484;
 $dk-grey: #474747;
 
 @font-face {
-    font-family: BebasNeue;
-    src: url(../fonts/BebasNeue.otf);
-    src: url(../fonts/bebasneue-webfont.eot);
-    src: url(../fonts/bebasneue-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/bebasneue-webfont.woff) format('woff'), url(../fonts/bebasneue-webfont.ttf) format('truetype'), url(../fonts/bebasneue-webfont.svg#bebas_neueregular) format('svg');
+  font-family: BebasNeue;
+  src: url(../fonts/BebasNeue.otf);
+  src: url(../fonts/bebasneue-webfont.eot);
+  src: url(../fonts/bebasneue-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/bebasneue-webfont.woff) format('woff'), url(../fonts/bebasneue-webfont.ttf) format('truetype'), url(../fonts/bebasneue-webfont.svg#bebas_neueregular) format('svg');
 }
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    box-sizing: border-box;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-    background: $white;
-    color: $dk-grey;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 10px;
+  background: $white;
+  color: $dk-grey;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10px;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 audio,
@@ -48,17 +50,17 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 h1,
@@ -66,73 +68,74 @@ h2,
 h3,
 h4,
 label {
-    font-family: BebasNeue;
-    text-decoration: none;
-    letter-spacing: 1px;
+  font-family: BebasNeue;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
 
 h2 {
-    font-size: 2.8em;
-    color: $md-grey;
-    text-align: center;
-    margin: 22px 0 30px 0;
+  font-size: 2.8em;
+  color: $md-grey;
+  text-align: center;
+  margin: 22px 0 30px 0;
 }
 
 h3,
 label {
-    font-size: 2.9em;
-    margin: 0;
-    line-height: 1.1em;
-    font-style: normal !important;
+  font-size: 2.9em;
+  margin: 0;
+  line-height: 1.1em;
+  font-style: normal !important;
 }
 
 h4 {
-    font-size: 1.6em;
-    color: $dk-grey;
-    margin: 0px;
+  font-size: 1.6em;
+  color: $dk-grey;
+  margin: 0px;
 }
 
 p,
 span {
-    font-size: 1.6em;
-    line-height: 1.3em;
+  font-size: 1.6em;
+  line-height: 1.3em;
 }
 
 #homepage p {
-    font-family: BebasNeue;
-    color: $white;
-    text-decoration: none;
-    font-size: 4.38em;
-    line-height: 1.2em;
-    margin: 0;
-    padding: 0 10%;
-    text-transform: uppercase;
+  font-family: BebasNeue;
+  color: $white;
+  text-decoration: none;
+  font-size: 4.38em;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0 10%;
+  text-transform: uppercase;
 }
 
 a {
-    color: #48b348;
-    text-decoration: none;
+  color: #48b348;
+  text-decoration: none;
 }
 
 a,
 a:hover,
 a:focus {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 em {
-    font-style: italic;
-    font-family: BebasNeue;
+  font-style: italic;
+  font-family: BebasNeue;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
+
 
 /*
 hr {
@@ -144,26 +147,25 @@ hr {
 */
 
 img {
-    border: none;
+  border: none;
 }
 
 .pull-left {
-    float: left;
+  float: left;
 }
 
 .pull-right {
-    float: right;
+  float: right;
 }
 
 .center {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .clear {
-    clear: both;
-    display: block;
-    font-size: 0;
-    line-height: 0;
+  clear: both;
+  display: block;
+  font-size: 0;
+  line-height: 0;
 }
-
