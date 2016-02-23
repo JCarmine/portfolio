@@ -8,9 +8,6 @@
   <meta name="description" content="Hello, I'm Jesse Carmine and welcome to my portfolio, I’m a Web Developer from Portland, OR U.S.A. I create unique and elegant responsive web designs that look great and work perfectly, on any device." />
   <meta name="author" content="Jesse Carmine">
   <title>Jesse Carmine - Web Developer</title>
-  <script>
-  document.documentElement.className = "";
-  </script>
   <link rel="icon" href="images/favicon.ico?v=2">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -24,9 +21,7 @@
     <!--Nav-->
     <header>
       <div id="logo">
-        <a class="revolver" href="#" data-nav="homepage" title="home">
-          <img src="images/logo.png" alt="Logo: Jesse Carmine - Web Developer" />
-        </a>
+        <img src="images/logo.png" alt="Logo: Jesse Carmine - Web Developer" />
       </div>
       <nav id="menu">
         <ul>
