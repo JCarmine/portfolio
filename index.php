@@ -444,9 +444,7 @@
                       </div>
                       <div class="formblock">
                         <label class="screen-reader-text" for="commentsText">MESSAGE:</label>
-                        <textarea name="comments" id="commentsText" class="requiredField" placeholder="">
-                          <?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?>
-                        </textarea>
+                        <textarea name="comments" id="commentsText" class="requiredField" placeholder=""><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
                         <br>
                         <?php if($commentError != '') { ?>
                         <br /><span class="error"><?php echo $commentError;?></span>
