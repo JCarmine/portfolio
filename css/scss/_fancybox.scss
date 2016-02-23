@@ -169,7 +169,7 @@
 /* Overlay helper */
 
 .fancybox-lock {
-    overflow: hidden !important;
+    overflow-y: scroll !important;
     width: auto;
 }
 
@@ -220,7 +220,7 @@
 	position: absolute;
 	bottom: 9.5%;
 	right: 50%;
-	margin-bottom: -35px;
+	margin-bottom: -4.3%;
 	z-index: 8050;
 	text-align: center;
 }
@@ -291,8 +291,10 @@
 
 .fancybox-outer,
 .fancybox-inner {
-	max-height: 481px !important;	
+	max-height: 478px !important;	
+	max-width: 773px !important
 } 
+
 
 
 

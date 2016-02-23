@@ -2,24 +2,6 @@
    state.css
    ========================================================================== */
 
-// Styles applied when JS is disabled.
-.no-js {
-  #homepage,
-  #about,
-  #portfolio,
-  #contact {
-    display: block;
-  }
-  /*
-	#contentSlide > div:not(:last-child) .footerBox {
-	   display: none;
-	}
-	*/
-  nav {
-    display: none;
-  }
-}
-
 .hidden {
   display: none !important;
   visibility: hidden;

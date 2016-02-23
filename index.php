@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -55,7 +55,7 @@
     </header>
     <div class="shadow"></div>
     <!-- Home Page -->
-    <div id="homepage">
+    <div id="homepage" style="display: none;">
       <div class="wrap">
         <div class="whiteBox background">
           <h2>
@@ -194,7 +194,7 @@
                     <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
                   </a>
                   <div id="title-3" class="hidden">
-                    <a href='demos/academic/' target='_blank'>
+                    <a href='http://www.sfu.ca/~leonid/' target='_blank'>
                       <button type="button" class="btn btn-primary">Visit Site</button>
                     </a>
                   </div>
@@ -285,7 +285,7 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a href='demos/academic/' target='_blank'>
+                  <a href='http://www.sfu.ca/~leonid/' target='_blank'>
                     <img src="images/academic_small_image.jpg" width="280" height="187" alt="Portfolio example - Academic Portfolio">
                   </a>
                 </div>
