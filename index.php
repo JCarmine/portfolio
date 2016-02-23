@@ -170,7 +170,7 @@
                     <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
                   </a>
                   <div id="title-1" class="hidden">
-                    <a href='http://buy.gazelle.com/' target='_blank'>
+                    <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
                       <button type="button" class="btn btn-primary">Visit Site</button>
                     </a>
                   </div>
@@ -271,7 +271,7 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a href='http://buy.gazelle.com/' target='_blank'>
+                  <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
                     <img src="images/gazelle_small_image.jpg" width="280" height="187" alt="Portfolio example - Gazelle">
                   </a>
                 </div>
