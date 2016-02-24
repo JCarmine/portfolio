@@ -466,7 +466,9 @@ html {
   line-height: 1.4;
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit; }
 
 body {
@@ -536,7 +538,7 @@ span {
   color: #ffffff;
   text-decoration: none;
   font-size: 4.38em;
-  line-height: 1.2em;
+  line-height: 1.1em;
   margin: 0;
   padding: 0 10%;
   text-transform: uppercase; }
@@ -719,9 +721,9 @@ header {
   width: 32.26%; }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 745px) {
   .col {
-    margin: 1% 0 1% 0%; }
+    margin: 0 0 30px 0; }
 
   .span_2_of_2,
   .span_1_of_2 {
@@ -801,8 +803,7 @@ header {
     background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
     background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
+    background-repeat: repeat-x; }
   .carousel .carousel-control.right {
     left: auto;
     right: 0;
@@ -810,8 +811,7 @@ header {
     background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
     background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
+    background-repeat: repeat-x; }
   .carousel .carousel-control:hover,
   .carousel .carousel-control:focus {
     color: #ffffff;
@@ -962,7 +962,6 @@ header {
   background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
   background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1092,7 +1091,8 @@ i {
   top: 0;
   left: 0;
   z-index: 8020;
-  vertical-align: top; }
+  vertical-align: top;
+  max-width: 808px; }
 
 .fancybox-skin {
   position: relative;
@@ -1134,8 +1134,9 @@ i {
   height: 100%; }
 
 .fancybox-image {
-  max-width: 100%;
-  max-height: 100%; }
+  max-width: 773px;
+  max-height: 478px;
+  height: auto; }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
   background-image: url("../images/fancybox/fancybox_sprite.png"); }
@@ -1215,7 +1216,7 @@ i {
 
 /* Overlay helper */
 .fancybox-lock {
-  overflow: hidden !important;
+  overflow-y: scroll !important;
   width: auto; }
 
 .fancybox-lock body {
@@ -1257,7 +1258,7 @@ i {
   position: absolute;
   bottom: 9.5%;
   right: 50%;
-  margin-bottom: -35px;
+  margin-bottom: -4.3%;
   z-index: 8050;
   text-align: center; }
 
@@ -1312,23 +1313,17 @@ i {
 .fancybox-title a {
   color: #fff; }
 
+.fancybox-wrap {
+  max-height: 511px !important; }
+
+.fancybox-outer,
+.fancybox-inner {
+  max-height: 478px !important;
+  max-width: 773px !important; }
+
 /* ==========================================================================
    state.css
    ========================================================================== */
-.no-js {
-  /*
-  #contentSlide > div:not(:last-child) .footerBox {
-      display: none;
-  }
-  */ }
-  .no-js #homepage,
-  .no-js #about,
-  .no-js #portfolio,
-  .no-js #contact {
-    display: block; }
-  .no-js nav {
-    display: none; }
-
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -1507,7 +1502,7 @@ i {
     text-align: center;
     padding: 5px 5px 0 0; }
 
-  header #logo a img {
+  header #logo img {
     width: 105px;
     height: 27.5px; }
 

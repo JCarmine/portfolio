@@ -24,6 +24,7 @@
 	left: 0;
 	z-index: 8020;
 	vertical-align: top;
+	max-width: 808px;
 }
 
 .fancybox-skin {
@@ -73,8 +74,9 @@
 }
 
 .fancybox-image {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 773px;
+	max-height: 478px;
+	height: auto;
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
@@ -167,7 +169,7 @@
 /* Overlay helper */
 
 .fancybox-lock {
-    overflow: hidden !important;
+    overflow-y: scroll !important;
     width: auto;
 }
 
@@ -218,7 +220,7 @@
 	position: absolute;
 	bottom: 9.5%;
 	right: 50%;
-	margin-bottom: -35px;
+	margin-bottom: -4.3%;
 	z-index: 8050;
 	text-align: center;
 }
@@ -282,6 +284,18 @@
 .fancybox-title a {
  color: #fff;        
 }
+
+.fancybox-wrap {
+	max-height: 511px !important;
+}
+
+.fancybox-outer,
+.fancybox-inner {
+	max-height: 478px !important;	
+	max-width: 773px !important
+} 
+
+
 
 
 
