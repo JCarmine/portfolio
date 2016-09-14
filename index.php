@@ -177,7 +177,7 @@
                     <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
                   </a>
                   <div id="title-2" class="hidden">
-                    <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
+                    <a href='http://www.striderite.com/en/home' target='_blank'>
                       <button type="button" class="btn btn-primary">Visit Site</button>
                     </a>
                   </div>
