@@ -1,1 +1,1 @@
-# Portfolio
+This repo contains the source code for my portfolio; you can find it at www.jessecarmine.com
