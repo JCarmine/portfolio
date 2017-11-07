@@ -350,7 +350,7 @@
               </p>
               <div>
                 <div class="contactItem">
-                  <i class="icon-map-marker icon-2x"></i>Boston, MA, U.S.A.
+                  <i class="icon-map-marker icon-2x"></i>Portland, OR, U.S.A.
                 </div>
                 <div class="contactItem">
                   <i class="icon-phone icon-2x"></i>+1 (971) 241-9112
@@ -362,20 +362,20 @@
               </div>
             </div>
             <div class="col span_1_of_2 lastColumn">
-              <?php 
+              <?php
                 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
                 //If the form is submitted
                 if(isset($_POST['submitted'])) {
-                    
+
                     // require a name from user
                     if(trim($_POST['contactName']) === '') {
-                        $nameError =  'Please enter your name'; 
+                        $nameError =  'Please enter your name';
                         $hasError = true;
                     } else {
                         $name = trim($_POST['contactName']);
                     }
-                    
+
                     // need valid email
                     if(trim($_POST['email']) === '')  {
                         $emailError = 'Please enter in your e-mail address';
@@ -386,7 +386,7 @@
                     } else {
                         $email = trim($_POST['email']);
                     }
-                        
+
                     // we need at least some content
                     if(trim($_POST['comments']) === '') {
                         $commentError = 'Please enter a message';
@@ -398,10 +398,10 @@
                             $comments = trim($_POST['comments']);
                         }
                     }
-                        
+
                     // upon no failure errors let's email now!
                     if(!isset($hasError)) {
-                        
+
                         $emailTo = 'carminej@gmail.com';
                         $subject = 'Submitted message from '.$name;
                         $sendCopy = trim($_POST['sendCopy']);
@@ -409,7 +409,7 @@
                         $headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
                         mail($emailTo, $subject, $body, $headers);
-                        
+
                         // set our boolean completion value to TRUE
                         $emailSent = true;
                     }
@@ -508,7 +508,7 @@
       easing: 'fade',
       speed: 700,
       slideScroll: 'vertical', // not enabled on fade effect
-      top: 0, // it depends on menu height 
+      top: 0, // it depends on menu height
       navigation: {
         show: true,
         nestedPagesFlows: true
@@ -568,7 +568,7 @@
     });
   });
   </script>
-  
+
 </body>
 
 </html>
