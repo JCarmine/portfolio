@@ -161,7 +161,6 @@
           </h2>
           <section data-featherlight-gallery data-featherlight-filter="a">
             <div class="section group">
-
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#blue"><img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle"></a>
@@ -172,7 +171,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#pink"><img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes"></a>
@@ -183,7 +181,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#purple"><img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio"></a>
@@ -194,10 +191,40 @@
                   </div>
                 </div>
               </div>
-
             </div>
 
-
+            <div class="section group">
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#green"><img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide"></a>
+                  <div style="display: none;">
+                    <div id="green" style="width:500px;height:500px;">
+                      green
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#yellow"><img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide"></a>
+                  <div style="display: none;">
+                    <div id="yellow" style="width:500px;height:500px;">
+                      yellow
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#indigo"><img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog"></a>
+                  <div style="display: none;">
+                    <div id="indigo" style="width:500px;height:500px;">
+                      indigo
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
           <!-- <div class="desktop">
             <div class="section group">
