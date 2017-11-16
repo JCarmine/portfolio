@@ -159,21 +159,47 @@
           <h2>
               Portfolio
           </h2>
-          <section
-            data-featherlight-gallery
-            data-featherlight-filter="a"
-          >
-            <h>This is a gallery</h>
-            <a class="gallery" href="#blue">xsxsxs</a>
-            <div style="display: none;">
-              <div id="blue" style="width:500px;height:500px;">
-                dddd
+          <section data-featherlight-gallery data-featherlight-filter="a">
+            <div class="section group">
+
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#blue"><img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle"></a>
+                  <div style="display: none;">
+                    <div id="blue" style="width:500px;height:500px;">
+                      blue
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#pink"><img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes"></a>
+                  <div style="display: none;">
+                    <div id="pink" style="width:500px;height:500px;">
+                      pink
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#purple"><img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio"></a>
+                  <div style="display: none;">
+                    <div id="purple" style="width:500px;height:500px;">
+                      purple
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
-            <a class="gallery" href="other_photo_large.jpg">fddfdfdf</a>
+
           </section>
-          <div class="desktop">
+          <!-- <div class="desktop">
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
@@ -277,7 +303,7 @@
               </div>
             </div>
           </div>
-          <!--end desktop-->
+
           <div class="mobile">
             <div class="section group">
               <div class="col span_1_of_3">
@@ -342,7 +368,7 @@
               </div>
             </div>
           </div>
-          <!--/.mobile-->
+          -->
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
