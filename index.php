@@ -9,9 +9,9 @@
   <meta name="author" content="Jesse Carmine">
   <title>Jesse Carmine - Web Developer</title>
   <link rel="icon" href="images/favicon.ico?v=3">
-  <link rel="stylesheet" href="styles/main.css">
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
       </div>
     </div>
@@ -148,7 +148,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
       </div>
     </section>
@@ -165,8 +165,13 @@
                 <div class="center">
                   <a class="gallery" href="#blue"><img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle"></a>
                   <div style="display: none;">
-                    <div id="blue" style="background-color:black;">
-                      blue
+                    <div class="lightboxContent" id="blue" style="background-color:black;">
+                      <div class="contentLeft">
+                        <img src="images/gazelle_large_image.jpg" alt="Portfolio example - Gazelle">
+                      </div>
+                      <div class="contentRight">
+                        Some text here
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -399,7 +404,7 @@
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
         <!--/.footerBox-->
       </div>
@@ -533,7 +538,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
       </div>
     </section>

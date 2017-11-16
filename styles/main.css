@@ -736,13 +736,38 @@ header {
 
   .lastColumn {
     margin-top: 50px; } }
-.featherlight-content {
+.featherlight .featherlight-content {
   width: 95%;
-  max-width: 800px;
-  min-height: 500px; }
+  max-width: 800px; }
+  .featherlight .featherlight-content .featherlight-inner {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center; }
+  .featherlight .featherlight-content .contentLeft {
+    margin-right: 290px;
+    width: 100%;
+    background-color: blue; }
+    .featherlight .featherlight-content .contentLeft img {
+      width: 100%; }
+  .featherlight .featherlight-content .contentRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 290px;
+    background-color: pink; }
+  @media screen and (max-width: 1024px) {
+    .featherlight .featherlight-content {
+      padding: 20px 20px 0; } }
   @media screen and (max-width: 768px) {
-    .featherlight-content {
-      height: 98%; } }
+    .featherlight .featherlight-content {
+      height: 98%; }
+      .featherlight .featherlight-content .contentLeft {
+        margin: 0; }
+      .featherlight .featherlight-content .contentRight {
+        position: static;
+        width: 100%;
+        background-color: pink; } }
 
 /* ==========================================================================
    module.css
