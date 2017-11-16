@@ -10,6 +10,8 @@
   <title>Jesse Carmine - Web Developer</title>
   <link rel="icon" href="images/favicon.ico?v=3">
   <link rel="stylesheet" href="css/main.css">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -157,6 +159,20 @@
           <h2>
               Portfolio
           </h2>
+          <section
+            data-featherlight-gallery
+            data-featherlight-filter="a"
+          >
+            <h>This is a gallery</h>
+            <a class="gallery" href="#blue">xsxsxs</a>
+            <div style="display: none;">
+              <div id="blue" style="width:500px;height:500px;">
+                dddd
+              </div>
+            </div>
+
+            <a class="gallery" href="other_photo_large.jpg">fddfdfdf</a>
+          </section>
           <div class="desktop">
             <div class="section group">
               <div class="col span_1_of_3">
@@ -482,6 +498,19 @@
 
   <!-- Load fancybox.js to drive slider on Portfolio page. -->
   <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $('a.gallery').featherlightGallery({
+      previousIcon: '«',
+      nextIcon: '»',
+      galleryFadeIn: 300,
+
+      openSpeed: 300
+    });
+  </script>
 
   <!-- Allows for site tracking with Google Analytics. -->
   <script>
