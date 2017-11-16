@@ -736,6 +736,14 @@ header {
 
   .lastColumn {
     margin-top: 50px; } }
+.featherlight-content {
+  width: 95%;
+  max-width: 800px;
+  min-height: 500px; }
+  @media screen and (max-width: 768px) {
+    .featherlight-content {
+      height: 98%; } }
+
 /* ==========================================================================
    module.css
    ========================================================================== */
@@ -1175,7 +1183,7 @@ i {
   text-decoration: none;
   background: transparent url("../images/fancybox/blank.gif");
   /* helps IE */
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040; }
 
 .fancybox-prev {
@@ -1268,7 +1276,7 @@ i {
   padding: 2px 20px;
   background: transparent;
   /* Fallback for web browsers that doesn't support RGBa */
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -1293,7 +1301,7 @@ i {
   color: #fff;
   padding: 10px;
   background: #000;
-  background: transparent; }
+  background: rgba(0, 0, 0, 0); }
 
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
@@ -1523,3 +1531,5 @@ i {
     padding: 7px 0px 10px;
     line-height: 1.4em;
     color: #858484; } }
+
+/*# sourceMappingURL=main.css.map */

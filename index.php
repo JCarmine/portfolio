@@ -9,7 +9,7 @@
   <meta name="author" content="Jesse Carmine">
   <title>Jesse Carmine - Web Developer</title>
   <link rel="icon" href="images/favicon.ico?v=3">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="styles/main.css">
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
 </head>
@@ -165,7 +165,7 @@
                 <div class="center">
                   <a class="gallery" href="#blue"><img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle"></a>
                   <div style="display: none;">
-                    <div id="blue" style="width:500px;height:500px;">
+                    <div id="blue" style="background-color:black;">
                       blue
                     </div>
                   </div>
@@ -175,7 +175,7 @@
                 <div class="center">
                   <a class="gallery" href="#pink"><img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes"></a>
                   <div style="display: none;">
-                    <div id="pink" style="width:500px;height:500px;">
+                    <div id="pink">
                       pink
                     </div>
                   </div>
@@ -185,7 +185,7 @@
                 <div class="center">
                   <a class="gallery" href="#purple"><img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio"></a>
                   <div style="display: none;">
-                    <div id="purple" style="width:500px;height:500px;">
+                    <div id="purple">
                       purple
                     </div>
                   </div>
@@ -198,7 +198,7 @@
                 <div class="center">
                   <a class="gallery" href="#green"><img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide"></a>
                   <div style="display: none;">
-                    <div id="green" style="width:500px;height:500px;">
+                    <div id="green">
                       green
                     </div>
                   </div>
@@ -208,7 +208,7 @@
                 <div class="center">
                   <a class="gallery" href="#yellow"><img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide"></a>
                   <div style="display: none;">
-                    <div id="yellow" style="width:500px;height:500px;">
+                    <div id="yellow">
                       yellow
                     </div>
                   </div>
@@ -218,7 +218,7 @@
                 <div class="center">
                   <a class="gallery" href="#indigo"><img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog"></a>
                   <div style="display: none;">
-                    <div id="indigo" style="width:500px;height:500px;">
+                    <div id="indigo">
                       indigo
                     </div>
                   </div>
