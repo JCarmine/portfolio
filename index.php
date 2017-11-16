@@ -8,7 +8,7 @@
   <meta name="description" content="Hello, I'm Jesse Carmine and welcome to my portfolio, I’m a Web Developer from Portland, OR U.S.A. I create unique and elegant responsive web designs that look great and work perfectly, on any device." />
   <meta name="author" content="Jesse Carmine">
   <title>Jesse Carmine - Web Developer</title>
-  <link rel="icon" href="images/favicon.ico?v=3">
+  <link rel="icon" href="images/favicon.ico?v=1">
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="styles/main.css">
