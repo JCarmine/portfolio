@@ -756,12 +756,11 @@ header {
     right: 0;
     width: 290px;
     background-color: pink; }
-  @media screen and (max-width: 1024px) {
-    .featherlight .featherlight-content {
-      padding: 20px 20px 0; } }
   @media screen and (max-width: 768px) {
     .featherlight .featherlight-content {
       height: 98%; }
+      .featherlight .featherlight-content .featherlight-inner {
+        display: block; }
       .featherlight .featherlight-content .contentLeft {
         margin: 0; }
       .featherlight .featherlight-content .contentRight {
