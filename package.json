@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jesse's Portfolio",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-php-awesome-server": "^1.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCarmine/Portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Jesse Carmine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JCarmine/Portfolio/issues"
+  },
+  "homepage": "https://github.com/JCarmine/Portfolio#readme"
+}
