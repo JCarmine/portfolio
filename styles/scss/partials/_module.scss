@@ -40,7 +40,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    // padding: 20px 20px 0;
+    .featherlight-close-icon {
+      width: initial;
+      line-height: 30px;
+      padding: 10px;
+      font-size: 30px;
+    }
+
   }
 
   @media screen and (max-width: 768px) {
@@ -48,12 +54,8 @@
     height: 98%;
 
     .featherlight-close-icon {
-      width: initial;
       top: 1%;
       right: 2.5%;
-      line-height: 30px;
-      padding: 25px;
-      font-size: 30px;
     }
 
     .featherlight-inner {
