@@ -533,6 +533,9 @@ span {
   font-size: 1.6em;
   line-height: 1.3em; }
 
+.btn {
+  border-radius: 0; }
+
 #homepage p {
   font-family: BebasNeue;
   color: #ffffff;
@@ -743,16 +746,24 @@ header {
     position: relative;
     min-height: 500px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    background-color: #f2f2f2; }
   .featherlight .featherlight-content .contentLeft {
+    position: relative;
     margin-right: 290px;
     width: 100%;
-    background-color: blue; }
+    text-align: center; }
     .featherlight .featherlight-content .contentLeft img {
-      width: 100%; }
+      width: 95%; }
+    .featherlight .featherlight-content .contentLeft a {
+      position: absolute;
+      margin-top: 20px;
+      right: 50%;
+      transform: translateX(50%); }
   .featherlight .featherlight-content .contentRight {
     position: absolute;
     top: 0;
+    bottom: 0;
     right: 0;
     width: 290px;
     background-color: pink; }

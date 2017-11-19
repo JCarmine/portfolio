@@ -165,9 +165,12 @@
                 <div class="center">
                   <a class="gallery" href="#blue"><img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle"></a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="blue" style="background-color:black;">
+                    <div class="lightboxContent" id="blue">
                       <div class="contentLeft">
-                        <img src="images/gazelle_large_image.jpg" alt="Portfolio example - Gazelle">
+                        <img src="images/test.png" alt="Portfolio example - Gazelle">
+                        <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
                       </div>
                       <div class="contentRight">
                         Some text here
@@ -655,6 +658,8 @@
     });
   });
   </script>
+
+
 
 </body>
 
