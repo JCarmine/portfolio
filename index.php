@@ -173,7 +173,8 @@
                         </a>
                       </div>
                       <div class="contentRight">
-                        Some text here
+                        <p>Text</p>
+                        <p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p>
                       </div>
                     </div>
                   </div>
