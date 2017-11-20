@@ -12,17 +12,6 @@
      width: 100%;
   }
 
-  /*Fancybox Tablet*/
-  .fancybox-nav span {
-     top: 55%;
-  }
-  .fancybox-next span {
-     right: -15px;
-  }
-  .fancybox-prev span {
-     left: -15px;
-  }
-
   /*Carousel Tablet*/
   .carousel-inner {
      position: relative;
@@ -63,11 +52,6 @@
 
   .wrap {
      padding-top: 38px;
-  }
-
-  h1 {
-     color: $white;
-     line-height: 50px;
   }
 
   h4 {

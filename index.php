@@ -55,9 +55,9 @@
     <div id="homepage" style="display: none;">
       <div class="wrap">
         <div class="whiteBox background">
-          <h2>
+          <h1>
               Welcome
-          </h2>
+          </h1>
           <p class="mobile center">
             I create unique and elegant websites that both look great and work perfectly, on any device.
           </p>
@@ -99,14 +99,12 @@
     <section id="about" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
-          <h2>
-             About
-          </h2>
+          <h1>About</h1>
           <div class="section group">
             <div class="col span_2_of_3 center">
-              <h3>
+              <h2>
                  Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Portland, OR U.S.A.
-              </h3>
+              </h2>
               <p>Graphic design and creating innovative web experiences have always been passions of mine. With over 4 years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
               <p>Need more detail? Click below to download my resume.</p>
               <div>
@@ -156,9 +154,7 @@
     <section id="portfolio" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
-          <h2>
-              Portfolio
-          </h2>
+          <h1>Portfolio</h1>
           <section data-featherlight-gallery data-featherlight-filter="a">
             <div class="section group">
               <div class="col span_1_of_3">
@@ -175,6 +171,16 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2>Gazelle</h2>
+                        <p>As a Software Engineer for Gazelle, I am currently responsible for improving the user experience through site-speed optimization and re-developing the mobile experience.</p>
+                        <h3>Specific responsibilities include:</h3>
+                        <ul>
+                          <li>Developing the front-end for a reCommerce platform built on Bigcommerce.</li>
+                          <li>Increasing engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
+                          <li>Improving site performance to enhance the UX, especially for mobile users.</li>
+                          <li>Integrating Gulp.js into the workflow to improve code quality and speed up the development process.</li>
+                          <li>Updating build system to enable the use of ES6 and SASS.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -320,176 +326,6 @@
               </div>
             </div>
           </section>
-          <!-- <div class="desktop">
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-1" href="images/gazelle_large_image.jpg">
-                    <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
-                  </a>
-                  <div id="title-1" class="hidden">
-                    <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-2" href="images/stride_rite_large_image.jpg">
-                    <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
-                  </a>
-                  <div id="title-2" class="hidden">
-                    <a href='http://www.striderite.com/en/home' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-3" href="images/academic_large_image.jpg">
-                    <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
-                  </a>
-                  <div id="title-3" class="hidden">
-                    <a href='http://www.sfu.ca/~leonid/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-4" href="images/harmony_large_image.jpg">
-                    <img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                  </a>
-                  <div id="title-4" class="hidden">
-                    <a href='demos/harmony/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-5" href="images/dolomites_large_image.jpg">
-                    <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                  </a>
-                  <div id="title-5" class="hidden">
-                    <a href='demos/dolomites/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-6" href="images/large_image.jpg">
-                    <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                  </a>
-                  <div id="title-6" class="hidden">
-                    <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-7" href="images/program35_large_image.jpg">
-                    <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
-                  </a>
-                  <div id="title-7" class="hidden">
-                    <a href='demos/program35/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-8" href="images/email_large_image.jpg">
-                    <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
-                  </a>
-                  <div id="title-8" class="hidden">
-                    <a href='demos/email/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Take the Tour</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mobile">
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
-                    <img src="images/gazelle_small_image.jpg" width="280" height="187" alt="Portfolio example - Gazelle">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
-                    <img src="images/stride_rite_small_image.jpg" width="280" height="187" alt="Portfolio example - Stride Rite Shoes">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://www.sfu.ca/~leonid/' target='_blank'>
-                    <img src="images/academic_small_image.jpg" width="280" height="187" alt="Portfolio example - Academic Portfolio">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/harmony/' target='_blank'>
-                    <img src="images/harmony_small_image.jpg" width="280" height="187" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/dolomites/' target='_blank'>
-                    <img src="images/dolomites_small_image.jpg" width="280" height="187" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/program35/' target='_blank'>
-                    <img src="images/program35_small_image.jpg" width="280" height="187" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                    <img src="images/sc_small_image.jpg" width="280" height="187" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/email/' target='_blank'>
-                    <img src="images/email_small_image.jpg" width="280" height="187" alt="Portfolio example - Email coding example">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          -->
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
@@ -503,9 +339,7 @@
     <section id="contact" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
-          <h2>
-			      Contact
-           </h2>
+          <h1>Contact</h1>
           <div class="section group">
             <div class="col span_1_of_2 center">
               <p>
