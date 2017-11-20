@@ -291,15 +291,13 @@
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2></h2>
-                        <p></p>
-                        <h3></h3>
+                        <h2>Dolomites</h2>
+                        <p>The Dolomites website provides a place where people can go to sign-up for clinical drug trials. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile/tablet versions. Please note that the site’s content has been removed at the request of the client.</p>
+                        <h3>Dolomites’ Features:</h3>
                         <ul>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
+                          <li>A fluidly responsive design that will look great on every possible device.</li>
+                          <li>A CSS technique used to ensure that sections of the site (sections that have background images applied to them), maintain a consistent ratio as the site is resized.</li>
+                          <li>Background images that scale down in their containers as the page is resized, without distorting or cropping.</li>
                         </ul>
                       </div>
                     </div>
@@ -320,16 +318,10 @@
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2></h2>
-                        <p></p>
-                        <h3></h3>
-                        <ul>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                        </ul>
+                        <h2>The Southcentral Alaska Science Catalog</h2>
+                        <p>The Catalog is a web-application that was created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
+                        <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
+                        <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
                       </div>
                     </div>
                   </div>
@@ -351,15 +343,15 @@
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2></h2>
-                        <p></p>
-                        <h3></h3>
+                        <h2>Program35</h2>
+                        <p>Hill Holliday, an ad agency in Boston, U.S.A., needed a site where applicants could go to apply for their creative internship program.  Their designers created the bold concept. They then requested that I develop Program 35 to look and act like a “machine,” and gave me complete creative freedom to build it.</p>
+                        <h3>Program 35 Features:</h3>
                         <ul>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
+                          <li>Responsive design.</li>
+                          <li>A large, bold logo that displays immediately on page load, and then shrinks on site navigation.</li>
+                          <li>The use of jQuery animate to resize the logo on page navigation.</li>
+                          <li>A 3rd party jQuery plugin to add in the vertical sliding navigation.</li>
+                          <li>An HTML form complete with form validation and AJAX submission.</li>
                         </ul>
                       </div>
                     </div>
@@ -376,20 +368,19 @@
                       <div class="contentLeft">
                         <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
                         <a href='demos/email/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
+                          <button type="button" class="btn btn-primary">Take the Tour</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2></h2>
-                        <p></p>
-                        <h3></h3>
+                        <h2>Email Newsletters</h2>
+                        <p>HTML emails are a great way to connect with your audience. Use them to keep your subscribers informed, or to send transactional emails from your web app. I can offer the following services to help you develop the perfect campaign:</p>
                         <ul>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
+                          <li>Fixed-width or responsive development.</li>
+                          <li>A proprietary template that will ensure your email looks great on 30+ email clients and devices.</li>
+                          <li>Complete conceptualization, design, and development of your newsletters.</li>
+                          <li>Development of pre-designed comps.</li>
                         </ul>
+                        <p>Interested in learning more about HTML email or seeing an example of my work? Take a tour powered by Zurb’s Joyride.</p>
                       </div>
                     </div>
                   </div>
