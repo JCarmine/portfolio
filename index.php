@@ -163,18 +163,18 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#blue"><img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle"></a>
+                  <a class="gallery" href="#zambezi">
+                    <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
+                  </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="blue">
+                    <div class="lightboxContent" id="zambezi">
                       <div class="contentLeft">
-                        <img src="images/test.png" alt="Portfolio example - Gazelle">
+                        <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
                         <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
                           <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <p>Text</p>
-                        <p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p><p>Text</p>
                       </div>
                     </div>
                   </div>
@@ -182,20 +182,38 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#pink"><img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes"></a>
+                  <a class="gallery" href="#strideRite">
+                    <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                  </a>
                   <div style="display: none;">
-                    <div id="pink">
-                      pink
+                    <div class="lightboxContent" id="strideRite">
+                      <div class="contentLeft">
+                        <img src="images/stride_rite_large_image.png" alt="Portfolio example - Stride Rite Shoes">
+                        <a href='http://www.striderite.com/en/home' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#purple"><img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio"></a>
+                  <a class="gallery" href="#academicPortfolio">
+                    <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
+                  </a>
                   <div style="display: none;">
-                    <div id="purple">
-                      purple
+                    <div class="lightboxContent" id="academicPortfolio">
+                      <div class="contentLeft">
+                        <img src="images/academic_large_image.png" alt="Portfolio example - Academic Portfolio">
+                        <a href='http://www.sfu.ca/~leonid/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -205,30 +223,97 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#green"><img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide"></a>
+                  <a class="gallery" href="#harmony">
+                    <img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                  </a>
                   <div style="display: none;">
-                    <div id="green">
-                      green
+                    <div class="lightboxContent" id="harmony">
+                      <div class="contentLeft">
+                        <img src="images/harmony_large_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                        <a href='demos/harmony/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#yellow"><img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide"></a>
+                  <a class="gallery" href="#dolomites">
+                    <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
+                  </a>
                   <div style="display: none;">
-                    <div id="yellow">
-                      yellow
+                    <div class="lightboxContent" id="dolomites">
+                      <div class="contentLeft">
+                        <img src="images/dolomites_large_image.png" alt="Portfolio example - Dolomites Website for BBK Worldwide">
+                        <a href='demos/dolomites/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#indigo"><img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog"></a>
+                  <a class="gallery" href="#sc">
+                    <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                  </a>
                   <div style="display: none;">
-                    <div id="indigo">
-                      indigo
+                    <div class="lightboxContent" id="sc">
+                      <div class="contentLeft">
+                        <img src="images/sc_large_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section group">
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#program35">
+                    <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="program35">
+                      <div class="contentLeft">
+                        <img src="images/program35_large_image.png" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
+                        <a href='demos/program35/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#email">
+                    <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="email">
+                      <div class="contentLeft">
+                        <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
+                        <a href='demos/email/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                      </div>
                     </div>
                   </div>
                 </div>
