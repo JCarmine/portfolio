@@ -200,7 +200,18 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2>Stride Rite</h2>
+                        <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
+                        <h3>Specific responsibilities included:</h3>
+                        <ul>
+                          <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
+                          <li>Coding the interactive features used on their Rosie Pope landing page, including the interactive carousel widgets and a custom RSS feed import.</li>
+                          <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
+                          <li>Refactoring CSS, using SASS, to reflect mobile first design principals.</li>
+                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015. </li>
+                        </ul>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -219,6 +230,18 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2>Leonid Chindelevitch</h2>
+                        <h3>Assistant Professor</h3>
+                        <h4>Simon Frasier University</h4>
+                        <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio, so that he could share his work with the world.</p>
+                        <h3>This Portfolio Features:</h3>
+                        <ul>
+                          <li>A fully responsive design that will ensure it looks great everywhere, even on mobile.</li>
+                          <li>A clean and non-distracting design.</li>
+                          <li>Clean and well organized code that adheres to the most modern web standards including HTML5 and CSS3.</li>
+                          <li>The brand new Google Maps API that will allow visitors to easily find his office and lab.</li>
+                          <li>Social media links that will drive visitors to his presence on LinkedIn.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -241,6 +264,14 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2>Harmony</h2>
+                        <p>The Harmony website provides a place where people can go to sign-up for clinical drug trials. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile/tablet versions. Please note that the site’s content has been removedat the request of the client.</p>
+                        <h3>Harmony’s Features:</h3>
+                        <ul>
+                          <li>A fully responsive design that will look great on every possible device.</li>
+                          <li>A mobile menu to aid in site navigation.</li>
+                          <li>A background image that is placed and scaled with javascript. This ensures the background displays properly relative to the other elements on the page, and that the design maintains its integrity regardless of the device that it's viewed on.</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -260,6 +291,16 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2></h2>
+                        <p></p>
+                        <h3></h3>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -279,6 +320,16 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2></h2>
+                        <p></p>
+                        <h3></h3>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -300,6 +351,16 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2></h2>
+                        <p></p>
+                        <h3></h3>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -319,6 +380,16 @@
                         </a>
                       </div>
                       <div class="contentRight">
+                        <h2></h2>
+                        <p></p>
+                        <h3></h3>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
