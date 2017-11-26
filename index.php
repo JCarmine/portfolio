@@ -264,7 +264,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>Harmony</h2>
-                        <p>The Harmony website is a clinical drug trial sign-up form. I was responsible for developing the desktop and mobile versions. Please note that the site’s content has been removed at the request of the client.</p>
+                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. Please note that the site’s content has been removed at the request of the client.</p>
                         <h3>Harmony’s Features:</h3>
                         <ul>
                           <li>A fully responsive design that will look great on every possible device.</li>
@@ -291,7 +291,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>Dolomites</h2>
-                        <p>The Dolomites website is a clinical drug trial sign-up form. The desktop layout was developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
+                        <p>The Dolomites website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
                         <h3>Dolomites’ Features:</h3>
                         <ul>
                           <li>A fluidly responsive design that will look great on every possible device.</li>
