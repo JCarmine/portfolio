@@ -205,10 +205,10 @@
                         <h3>Specific responsibilities included:</h3>
                         <ul>
                           <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
-                          <li>Coding the interactive features used on their Rosie Pope landing page, including the interactive carousel widgets and a custom RSS feed import.</li>
+                          <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
                           <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
-                          <li>Refactoring CSS, using SASS, to reflect mobile first design principals.</li>
-                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015. </li>
+                          <li>Refactoring CSS, using SASS, to reflect mobile-first design principals.</li>
+                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
                         </ul>
                       </div>
 
