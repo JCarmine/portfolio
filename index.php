@@ -231,15 +231,14 @@
                       </div>
                       <div class="contentRight">
                         <h2>Leonid Chindelevitch</h2>
-                        <h3>Assistant Professor</h3>
-                        <h4>Simon Frasier University</h4>
+                        <span class="leonidTitle">Assistant Professor</span>
+                        <span class="leonidUniversity">Simon Frasier University</span>
                         <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio, so that he could share his work with the world.</p>
                         <h3>This Portfolio Features:</h3>
                         <ul>
-                          <li>A fully responsive design that will ensure it looks great everywhere, even on mobile.</li>
-                          <li>A clean and non-distracting design.</li>
+                          <li>A fully responsive, clean, and non-distracting design.</li>
                           <li>Clean and well organized code that adheres to the most modern web standards including HTML5 and CSS3.</li>
-                          <li>The brand new Google Maps API that will allow visitors to easily find his office and lab.</li>
+                          <li>Google Maps API that will allow visitors to easily find his lab.</li>
                           <li>Social media links that will drive visitors to his presence on LinkedIn.</li>
                         </ul>
                       </div>
@@ -265,12 +264,12 @@
                       </div>
                       <div class="contentRight">
                         <h2>Harmony</h2>
-                        <p>The Harmony website provides a place where people can go to sign-up for clinical drug trials. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile/tablet versions. Please note that the site’s content has been removedat the request of the client.</p>
+                        <p>The Harmony website is a clinical drug trial sign-up form. I was responsible for developing the desktop and mobile versions. Please note that the site’s content has been removed at the request of the client.</p>
                         <h3>Harmony’s Features:</h3>
                         <ul>
                           <li>A fully responsive design that will look great on every possible device.</li>
                           <li>A mobile menu to aid in site navigation.</li>
-                          <li>A background image that is placed and scaled with javascript. This ensures the background displays properly relative to the other elements on the page, and that the design maintains its integrity regardless of the device that it's viewed on.</li>
+                          <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
                         </ul>
                       </div>
                     </div>
@@ -292,11 +291,11 @@
                       </div>
                       <div class="contentRight">
                         <h2>Dolomites</h2>
-                        <p>The Dolomites website provides a place where people can go to sign-up for clinical drug trials. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile/tablet versions. Please note that the site’s content has been removed at the request of the client.</p>
+                        <p>The Dolomites website is a clinical drug trial sign-up form. The desktop layout was developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
                         <h3>Dolomites’ Features:</h3>
                         <ul>
                           <li>A fluidly responsive design that will look great on every possible device.</li>
-                          <li>A CSS technique used to ensure that sections of the site (sections that have background images applied to them), maintain a consistent ratio as the site is resized.</li>
+                          <li>A CSS technique used to ensure that sections of the site (sections that have background images applied to them), maintain a consistent ratio as the page is resized.</li>
                           <li>Background images that scale down in their containers as the page is resized, without distorting or cropping.</li>
                         </ul>
                       </div>
@@ -344,7 +343,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>Program35</h2>
-                        <p>Hill Holliday, an ad agency in Boston, U.S.A., needed a site where applicants could go to apply for their creative internship program.  Their designers created the bold concept. They then requested that I develop Program 35 to look and act like a “machine,” and gave me complete creative freedom to build it.</p>
+                        <p>Hill Holliday needed a site where applicants could go to apply for their creative internship program.  Their designers created the bold concept. They then requested that I develop Program 35 to look and act like a “machine,” and gave me complete creative freedom to build it.</p>
                         <h3>Program 35 Features:</h3>
                         <ul>
                           <li>Responsive design.</li>

@@ -8,7 +8,7 @@
 
   .featherlight-inner {
     position: relative;
-    min-height: 500px;
+    min-height: 550px;
     display: flex;
     align-items: center;
     background-color: #f2f2f2;
@@ -68,6 +68,20 @@
     ul {
       margin: 5px 0;
       padding-left: 15px;
+    }
+  }
+
+  #academicPortfolio {
+    h2 {
+      margin: 0 0 5px 0;
+    }
+
+    .leonidTitle,
+    .leonidUniversity {
+      display: block;
+      font-family: "BebasNeue";
+      text-align: center;
+      letter-spacing: 1px;
     }
   }
 
