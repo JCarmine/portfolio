@@ -318,7 +318,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>The Southcentral Alaska Science Catalog</h2>
-                        <p>The Catalog is a web-application that was created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
+                        <p>The Catalog is a rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
                         <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
                         <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
                       </div>
