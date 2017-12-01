@@ -18,12 +18,21 @@
   .featherlight-next {
     span {
       color: $dk-grey;
+      width: initial;
     }
   }
 
   .featherlight-next:hover,
   .featherlight-previous:hover {
     background: rgba(0,0,0,.10)
+  }
+
+  .featherlight-previous {
+    right: 90%;
+  }
+
+  .featherlight-next {
+    left: 90%;
   }
 
   .contentLeft {
