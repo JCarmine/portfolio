@@ -278,33 +278,6 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#dolomites">
-                    <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="dolomites">
-                      <div class="contentLeft">
-                        <img src="images/dolomites_large_image.png" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                        <a href='demos/dolomites/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>Dolomites</h2>
-                        <p>The Dolomites website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
-                        <h3>Dolomites’ Features:</h3>
-                        <ul>
-                          <li>A fluidly responsive design that will look great on every possible device.</li>
-                          <li>A CSS technique used to ensure that sections of the site (sections that have background images applied to them), maintain a consistent ratio as the page is resized.</li>
-                          <li>Background images that scale down in their containers as the page is resized, without distorting or cropping.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
                   <a class="gallery" href="#sc">
                     <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                   </a>
@@ -321,37 +294,6 @@
                         <p>The Catalog is a rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
                         <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
                         <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="gallery" href="#program35">
-                    <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="program35">
-                      <div class="contentLeft">
-                        <img src="images/program35_large_image.png" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
-                        <a href='demos/program35/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>Program35</h2>
-                        <p>Hill Holliday needed a site where applicants could go to apply for their creative internship program.  Their designers created the bold concept. They then requested that I develop Program 35 to look and act like a “machine,” and gave me complete creative freedom to build it.</p>
-                        <h3>Program 35 Features:</h3>
-                        <ul>
-                          <li>Responsive design.</li>
-                          <li>A large, bold logo that displays immediately on page load, and then shrinks on site navigation.</li>
-                          <li>The use of jQuery animate to resize the logo on page navigation.</li>
-                          <li>A 3rd party jQuery plugin to add in the vertical sliding navigation.</li>
-                          <li>An HTML form complete with form validation and AJAX submission.</li>
-                        </ul>
                       </div>
                     </div>
                   </div>
