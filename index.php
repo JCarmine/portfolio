@@ -172,7 +172,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>Gazelle</h2>
-                        <p>As a Software Engineer for Gazelle, I am currently responsible for improving the user experience through site-speed optimization and re-developing the mobile experience.</p>
+                        <p>As a Software Engineer II for Gazelle, I am currently the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
                         <h3>Specific responsibilities include:</h3>
                         <ul>
                           <li>Developing the front-end for a reCommerce platform built on Bigcommerce.</li>
@@ -264,7 +264,8 @@
                       </div>
                       <div class="contentRight">
                         <h2>Harmony</h2>
-                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. Please note that the site’s content has been removed at the request of the client.</p>
+                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was
+responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
                         <h3>Harmony’s Features:</h3>
                         <ul>
                           <li>A fully responsive design that will look great on every possible device.</li>
@@ -291,7 +292,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>The Southcentral Alaska Science Catalog</h2>
-                        <p>The Catalog is a rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
+                        <p>The Catalog is a Ruby on Rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
                         <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
                         <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
                       </div>
@@ -436,7 +437,7 @@
                       </div>
                       <div class="formblock">
                         <label class="screen-reader-text" for="email">EMAIL:</label>
-                        <input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" />
+                        <input type="email" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" />
                         <br>
                         <?php if($emailError != '') { ?>
                         <br /><span class="error"><?php echo $emailError;?></span>
