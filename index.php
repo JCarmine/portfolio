@@ -252,7 +252,7 @@
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#harmony">
-                    <img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                    <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
                   </a>
                   <div style="display: none;">
                     <div class="lightboxContent" id="harmony">
@@ -279,7 +279,7 @@
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#sc">
-                    <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                    <img src="images/sc_small_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                   </a>
                   <div style="display: none;">
                     <div class="lightboxContent" id="sc">
