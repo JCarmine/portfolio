@@ -1,0 +1,4 @@
+node_modules/
+**/*.scssc
+styles/main.css
+styles/main.css.map

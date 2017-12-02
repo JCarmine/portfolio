@@ -8,8 +8,10 @@
   <meta name="description" content="Hello, I'm Jesse Carmine and welcome to my portfolio, I’m a Web Developer from Portland, OR U.S.A. I create unique and elegant responsive web designs that look great and work perfectly, on any device." />
   <meta name="author" content="Jesse Carmine">
   <title>Jesse Carmine - Web Developer</title>
-  <link rel="icon" href="images/favicon.ico?v=2">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="images/favicon.ico?v=1">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
@@ -53,9 +55,9 @@
     <div id="homepage" style="display: none;">
       <div class="wrap">
         <div class="whiteBox background">
-          <h2>
+          <h1>
               Welcome
-          </h2>
+          </h1>
           <p class="mobile center">
             I create unique and elegant websites that both look great and work perfectly, on any device.
           </p>
@@ -89,7 +91,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
       </div>
     </div>
@@ -97,15 +99,13 @@
     <section id="about" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
-          <h2>
-             About
-          </h2>
+          <h1>About</h1>
           <div class="section group">
             <div class="col span_2_of_3 center">
-              <h3>
+              <h2>
                  Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Portland, OR U.S.A.
-              </h3>
-              <p>Graphic design and creating innovative web experiences have always been passions of mine. With two years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
+              </h2>
+              <p>Graphic design and creating innovative web experiences have always been passions of mine. With over 4 years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
               <p>Need more detail? Click below to download my resume.</p>
               <div>
                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.5" target="_blank">
@@ -146,7 +146,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
       </div>
     </section>
@@ -154,183 +154,186 @@
     <section id="portfolio" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
-          <h2>
-              Portfolio
-          </h2>
-          <div class="desktop">
+          <h1>Portfolio</h1>
+          <section data-featherlight-gallery data-featherlight-filter="a">
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="fancybox" data-title-id="title-1" href="images/gazelle_large_image.jpg">
+                  <a class="gallery" href="#zambezi">
                     <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
                   </a>
-                  <div id="title-1" class="hidden">
-                    <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="zambezi">
+                      <div class="contentLeft">
+                        <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
+                        <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Gazelle</h2>
+                        <p>As a Software Engineer II for Gazelle, I am currently the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
+                        <h3>Specific responsibilities include:</h3>
+                        <ul>
+                          <li>Developing the front-end for a reCommerce platform built on Bigcommerce.</li>
+                          <li>Increasing engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
+                          <li>Improving site performance to enhance the UX, especially for mobile users.</li>
+                          <li>Integrating Gulp.js into the workflow to improve code quality and speed up the development process.</li>
+                          <li>Updating build system to enable the use of ES6 and SASS.</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="fancybox" data-title-id="title-2" href="images/stride_rite_large_image.jpg">
+                  <a class="gallery" href="#strideRite">
                     <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
                   </a>
-                  <div id="title-2" class="hidden">
-                    <a href='http://www.striderite.com/en/home' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="strideRite">
+                      <div class="contentLeft">
+                        <img src="images/stride_rite_large_image.png" alt="Portfolio example - Stride Rite Shoes">
+                        <a href='http://www.striderite.com/en/home' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Stride Rite</h2>
+                        <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
+                        <h3>Specific responsibilities included:</h3>
+                        <ul>
+                          <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
+                          <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
+                          <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
+                          <li>Refactoring CSS, using SASS, to reflect mobile-first design principals.</li>
+                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
+                        </ul>
+                      </div>
+
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="fancybox" data-title-id="title-3" href="images/academic_large_image.jpg">
+                  <a class="gallery" href="#academicPortfolio">
                     <img src="images/academic_small_image.jpg" alt="Portfolio example - Academic Portfolio">
                   </a>
-                  <div id="title-3" class="hidden">
-                    <a href='http://www.sfu.ca/~leonid/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="academicPortfolio">
+                      <div class="contentLeft">
+                        <img src="images/academic_large_image.png" alt="Portfolio example - Academic Portfolio">
+                        <a href='http://www.sfu.ca/~leonid/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Leonid Chindelevitch</h2>
+                        <span class="leonidTitle">Assistant Professor</span>
+                        <span class="leonidUniversity">Simon Frasier University</span>
+                        <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio, so that he could share his work with the world.</p>
+                        <h3>This Portfolio Features:</h3>
+                        <ul>
+                          <li>A fully responsive, clean, and non-distracting design.</li>
+                          <li>Clean and well organized code that adheres to the most modern web standards including HTML5 and CSS3.</li>
+                          <li>Google Maps API that will allow visitors to easily find his lab.</li>
+                          <li>Social media links that will drive visitors to his presence on LinkedIn.</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="fancybox" data-title-id="title-4" href="images/harmony_large_image.jpg">
-                    <img src="images/harmony_small_image.jpg" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                  <a class="gallery" href="#harmony">
+                    <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
                   </a>
-                  <div id="title-4" class="hidden">
-                    <a href='demos/harmony/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="harmony">
+                      <div class="contentLeft">
+                        <img src="images/harmony_large_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                        <a href='demos/harmony/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Harmony</h2>
+                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was
+responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
+                        <h3>Harmony’s Features:</h3>
+                        <ul>
+                          <li>A fully responsive design that will look great on every possible device.</li>
+                          <li>A mobile menu to aid in site navigation.</li>
+                          <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="fancybox" data-title-id="title-5" href="images/dolomites_large_image.jpg">
-                    <img src="images/dolomites_small_image.jpg" alt="Portfolio example - Dolomites Website for BBK Worldwide">
+                  <a class="gallery" href="#sc">
+                    <img src="images/sc_small_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                   </a>
-                  <div id="title-5" class="hidden">
-                    <a href='demos/dolomites/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="sc">
+                      <div class="contentLeft">
+                        <img src="images/sc_large_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
+                        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>The Southcentral Alaska Science Catalog</h2>
+                        <p>The Catalog is a Ruby on Rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
+                        <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
+                        <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="fancybox" data-title-id="title-6" href="images/large_image.jpg">
-                    <img src="images/sc_small_image.jpg" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                  </a>
-                  <div id="title-6" class="hidden">
-                    <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-7" href="images/program35_large_image.jpg">
-                    <img src="images/program35_small_image.jpg" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
-                  </a>
-                  <div id="title-7" class="hidden">
-                    <a href='demos/program35/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Visit Site</button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="fancybox" data-title-id="title-8" href="images/email_large_image.jpg">
+                  <a class="gallery" href="#email">
                     <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
                   </a>
-                  <div id="title-8" class="hidden">
-                    <a href='demos/email/' target='_blank'>
-                      <button type="button" class="btn btn-primary">Take the Tour</button>
-                    </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="email">
+                      <div class="contentLeft">
+                        <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
+                        <a href='demos/email/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Take the Tour</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Email Newsletters</h2>
+                        <p>HTML emails are a great way to connect with your audience. Use them to keep your subscribers informed, or to send transactional emails from your web app. I can offer the following services to help you develop the perfect campaign:</p>
+                        <ul>
+                          <li>Fixed-width or responsive development.</li>
+                          <li>A proprietary template that will ensure your email looks great on 30+ email clients and devices.</li>
+                          <li>Complete conceptualization, design, and development of your newsletters.</li>
+                          <li>Development of pre-designed comps.</li>
+                        </ul>
+                        <p>Interested in learning more about HTML email or seeing an example of my work? Take a tour powered by Zurb’s Joyride.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!--end desktop-->
-          <div class="mobile">
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
-                    <img src="images/gazelle_small_image.jpg" width="280" height="187" alt="Portfolio example - Gazelle">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://www.striderite.com/en/rosiepope/' target='_blank'>
-                    <img src="images/stride_rite_small_image.jpg" width="280" height="187" alt="Portfolio example - Stride Rite Shoes">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://www.sfu.ca/~leonid/' target='_blank'>
-                    <img src="images/academic_small_image.jpg" width="280" height="187" alt="Portfolio example - Academic Portfolio">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/harmony/' target='_blank'>
-                    <img src="images/harmony_small_image.jpg" width="280" height="187" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/dolomites/' target='_blank'>
-                    <img src="images/dolomites_small_image.jpg" width="280" height="187" alt="Portfolio example - Dolomites Website for BBK Worldwide">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/program35/' target='_blank'>
-                    <img src="images/program35_small_image.jpg" width="280" height="187" alt="Portfolio example - Program 35 Intern Sign-up Form for Hill Holliday">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="section group">
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                    <img src="images/sc_small_image.jpg" width="280" height="187" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                  </a>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a href='demos/email/' target='_blank'>
-                    <img src="images/email_small_image.jpg" width="280" height="187" alt="Portfolio example - Email coding example">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--/.mobile-->
+          </section>
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
         <!--/.footerBox-->
       </div>
@@ -340,9 +343,7 @@
     <section id="contact" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
-          <h2>
-			      Contact
-           </h2>
+          <h1>Contact</h1>
           <div class="section group">
             <div class="col span_1_of_2 center">
               <p>
@@ -436,7 +437,7 @@
                       </div>
                       <div class="formblock">
                         <label class="screen-reader-text" for="email">EMAIL:</label>
-                        <input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" />
+                        <input type="email" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="" />
                         <br>
                         <?php if($emailError != '') { ?>
                         <br /><span class="error"><?php echo $emailError;?></span>
@@ -464,7 +465,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2016</span>
+          <span>&#169; Jesse Carmine 2017</span>
         </div>
       </div>
     </section>
@@ -482,6 +483,19 @@
 
   <!-- Load fancybox.js to drive slider on Portfolio page. -->
   <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $('a.gallery').featherlightGallery({
+      previousIcon: '«',
+      nextIcon: '»',
+      galleryFadeIn: 300,
+
+      openSpeed: 300
+    });
+  </script>
 
   <!-- Allows for site tracking with Google Analytics. -->
   <script>
@@ -568,6 +582,8 @@
     });
   });
   </script>
+
+
 
 </body>
 
