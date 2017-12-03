@@ -251,34 +251,6 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#harmony">
-                    <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="harmony">
-                      <div class="contentLeft">
-                        <img src="images/harmony_large_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                        <a href='demos/harmony/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>Harmony</h2>
-                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was
-responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
-                        <h3>Harmony’s Features:</h3>
-                        <ul>
-                          <li>A fully responsive design that will look great on every possible device.</li>
-                          <li>A mobile menu to aid in site navigation.</li>
-                          <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
                   <a class="gallery" href="#sc">
                     <img src="images/sc_small_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
                   </a>
@@ -302,27 +274,47 @@ responsible for designing and developing the mobile version. Please note that th
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#email">
-                    <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
+                  <a class="gallery" href="#gazelleTrade">
+                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
                   </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="email">
+                    <div class="lightboxContent" id="gazelleTrade">
                       <div class="contentLeft">
-                        <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
+                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
                         <a href='demos/email/' target='_blank'>
                           <button type="button" class="btn btn-primary">Take the Tour</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>Email Newsletters</h2>
-                        <p>HTML emails are a great way to connect with your audience. Use them to keep your subscribers informed, or to send transactional emails from your web app. I can offer the following services to help you develop the perfect campaign:</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#harmony">
+                    <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="harmony">
+                      <div class="contentLeft">
+                        <img src="images/harmony_large_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
+                        <a href='demos/harmony/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Harmony</h2>
+                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was
+responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
+                        <h3>Harmony’s Features:</h3>
                         <ul>
-                          <li>Fixed-width or responsive development.</li>
-                          <li>A proprietary template that will ensure your email looks great on 30+ email clients and devices.</li>
-                          <li>Complete conceptualization, design, and development of your newsletters.</li>
-                          <li>Development of pre-designed comps.</li>
+                          <li>A fully responsive design that will look great on every possible device.</li>
+                          <li>A mobile menu to aid in site navigation.</li>
+                          <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
                         </ul>
-                        <p>Interested in learning more about HTML email or seeing an example of my work? Take a tour powered by Zurb’s Joyride.</p>
                       </div>
                     </div>
                   </div>
