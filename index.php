@@ -188,30 +188,20 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#strideRite">
-                    <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                  <a class="gallery" href="#gazelleTrade">
+                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
                   </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="strideRite">
+                    <div class="lightboxContent" id="gazelleTrade">
                       <div class="contentLeft">
-                        <img src="images/stride_rite_large_image.png" alt="Portfolio example - Stride Rite Shoes">
-                        <a href='http://www.striderite.com/en/home' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
+                        <a href='demos/email/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Take the Tour</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>Stride Rite</h2>
-                        <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
-                        <h3>Specific responsibilities included:</h3>
-                        <ul>
-                          <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
-                          <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
-                          <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
-                          <li>Refactoring CSS, using SASS, to reflect mobile-first design principals.</li>
-                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
-                        </ul>
-                      </div>
 
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -247,8 +237,36 @@
                 </div>
               </div>
             </div>
-
             <div class="section group">
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#strideRite">
+                    <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="strideRite">
+                      <div class="contentLeft">
+                        <img src="images/stride_rite_large_image.png" alt="Portfolio example - Stride Rite Shoes">
+                        <a href='http://www.striderite.com/en/home' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Stride Rite</h2>
+                        <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
+                        <h3>Specific responsibilities included:</h3>
+                        <ul>
+                          <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
+                          <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
+                          <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
+                          <li>Refactoring CSS, using SASS, to reflect mobile-first design principals.</li>
+                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#sc">
@@ -274,26 +292,6 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#gazelleTrade">
-                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="gazelleTrade">
-                      <div class="contentLeft">
-                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
-                        <a href='demos/email/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Take the Tour</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
                   <a class="gallery" href="#harmony">
                     <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
                   </a>
@@ -307,8 +305,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>Harmony</h2>
-                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was
-responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
+                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
                         <h3>Harmony’s Features:</h3>
                         <ul>
                           <li>A fully responsive design that will look great on every possible device.</li>
