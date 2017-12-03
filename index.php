@@ -159,8 +159,28 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
+                  <a class="gallery" href="#gazelleTrade">
+                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="gazelleTrade">
+                      <div class="contentLeft">
+                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
+                        <a href='demos/email/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Take the Tour</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
                   <a class="gallery" href="#zambezi">
-                    <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
+                    <img src="images/gazelle_small_image.png" alt="Portfolio example - Gazelle">
                   </a>
                   <div style="display: none;">
                     <div class="lightboxContent" id="zambezi">
@@ -181,26 +201,6 @@
                           <li>Integrating Gulp.js into the workflow to improve code quality and speed up the development process.</li>
                           <li>Updating build system to enable the use of ES6 and SASS.</li>
                         </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="gallery" href="#gazelleTrade">
-                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="gazelleTrade">
-                      <div class="contentLeft">
-                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
-                        <a href='demos/email/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Take the Tour</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-
                       </div>
                     </div>
                   </div>
