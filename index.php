@@ -166,12 +166,21 @@
                     <div class="lightboxContent" id="gazelleTrade">
                       <div class="contentLeft">
                         <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
-                        <a href='demos/email/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Take the Tour</button>
+                        <a href='http://www.gazelle.com/trade-in' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
                       <div class="contentRight">
-
+                        <h2>Gazelle Trade-In</h2>
+                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I'm working to ensure the app remains on the cutting edge</p>
+                        <h3>Specific responsibilities include:</h3>
+                        <ul>
+                          <li>React</li>
+                          <li>SASS, theme</li>
+                          <li>Ruby on Rails, reactonrails</li>
+                          <li>Jasmine</li>
+                          <li></li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -191,7 +200,7 @@
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>Gazelle</h2>
+                        <h2>buy.gazelle.com</h2>
                         <p>As a Software Engineer II for Gazelle, I am currently the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
                         <h3>Specific responsibilities include:</h3>
                         <ul>
