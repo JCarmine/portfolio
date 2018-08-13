@@ -120,7 +120,7 @@
               </div>
               <span>JavaScript/jQuery</span>
               <div class="progress">
-                <div class="bar" style="width: 90%;"></div>
+                <div class="bar" style="width: 100%;"></div>
               </div>
               <span>React</span>
               <div class="progress">
