@@ -128,7 +128,7 @@
               </div>
               <span>PHP</span>
               <div class="progress">
-                <div class="bar" style="width: 30%;"></div>
+                <div class="bar" style="width: 40%;"></div>
               </div>
               <span>WordPress</span>
               <div class="progress">
@@ -172,14 +172,14 @@
                       </div>
                       <div class="contentRight">
                         <h2>Gazelle Trade-In</h2>
-                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I'm working to modernize the app utilizing React, Bootstrap, and SASS.</p>
-                        <h3>Specific responsibilities include:</h3>
+                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
+                        <h3>Specific responsibilities included:</h3>
                         <ul>
-                          <li>Updating existing JS apps with highly structured and maintainable React components</li>
-                          <li>Utilizing SASS </li>
-                          <li>Ruby on Rails, reactonrails</li>
-                          <li>Jasmine</li>
-                          <li></li>
+                          <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps</li>
+                          <li>Added JavaScript testing to project utilizing Jasmine</li>
+                          <li>Implemented a modern design system using Sass</li>
+                          <li>Retrofitted existing pages, using Bootstrap, to standardize views and improve maintainability</li>
+                          <li>Improved accessibility of application through enforcing coding standards and best-practices</li>
                         </ul>
                       </div>
                     </div>
@@ -208,7 +208,7 @@
                           <li>Increasing engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
                           <li>Improving site performance to enhance the UX, especially for mobile users.</li>
                           <li>Integrating Gulp.js into the workflow to improve code quality and speed up the development process.</li>
-                          <li>Updating build system to enable the use of ES6 and SASS.</li>
+                          <li>Updating build system to enable the use of ES6 and Sass.</li>
                         </ul>
                       </div>
                     </div>
@@ -268,7 +268,7 @@
                           <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
                           <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
                           <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
-                          <li>Refactoring CSS, using SASS, to reflect mobile-first design principals.</li>
+                          <li>Refactoring CSS, using Sass, to reflect mobile-first design principals.</li>
                           <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
                         </ul>
                       </div>
