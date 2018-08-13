@@ -175,11 +175,11 @@
                         <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
                         <h3>Specific responsibilities included:</h3>
                         <ul>
-                          <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps</li>
-                          <li>Added JavaScript testing to project utilizing Jasmine</li>
-                          <li>Implemented a modern design system using Sass</li>
-                          <li>Retrofitted existing pages, using Bootstrap, to standardize views and improve maintainability</li>
-                          <li>Improved accessibility of application through enforcing coding standards and best-practices</li>
+                          <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps.</li>
+                          <li>Added JavaScript testing to project utilizing Jasmine.</li>
+                          <li>Implemented a modern design system using Sass.</li>
+                          <li>Retrofitted existing pages, using Bootstrap, to standardize views and improve maintainability.</li>
+                          <li>Improved accessibility of application through enforcing coding standards and best-practices.</li>
                         </ul>
                       </div>
                     </div>
