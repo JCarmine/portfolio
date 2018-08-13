@@ -201,14 +201,14 @@
                       </div>
                       <div class="contentRight">
                         <h2>buy.gazelle.com</h2>
-                        <p>As a Software Engineer II for Gazelle, I am currently the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
-                        <h3>Specific responsibilities include:</h3>
+                        <p>As a Software Engineer II for Gazelle, I served as the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
+                        <h3>Specific responsibilities included:</h3>
                         <ul>
-                          <li>Developing the front-end for a reCommerce platform built on Bigcommerce.</li>
-                          <li>Increasing engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
-                          <li>Improving site performance to enhance the UX, especially for mobile users.</li>
-                          <li>Integrating Gulp.js into the workflow to improve code quality and speed up the development process.</li>
-                          <li>Updating build system to enable the use of ES6 and Sass.</li>
+                          <li>Developed the front-end for a reCommerce platform built on Bigcommerce.</li>
+                          <li>Increased engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
+                          <li>Improved site performance to enhance the UX, especially for mobile users.</li>
+                          <li>Integrated Gulp into the workflow to improve code quality and speed up the development process.</li>
+                          <li>Updated build system to enable the use of ES6 and Sass.</li>
                         </ul>
                       </div>
                     </div>
