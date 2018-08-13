@@ -278,29 +278,6 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#sc">
-                    <img src="images/sc_small_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="sc">
-                      <div class="contentLeft">
-                        <img src="images/sc_large_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>The Southcentral Alaska Science Catalog</h2>
-                        <p>The Catalog is a Ruby on Rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
-                        <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
-                        <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
                   <a class="gallery" href="#harmony">
                     <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
                   </a>
@@ -321,6 +298,34 @@
                           <li>A mobile menu to aid in site navigation.</li>
                           <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
                         </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#email">
+                    <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="email">
+                      <div class="contentLeft">
+                        <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
+                        <a href='demos/email/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Take the Tour</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Email Newsletters</h2>
+                        <p>HTML emails are a great way to connect with your audience. Use them to keep your subscribers informed, or to send transactional emails from your web app. I can offer the following services to help you develop the perfect campaign:</p>
+                        <ul>
+                          <li>Fixed-width or responsive development.</li>
+                          <li>A proprietary template that will ensure your email looks great on 30+ email clients and devices.</li>
+                          <li>Complete conceptualization, design, and development of your newsletters.</li>
+                          <li>Development of pre-designed comps.</li>
+                        </ul>
+                        <p>Interested in learning more about HTML email or seeing an example of my work? Take a tour powered by Zurb’s Joyride.</p>
                       </div>
                     </div>
                   </div>
