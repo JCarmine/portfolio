@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
       </div>
     </div>
@@ -126,9 +126,9 @@
               <div class="progress">
                 <div class="bar" style="width: 90%;"></div>
               </div>
-              <span>PHP</span>
+              <span>Sass</span>
               <div class="progress">
-                <div class="bar" style="width: 40%;"></div>
+                <div class="bar" style="width: 100%;"></div>
               </div>
               <span>WordPress</span>
               <div class="progress">
@@ -146,7 +146,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
       </div>
     </section>
@@ -336,7 +336,7 @@
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
         <!--/.footerBox-->
       </div>
@@ -468,7 +468,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
       </div>
     </section>
