@@ -172,11 +172,11 @@
                       </div>
                       <div class="contentRight">
                         <h2>Gazelle Trade-In</h2>
-                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I'm working to ensure the app remains on the cutting edge</p>
+                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I'm working to modernize the app utilizing React, Bootstrap, and SASS.</p>
                         <h3>Specific responsibilities include:</h3>
                         <ul>
-                          <li>React</li>
-                          <li>SASS, theme</li>
+                          <li>Updating existing JS apps with highly structured and maintainable React components</li>
+                          <li>Utilizing SASS </li>
                           <li>Ruby on Rails, reactonrails</li>
                           <li>Jasmine</li>
                           <li></li>
@@ -195,7 +195,7 @@
                     <div class="lightboxContent" id="zambezi">
                       <div class="contentLeft">
                         <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
-                        <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
+                        <a href='http://buy.gazelle.com/' target='_blank'>
                           <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
