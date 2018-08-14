@@ -278,6 +278,35 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
+                  <a class="gallery" href="#kayak">
+                    <img src="images/kayak_small_image.png" alt="Portfolio example - Kayak Guatemala">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="kayak">
+                      <div class="contentLeft">
+                        <img src="images/kayak_large_image.png" alt="Portfolio example - Kayak Guatemala">
+                        <a href='http://kayakguatemala.com/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Kayak Guatemala</h2>
+                        <p>KayakGuatemala.com is a WordPress site that was created to help prospective customers discover the possibilities for vacationing on Lake Atitlan, Guatemala. </p>
+                        <p>However, despite its great design, the site suffered from low traffic, and subsequently, low conversions. I took the following steps to improve the website's performance and SEO:</p>
+                        <ul>
+                          <li>Installed a CDN (Content Delivery Network).</li>
+                          <li>Improved website speed through asset delivery optimization and image compression.</li>
+                          <li>Added unique meta titles and descriptions for each page.</li>
+                          <li>Setup Google Analytics and Google Search Console (GSC).</li>
+                          <li>Restructured site URLs and submitted sitemap to GSC.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
                   <a class="gallery" href="#harmony">
                     <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
                   </a>
@@ -298,34 +327,6 @@
                           <li>A mobile menu to aid in site navigation.</li>
                           <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
                         </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="gallery" href="#email">
-                    <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="email">
-                      <div class="contentLeft">
-                        <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
-                        <a href='demos/email/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Take the Tour</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>Email Newsletters</h2>
-                        <p>HTML emails are a great way to connect with your audience. Use them to keep your subscribers informed, or to send transactional emails from your web app. I can offer the following services to help you develop the perfect campaign:</p>
-                        <ul>
-                          <li>Fixed-width or responsive development.</li>
-                          <li>A proprietary template that will ensure your email looks great on 30+ email clients and devices.</li>
-                          <li>Complete conceptualization, design, and development of your newsletters.</li>
-                          <li>Development of pre-designed comps.</li>
-                        </ul>
-                        <p>Interested in learning more about HTML email or seeing an example of my work? Take a tour powered by Zurb’s Joyride.</p>
                       </div>
                     </div>
                   </div>
