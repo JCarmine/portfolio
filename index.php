@@ -233,7 +233,7 @@
                         <span class="leonidTitle">Assistant Professor</span>
                         <span class="leonidUniversity">Simon Frasier University</span>
                         <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio, so that he could share his work with the world.</p>
-                        <h3>This Portfolio Features:</h3>
+                        <h3>His Portfolio Features:</h3>
                         <ul>
                           <li>A fully responsive, clean, and non-distracting design.</li>
                           <li>Clean and well organized code that adheres to the most modern web standards including HTML5 and CSS3.</li>
@@ -485,9 +485,6 @@
   <!-- Load bootstrap js to drive slider on home page. -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-  <!-- Load fancybox.js to drive slider on Portfolio page. -->
-  <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
-
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -537,21 +534,6 @@
     $('.carousel').carousel({
       interval: 9000
     });
-
-    /* Initialize lightbox feature on Portfolio page. */
-    $(".fancybox")
-      .attr('rel', 'gallery')
-      .fancybox({
-        beforeLoad: function() {
-          var el, id = $(this.element).data('title-id');
-          if (id) {
-            el = $('#' + id);
-            if (el.length) {
-              this.title = el.html();
-            }
-          }
-        }
-      });
 
     /* Validation for form on Contact page. */
     $('form#contact-us').submit(function() {
