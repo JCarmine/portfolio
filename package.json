@@ -4,10 +4,9 @@
   "description": "Jesse's Portfolio",
   "main": "index.js",
   "dependencies": {
+    "livereload": "^0.7.0"
   },
-  "devDependencies": {
-    "node-php-awesome-server": "^1.1.5"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

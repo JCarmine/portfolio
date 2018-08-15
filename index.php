@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
       </div>
     </div>
@@ -120,19 +120,19 @@
               </div>
               <span>JavaScript/jQuery</span>
               <div class="progress">
+                <div class="bar" style="width: 100%;"></div>
+              </div>
+              <span>React</span>
+              <div class="progress">
                 <div class="bar" style="width: 90%;"></div>
               </div>
-              <span>PHP</span>
+              <span>Sass</span>
               <div class="progress">
-                <div class="bar" style="width: 30%;"></div>
+                <div class="bar" style="width: 100%;"></div>
               </div>
               <span>WordPress</span>
               <div class="progress">
                 <div class="bar" style="width: 80%;"></div>
-              </div>
-              <span>Hand Coding</span>
-              <div class="progress">
-                <div class="bar" style="width: 100%;"></div>
               </div>
               <span>Photoshop</span>
               <div class="progress">
@@ -146,7 +146,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
       </div>
     </section>
@@ -159,27 +159,27 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#zambezi">
-                    <img src="images/gazelle_small_image.jpg" alt="Portfolio example - Gazelle">
+                  <a class="gallery" href="#gazelleTrade">
+                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
                   </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="zambezi">
+                    <div class="lightboxContent" id="gazelleTrade">
                       <div class="contentLeft">
-                        <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
-                        <a href='http://buy.gazelle.com/gazelle-certified-electronics' target='_blank'>
+                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
+                        <a href='http://www.gazelle.com/trade-in' target='_blank'>
                           <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>Gazelle</h2>
-                        <p>As a Software Engineer II for Gazelle, I am currently the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
-                        <h3>Specific responsibilities include:</h3>
+                        <h2>Gazelle Trade-In</h2>
+                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
+                        <h3>Specific responsibilities included:</h3>
                         <ul>
-                          <li>Developing the front-end for a reCommerce platform built on Bigcommerce.</li>
-                          <li>Increasing engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
-                          <li>Improving site performance to enhance the UX, especially for mobile users.</li>
-                          <li>Integrating Gulp.js into the workflow to improve code quality and speed up the development process.</li>
-                          <li>Updating build system to enable the use of ES6 and SASS.</li>
+                          <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps.</li>
+                          <li>Added JavaScript testing to project utilizing Jasmine.</li>
+                          <li>Implemented a modern design system using Sass.</li>
+                          <li>Retrofitted existing pages, using Bootstrap, to standardize views and improve maintainability.</li>
+                          <li>Improved accessibility of application through enforcing coding standards and best-practices.</li>
                         </ul>
                       </div>
                     </div>
@@ -188,30 +188,29 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#strideRite">
-                    <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                  <a class="gallery" href="#zambezi">
+                    <img src="images/gazelle_small_image.png" alt="Portfolio example - Gazelle">
                   </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="strideRite">
+                    <div class="lightboxContent" id="zambezi">
                       <div class="contentLeft">
-                        <img src="images/stride_rite_large_image.png" alt="Portfolio example - Stride Rite Shoes">
-                        <a href='http://www.striderite.com/en/home' target='_blank'>
+                        <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
+                        <a href='http://buy.gazelle.com/' target='_blank'>
                           <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>Stride Rite</h2>
-                        <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
+                        <h2>buy.gazelle.com</h2>
+                        <p>As a Software Engineer II for Gazelle, I served as the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
                         <h3>Specific responsibilities included:</h3>
                         <ul>
-                          <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
-                          <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
-                          <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
-                          <li>Refactoring CSS, using SASS, to reflect mobile-first design principals.</li>
-                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
+                          <li>Developed the front-end for a reCommerce platform built on Bigcommerce.</li>
+                          <li>Increased engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
+                          <li>Improved site performance to enhance the UX, especially for mobile users.</li>
+                          <li>Integrated Gulp into the workflow to improve code quality and speed up the development process.</li>
+                          <li>Updated build system to enable the use of ES6 and Sass.</li>
                         </ul>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -234,7 +233,7 @@
                         <span class="leonidTitle">Assistant Professor</span>
                         <span class="leonidUniversity">Simon Frasier University</span>
                         <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio, so that he could share his work with the world.</p>
-                        <h3>This Portfolio Features:</h3>
+                        <h3>His Portfolio Features:</h3>
                         <ul>
                           <li>A fully responsive, clean, and non-distracting design.</li>
                           <li>Clean and well organized code that adheres to the most modern web standards including HTML5 and CSS3.</li>
@@ -247,8 +246,65 @@
                 </div>
               </div>
             </div>
-
             <div class="section group">
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#strideRite">
+                    <img src="images/stride_rite_small_image.jpg" alt="Portfolio example - Stride Rite Shoes">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="strideRite">
+                      <div class="contentLeft">
+                        <img src="images/stride_rite_large_image.png" alt="Portfolio example - Stride Rite Shoes">
+                        <a href='http://www.striderite.com/en/home' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Stride Rite</h2>
+                        <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
+                        <h3>Specific responsibilities included:</h3>
+                        <ul>
+                          <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
+                          <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
+                          <li>Re-designing/developing the site to improve the UX and performance for mobile users.</li>
+                          <li>Refactoring CSS, using Sass, to reflect mobile-first design principals.</li>
+                          <li>Working with their designers, developers, and site-managers to rebrand the platform for fall 2015.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#kayak">
+                    <img src="images/kayak_small_image.png" alt="Portfolio example - Kayak Guatemala">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="kayak">
+                      <div class="contentLeft">
+                        <img src="images/kayak_large_image.png" alt="Portfolio example - Kayak Guatemala">
+                        <a href='http://kayakguatemala.com/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>Kayak Guatemala</h2>
+                        <p>KayakGuatemala.com is a WordPress site that was created to help prospective customers discover the possibilities for vacationing on Lake Atitlan, Guatemala. </p>
+                        <p>However, despite its great design, the site suffered from low traffic, and subsequently, low conversions. I took the following steps to improve the website's performance and SEO:</p>
+                        <ul>
+                          <li>Installed a CDN (Content Delivery Network).</li>
+                          <li>Improved website speed through asset delivery optimization and image compression.</li>
+                          <li>Added unique meta titles and descriptions for each page.</li>
+                          <li>Setup Google Analytics and Google Search Console (GSC).</li>
+                          <li>Restructured site URLs and submitted sitemap to GSC.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#harmony">
@@ -264,8 +320,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>Harmony</h2>
-                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was
-responsible for designing and developing the mobile version. Please note that the site’s content has been removed at the request of the client.</p>
+                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed, and the form disabled, at the request of the client.</p>
                         <h3>Harmony’s Features:</h3>
                         <ul>
                           <li>A fully responsive design that will look great on every possible device.</li>
@@ -277,63 +332,12 @@ responsible for designing and developing the mobile version. Please note that th
                   </div>
                 </div>
               </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="gallery" href="#sc">
-                    <img src="images/sc_small_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="sc">
-                      <div class="contentLeft">
-                        <img src="images/sc_large_image.png" alt="Portfolio example - The Southcentral Alaska Science Catalog">
-                        <a href='http://southcentral.epscor.alaska.edu/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>The Southcentral Alaska Science Catalog</h2>
-                        <p>The Catalog is a Ruby on Rails app created to enable the efficient collection and distribution of Alaska’s scientific data.</p>
-                        <p>I served as a front-end developer on the project, working to develop the CMS features, design the UI/UX, and develop innovative ways to help Catalog users learn how to use the feature-rich site.</p>
-                        <p>A few of my key contributions included designing the layouts for the Home and News pages, developing the back-end CMS features, and developing the interactive pop-up feature on the Help page. In addition, I created the design concept seen to the left.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="gallery" href="#email">
-                    <img src="images/email_small_image.jpg" alt="Portfolio example - Email coding example and tour">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="email">
-                      <div class="contentLeft">
-                        <img src="images/email_large_image.png" alt="Portfolio example - Email coding example and tour">
-                        <a href='demos/email/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Take the Tour</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>Email Newsletters</h2>
-                        <p>HTML emails are a great way to connect with your audience. Use them to keep your subscribers informed, or to send transactional emails from your web app. I can offer the following services to help you develop the perfect campaign:</p>
-                        <ul>
-                          <li>Fixed-width or responsive development.</li>
-                          <li>A proprietary template that will ensure your email looks great on 30+ email clients and devices.</li>
-                          <li>Complete conceptualization, design, and development of your newsletters.</li>
-                          <li>Development of pre-designed comps.</li>
-                        </ul>
-                        <p>Interested in learning more about HTML email or seeing an example of my work? Take a tour powered by Zurb’s Joyride.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
         <!--/.footerBox-->
       </div>
@@ -465,7 +469,7 @@ responsible for designing and developing the mobile version. Please note that th
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2017</span>
+          <span>&#169; Jesse Carmine 2018</span>
         </div>
       </div>
     </section>
@@ -480,9 +484,6 @@ responsible for designing and developing the mobile version. Please note that th
 
   <!-- Load bootstrap js to drive slider on home page. -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-  <!-- Load fancybox.js to drive slider on Portfolio page. -->
-  <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -533,21 +534,6 @@ responsible for designing and developing the mobile version. Please note that th
     $('.carousel').carousel({
       interval: 9000
     });
-
-    /* Initialize lightbox feature on Portfolio page. */
-    $(".fancybox")
-      .attr('rel', 'gallery')
-      .fancybox({
-        beforeLoad: function() {
-          var el, id = $(this.element).data('title-id');
-          if (id) {
-            el = $('#' + id);
-            if (el.length) {
-              this.title = el.html();
-            }
-          }
-        }
-      });
 
     /* Validation for form on Contact page. */
     $('form#contact-us').submit(function() {
