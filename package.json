@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "Jesse's Portfolio",
   "main": "index.js",
-  "dependencies": {
-    "livereload": "^0.7.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -22,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/JCarmine/Portfolio/issues"
   },
-  "homepage": "https://github.com/JCarmine/Portfolio#readme"
+  "homepage": "https://github.com/JCarmine/Portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
 }
