@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -91,7 +90,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2018</span>
+          <span>&#169; Jesse Carmine 2019</span>
         </div>
       </div>
     </div>
@@ -146,7 +145,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2018</span>
+          <span>&#169; Jesse Carmine 2019</span>
         </div>
       </div>
     </section>
@@ -337,7 +336,7 @@
         </div>
         <!--/.whiteBox-->
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2018</span>
+          <span>&#169; Jesse Carmine 2019</span>
         </div>
         <!--/.footerBox-->
       </div>
@@ -469,7 +468,7 @@
           </div>
         </div>
         <div class="footerBox center">
-          <span>&#169; Jesse Carmine 2018</span>
+          <span>&#169; Jesse Carmine 2019</span>
         </div>
       </div>
     </section>
@@ -477,13 +476,13 @@
   <!--/.contentSlide-->
 
   <!-- Load jQuery -->
-  <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
   <!-- Load jQuery plugin to handle navigation. -->
-  <script type="text/javascript" src="js/sliding_min.js"></script>
+  <script type="text/javascript" src="js/vendor/sliding_min.js"></script>
 
   <!-- Load bootstrap js to drive slider on home page. -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -493,7 +492,6 @@
       previousIcon: '«',
       nextIcon: '»',
       galleryFadeIn: 300,
-
       openSpeed: 300
     });
   </script>
@@ -563,14 +561,9 @@
             });
           });
         }
-
         return false;
       });
     });
   </script>
-
-
-
 </body>
-
 </html>
