@@ -10,7 +10,7 @@ var gulp = require("gulp"),
 var paths = {
   styles: {
     // By using styles/**/*.sass we're telling gulp to check all folders for any sass file
-    src: "./styles/scss/*.scss",
+    src: "./styles/scss/**/*.scss",
     // Compiled files will end up in whichever folder it's found in (partials are not compiled)
     dest: "./styles/"
   }
@@ -22,6 +22,7 @@ var paths = {
   // }
 };
 
+// Start the PHP server
 function phpServer() {
   php.server({
     base:'./',
@@ -61,9 +62,9 @@ function watch() {
     notify: false
 
     // Or, you can tell browserSync to use this directory and serve it as a mini-server
-      server: {
-        baseDir: "./"
-      }
+    // server: {
+    //   baseDir: "./"
+    // }
   });
   gulp.watch(paths.styles.src, style);
   // We should tell gulp which files to watch to trigger the reload
@@ -77,13 +78,14 @@ function watch() {
 // It's currently only useful in other functions
 
 // Don't forget to expose the tasks!
-exports.phpServer = phpServer;
-
-exports.watch = watch
 
 // Expose the task by exporting it
 // This allows you to run it from the commandline using
 // $ gulp style
+exports.phpServer = phpServer;
+
+exports.watch = watch
+
 exports.style = style;
 
 /*

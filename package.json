@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Jesse's Portfolio",
+  "description": "Portfolio for Jesse Carmine",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
@@ -19,6 +19,9 @@
     "url": "https://github.com/JCarmine/Portfolio/issues"
   },
   "homepage": "https://github.com/JCarmine/Portfolio#readme",
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "browser-sync": "^2.26.3",
