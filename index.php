@@ -158,14 +158,14 @@
             <div class="section group">
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#gazelleTrade">
-                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
+                  <a class="gallery" href="#revup">
+                    <img src="images/revup_small_image.png" alt="Portfolio example - RevUp">
                   </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="gazelleTrade">
+                    <div class="lightboxContent" id="revup">
                       <div class="contentLeft">
-                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
-                        <a href='http://www.gazelle.com/trade-in' target='_blank'>
+                        <img src="images/revup_large_image.png" alt="Portfolio example - RevUp">
+                        <a href='https://www.revup.com/' target='_blank'>
                           <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
@@ -187,27 +187,27 @@
               </div>
               <div class="col span_1_of_3">
                 <div class="center">
-                  <a class="gallery" href="#zambezi">
-                    <img src="images/gazelle_small_image.png" alt="Portfolio example - Gazelle">
+                  <a class="gallery" href="#gazelleTrade">
+                    <img src="images/gazelleTrade_small_image.png" alt="Portfolio example - Gazelle Trade-In">
                   </a>
                   <div style="display: none;">
-                    <div class="lightboxContent" id="zambezi">
+                    <div class="lightboxContent" id="gazelleTrade">
                       <div class="contentLeft">
-                        <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
-                        <a href='http://buy.gazelle.com/' target='_blank'>
+                        <img src="images/gazelleTrade_large_image.png" alt="Portfolio example - Gazelle Trade-In">
+                        <a href='http://www.gazelle.com/trade-in' target='_blank'>
                           <button type="button" class="btn btn-primary">Visit Site</button>
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>buy.gazelle.com</h2>
-                        <p>As a Software Engineer II for Gazelle, I served as the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
+                        <h2>Gazelle Trade-In</h2>
+                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
                         <h3>Specific responsibilities included:</h3>
                         <ul>
-                          <li>Developed the front-end for a reCommerce platform built on Bigcommerce.</li>
-                          <li>Increased engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
-                          <li>Improved site performance to enhance the UX, especially for mobile users.</li>
-                          <li>Integrated Gulp into the workflow to improve code quality and speed up the development process.</li>
-                          <li>Updated build system to enable the use of ES6 and Sass.</li>
+                          <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps.</li>
+                          <li>Added JavaScript testing to project utilizing Jasmine.</li>
+                          <li>Implemented a modern design system using Sass.</li>
+                          <li>Retrofitted existing pages, using Bootstrap, to standardize views and improve maintainability.</li>
+                          <li>Improved accessibility of application through enforcing coding standards and best-practices.</li>
                         </ul>
                       </div>
                     </div>
@@ -246,6 +246,35 @@
               </div>
             </div>
             <div class="section group">
+              <div class="col span_1_of_3">
+                <div class="center">
+                  <a class="gallery" href="#zambezi">
+                    <img src="images/gazelle_small_image.png" alt="Portfolio example - Gazelle">
+                  </a>
+                  <div style="display: none;">
+                    <div class="lightboxContent" id="zambezi">
+                      <div class="contentLeft">
+                        <img src="images/gazelle_large_image.png" alt="Portfolio example - Gazelle">
+                        <a href='http://buy.gazelle.com/' target='_blank'>
+                          <button type="button" class="btn btn-primary">Visit Site</button>
+                        </a>
+                      </div>
+                      <div class="contentRight">
+                        <h2>buy.gazelle.com</h2>
+                        <p>As a Software Engineer II for Gazelle, I served as the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
+                        <h3>Specific responsibilities included:</h3>
+                        <ul>
+                          <li>Developed the front-end for a reCommerce platform built on Bigcommerce.</li>
+                          <li>Increased engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
+                          <li>Improved site performance to enhance the UX, especially for mobile users.</li>
+                          <li>Integrated Gulp into the workflow to improve code quality and speed up the development process.</li>
+                          <li>Updated build system to enable the use of ES6 and Sass.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="col span_1_of_3">
                 <div class="center">
                   <a class="gallery" href="#strideRite">
@@ -304,33 +333,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col span_1_of_3">
-                <div class="center">
-                  <a class="gallery" href="#harmony">
-                    <img src="images/harmony_small_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                  </a>
-                  <div style="display: none;">
-                    <div class="lightboxContent" id="harmony">
-                      <div class="contentLeft">
-                        <img src="images/harmony_large_image.png" alt="Portfolio example - Harmony Website for BBK Worldwide">
-                        <a href='demos/harmony/' target='_blank'>
-                          <button type="button" class="btn btn-primary">Visit Site</button>
-                        </a>
-                      </div>
-                      <div class="contentRight">
-                        <h2>Harmony</h2>
-                        <p>The Harmony website is a clinical drug trial sign-up form. The desktop layout was designed by BBK Worldwide, and developed by myself. In addition, I was responsible for designing and developing the mobile version. Please note that the site’s content has been removed, and the form disabled, at the request of the client.</p>
-                        <h3>Harmony’s Features:</h3>
-                        <ul>
-                          <li>A fully responsive design that will look great on every possible device.</li>
-                          <li>A mobile menu to aid in site navigation.</li>
-                          <li>A background image that is placed and scaled with javascript. This ensures it displays properly relative to the other elements, and that the design maintains its integrity regardless of the device it's displayed on.</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </section>
         </div>
