@@ -4,6 +4,7 @@ var gulp = require("gulp"),
     autoprefixer = require("autoprefixer"),
     cssnano = require("cssnano"),
     sourcemaps = require("gulp-sourcemaps"),
+    php = require('gulp-connect-php'),
     browserSync = require("browser-sync").create();
 
 var paths = {
@@ -38,7 +39,9 @@ function style() {
 }
 
 
-
+function phpServer() {
+    php.server({base:'./', port:8000, keepalive:true});
+};
 
 // A simple task to reload the page
 function reload() {
@@ -49,9 +52,9 @@ function reload() {
 function watch() {
     browserSync.init({
         // You can tell browserSync to use this directory and serve it as a mini-server
-        server: {
-            baseDir: "./"
-        }
+
+        proxy: "localhost:8000",
+        notify: false
         // If you are already serving your website locally using something like apache
         // You can use the proxy setting to proxy that instead
         // proxy: "yourlocal.dev"
@@ -61,12 +64,13 @@ function watch() {
     // This can be html or whatever you're using to develop your website
     // Note -- you can obviously add the path to the Paths object
     //gulp.watch("./*.html", reload);
-    gulp.watch("./*.html").on('change', browserSync.reload);
+    gulp.watch("./*.php").on('change', browserSync.reload);
 }
 
 // We don't have to expose the reload function
 // It's currently only useful in other functions
 
+exports.phpServer = phpServer;
 
 // Don't forget to expose the task!
 exports.watch = watch
@@ -79,7 +83,7 @@ exports.style = style;
 /*
  * Specify if tasks run in series or parallel using `gulp.series` and `gulp.parallel`
  */
-var build = gulp.parallel(style, watch);
+var build = gulp.parallel(phpServer, style, watch);
 
 /*
  * You can still use `gulp.task` to expose tasks
