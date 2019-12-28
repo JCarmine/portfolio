@@ -500,73 +500,73 @@
 
   <!-- Allows for site tracking with Google Analytics. -->
   <script>
-  (function(i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-45115716-2', 'jessecarmine.com');
-  ga('send', 'pageview');
+    ga('create', 'UA-45115716-2', 'jessecarmine.com');
+    ga('send', 'pageview');
   </script>
 
   <script type="text/javascript">
-  $(document).ready(function() {
-    /* Initialize the JS navigation */
-    $("#menu ul li").slidingPage({
-      easing: 'fade',
-      speed: 700,
-      slideScroll: 'vertical', // not enabled on fade effect
-      top: 0, // it depends on menu height
-      navigation: {
-        show: true,
-        nestedPagesFlows: true
-      },
-    });
+    $(document).ready(function() {
+      /* Initialize the JS navigation */
+      $("#menu ul li").slidingPage({
+        easing: 'fade',
+        speed: 700,
+        slideScroll: 'vertical', // not enabled on fade effect
+        top: 0, // it depends on menu height
+        navigation: {
+          show: true,
+          nestedPagesFlows: true
+        },
+      });
 
-    /* Initialize carousel on Home page. */
-    $('.carousel').carousel({
-      interval: 9000
-    });
+      /* Initialize carousel on Home page. */
+      $('.carousel').carousel({
+        interval: 9000
+      });
 
-    /* Validation for form on Contact page. */
-    $('form#contact-us').submit(function() {
-      $('form#contact-us .error').remove();
-      var hasError = false;
-      $('.requiredField').each(function() {
-        if ($.trim($(this).val()) == '') {
-          var labelText = $(this).prev('label').text();
-          $(this).parent().append('<span class="error">Please enter your ' + labelText + '.</span>');
-          $(this).addClass('inputError');
-          hasError = true;
-        } else if ($(this).hasClass('email')) {
-          var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-          if (!emailReg.test($.trim($(this).val()))) {
+      /* Validation for form on Contact page. */
+      $('form#contact-us').submit(function() {
+        $('form#contact-us .error').remove();
+        var hasError = false;
+        $('.requiredField').each(function() {
+          if ($.trim($(this).val()) == '') {
             var labelText = $(this).prev('label').text();
-            $(this).parent().append('<span class="error">Please enter a valid ' + labelText + '.</span>');
+            $(this).parent().append('<span class="error">Please enter your ' + labelText + '.</span>');
             $(this).addClass('inputError');
             hasError = true;
+          } else if ($(this).hasClass('email')) {
+            var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+            if (!emailReg.test($.trim($(this).val()))) {
+              var labelText = $(this).prev('label').text();
+              $(this).parent().append('<span class="error">Please enter a valid ' + labelText + '.</span>');
+              $(this).addClass('inputError');
+              hasError = true;
+            }
           }
-        }
-      });
-      if (!hasError) {
-        var formInput = $(this).serialize();
-        $.post($(this).attr('action'), formInput, function(data) {
-          $('form#contact-us').slideUp("fast", function() {
-            $(this).before('<p class="tick center">Thank you! I will get back to you shortly.</p>');
-          });
         });
-      }
+        if (!hasError) {
+          var formInput = $(this).serialize();
+          $.post($(this).attr('action'), formInput, function(data) {
+            $('form#contact-us').slideUp("fast", function() {
+              $(this).before('<p class="tick center">Thank you! I will get back to you shortly.</p>');
+            });
+          });
+        }
 
-      return false;
+        return false;
+      });
     });
-  });
   </script>
 
 
