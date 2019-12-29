@@ -71,7 +71,7 @@ function watch() {
   // This can be html or whatever you're using to develop your website
   // Note -- you can obviously add the path to the Paths object
   //gulp.watch("./*.php", reload);
-  gulp.watch("./index.php").on('change', browserSync.reload);
+  gulp.watch("./*.php").on('change', browserSync.reload);
 }
 
 // We don't have to expose the reload function

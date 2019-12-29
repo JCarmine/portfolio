@@ -170,15 +170,14 @@
                         </a>
                       </div>
                       <div class="contentRight">
-                        <h2>Gazelle Trade-In</h2>
-                        <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
-                        <h3>Specific responsibilities included:</h3>
+                        <h2>RevUp</h2>
+                        <p>RevUp is a SaaS application created to supercharge the fundraising efforts of political campaigns, nonprofits, and academic insitutions.</p>
+                        <h3>Responsibilities included:</h3>
                         <ul>
-                          <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps.</li>
-                          <li>Added JavaScript testing to project utilizing Jasmine.</li>
-                          <li>Implemented a modern design system using Sass.</li>
-                          <li>Retrofitted existing pages, using Bootstrap, to standardize views and improve maintainability.</li>
-                          <li>Improved accessibility of application through enforcing coding standards and best-practices.</li>
+                          <li>Built the front-end for RevUp’s Nonprofit product from the ground up utilizing React, Redux, Immutable.js, Enzyme/Jest, and Webpack.</li>
+                          <li>Collaborated with UX Designer and Management to design a data-rich SaaS application that was elegant, intuitive, and performant.</li>
+                          <li>Planned projects, managed sprints, and delivered on several key initiatives.</li>
+                          <li>Mentored junior developers with a focus on building confidence, encouraging leadership, and advocating for exceptional code quality.</li>
                         </ul>
                       </div>
                     </div>
@@ -201,7 +200,7 @@
                       <div class="contentRight">
                         <h2>Gazelle Trade-In</h2>
                         <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
-                        <h3>Specific responsibilities included:</h3>
+                        <h3>Responsibilities included:</h3>
                         <ul>
                           <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps.</li>
                           <li>Added JavaScript testing to project utilizing Jasmine.</li>
@@ -262,7 +261,7 @@
                       <div class="contentRight">
                         <h2>buy.gazelle.com</h2>
                         <p>As a Software Engineer II for Gazelle, I served as the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
-                        <h3>Specific responsibilities included:</h3>
+                        <h3>Responsibilities included:</h3>
                         <ul>
                           <li>Developed the front-end for a reCommerce platform built on Bigcommerce.</li>
                           <li>Increased engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
@@ -291,7 +290,7 @@
                       <div class="contentRight">
                         <h2>Stride Rite</h2>
                         <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
-                        <h3>Specific responsibilities included:</h3>
+                        <h3>Responsibilities included:</h3>
                         <ul>
                           <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
                           <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
