@@ -149,16 +149,6 @@ hr {
   padding: 0;
 }
 
-
-/*
-hr {
-    height: 2px;
-    border: 0;
-    margin: 0;
-    box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.5);
-}
-*/
-
 img {
   border: none;
 }
@@ -174,6 +164,10 @@ img {
 .center {
   margin: 0 auto;
   text-align: center;
+}
+
+.justified {
+  text-align: justify;
 }
 
 .clear {

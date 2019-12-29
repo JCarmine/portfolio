@@ -16,7 +16,7 @@
 <body>
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+  <![endif]-->
   <h1 class="visuallyhidden">I create unique and elegant websites that both look great and work perfectly, on any device.</h1>
   <div id="contentSlide">
     <!--Nav-->
@@ -100,15 +100,36 @@
         <div class="whiteBox">
           <h1>About</h1>
           <div class="section group">
-            <div class="col span_2_of_3 center">
-              <h2>
-                Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Portland, OR U.S.A.
+            <div class="col span_2_of_3 justified">
+              <h2 class="center">
+                Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,
+                <br class="desktop"> I’m a Web Developer from Portland, OR U.S.A.
               </h2>
-              <p>Graphic design and creating innovative web experiences have always been passions of mine. With over 6 years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
+              <p>
+                Creating innovative web experiences and graphic design have
+                always been passions of mine. With over 6 years of professional
+                web development experience, I have completed projects for
+                clients across the United States. This experience has established
+                my fluency in the most popular development languages and tools,
+                perfected my project management skills, and honed the attention
+                to detail that is required to create stunning and pixel-perfect websites.
+              </p>
+              <p>
+                My current focus has been on developing enterprise level
+                applications (see the RevUp and Gazelle examples in my portfolio)
+                using cutting-edge development tooling including React, Redux,
+                and Webpack. However, I also create websites for small businesses
+                and individuals using WordPress to deliver products
+                that are incredibly easy to manage and update.
+              </p>
+              <p>
+                Regardless of what I’m building, I take pride in creating
+                products that are elegant, responsive, accessible, and performant.
+              </p>
               <p>Need more detail? Click below to download my resume.</p>
               <div>
                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.5" target="_blank">
-                  <button type="button" class="btn btn-primary">Download Resume</button>
+                  <button type="button" class="btn btn-primary center">Download Resume</button>
                 </a>
               </div>
             </div>
@@ -121,9 +142,9 @@
               <div class="progress">
                 <div class="bar" style="width: 100%;"></div>
               </div>
-              <span>React</span>
+              <span>React/Redux</span>
               <div class="progress">
-                <div class="bar" style="width: 90%;"></div>
+                <div class="bar" style="width: 100%;"></div>
               </div>
               <span>Sass</span>
               <div class="progress">
@@ -131,7 +152,7 @@
               </div>
               <span>WordPress</span>
               <div class="progress">
-                <div class="bar" style="width: 80%;"></div>
+                <div class="bar" style="width: 90%;"></div>
               </div>
               <span>Photoshop</span>
               <div class="progress">
@@ -171,8 +192,8 @@
                       </div>
                       <div class="contentRight">
                         <h2>RevUp</h2>
-                        <p>RevUp is a SaaS application that was created to supercharge the fundraising efforts of political campaigns, nonprofits, and academic insitutions.</p>
-                        <h3>Responsibilities included:</h3>
+                        <p>RevUp is a SaaS application that was created to supercharge the fundraising efforts of political campaigns, nonprofits, and academic institutions.</p>
+                        <h3>My responsibilities included:</h3>
                         <ul>
                           <li>Built the front-end for RevUp’s Nonprofit product from the ground up utilizing React, Redux, Immutable.js, Enzyme/Jest, and Webpack.</li>
                           <li>Collaborated with UX Designer and Management to design a data-rich SaaS application that was elegant, intuitive, and performant.</li>
@@ -200,7 +221,7 @@
                       <div class="contentRight">
                         <h2>Gazelle Trade-In</h2>
                         <p>Gazelle's Trade-In site is a Ruby on Rails app that allows visitors to sell or recycle their used electronics. As a front-end developer on the project, I worked to modernize the app utilizing React, Bootstrap, and Sass.</p>
-                        <h3>Responsibilities included:</h3>
+                        <h3>My responsibilities included:</h3>
                         <ul>
                           <li>Replaced legacy, unstructured JS with highly structured and maintainable React apps.</li>
                           <li>Added JavaScript testing to project utilizing Jasmine.</li>
@@ -261,7 +282,7 @@
                       <div class="contentRight">
                         <h2>buy.gazelle.com</h2>
                         <p>As a Software Engineer II for Gazelle, I served as the lead developer for a reCommerce site that does $3.5 million in sales per month.</p>
-                        <h3>Responsibilities included:</h3>
+                        <h3>My responsibilities included:</h3>
                         <ul>
                           <li>Developed the front-end for a reCommerce platform built on Bigcommerce.</li>
                           <li>Increased engagement and conversion rate through A/B testing, utilizing Optimizely.</li>
@@ -290,7 +311,7 @@
                       <div class="contentRight">
                         <h2>Stride Rite</h2>
                         <p>As a front-end developer for Stride Rite shoes, I was responsible for managing and updating a major eCommerce website built on Demandware.</p>
-                        <h3>Responsibilities included:</h3>
+                        <h3>My responsibilities included:</h3>
                         <ul>
                           <li>Developing interactive features for desktop and mobile, using JavaScript, jQuery, and jQuery UI.</li>
                           <li>Coding the interactive features, including interactive carousel widgets and custom RSS feeds.</li>
@@ -477,26 +498,11 @@
   </div>
   <!--/.contentSlide-->
 
-  <!-- Load jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
-  <!-- Load jQuery plugin to handle navigation. -->
   <script type="text/javascript" src="js/vendor/sliding_min.js"></script>
-
-  <!-- Load bootstrap js to drive slider on home page. -->
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-
-  <script type="text/javascript">
-    $('a.gallery').featherlightGallery({
-      previousIcon: '«',
-      nextIcon: '»',
-      galleryFadeIn: 300,
-      openSpeed: 300
-    });
-  </script>
 
   <!-- Allows for site tracking with Google Analytics. -->
   <script>
@@ -530,12 +536,20 @@
         },
       });
 
-      /* Initialize carousel on Home page. */
+      /* Initialize carousel on Home page */
       $('.carousel').carousel({
         interval: 9000
       });
 
-      /* Validation for form on Contact page. */
+      /* Initialize gallery on Portfolio page */
+      $('a.gallery').featherlightGallery({
+        previousIcon: '«',
+        nextIcon: '»',
+        galleryFadeIn: 300,
+        openSpeed: 300
+      });
+
+      /* Validation for form on Contact page */
       $('form#contact-us').submit(function() {
         $('form#contact-us .error').remove();
         var hasError = false;
