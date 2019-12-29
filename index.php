@@ -104,7 +104,7 @@
               <h2>
                 Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,<br class="desktop"> I’m a Web Developer from Portland, OR U.S.A.
               </h2>
-              <p>Graphic design and creating innovative web experiences have always been passions of mine. With over 4 years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
+              <p>Graphic design and creating innovative web experiences have always been passions of mine. With over 6 years of professional web development experience, I have completed projects for clients across the United States. This experience has established my fluency in the most popular development languages, perfected my project management skills, and honed the attention to detail that is required to create stunning and pixel-perfect websites - websites that will not only impress your visitors, but also entice them to engage with your cause or organization. Whether you desire a WordPress site or a completely custom, responsive, interactive experience driven by JavaScript, I can make it&nbsp;happen.</p>
               <p>Need more detail? Click below to download my resume.</p>
               <div>
                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.5" target="_blank">
@@ -171,7 +171,7 @@
                       </div>
                       <div class="contentRight">
                         <h2>RevUp</h2>
-                        <p>RevUp is a SaaS application created to supercharge the fundraising efforts of political campaigns, nonprofits, and academic insitutions.</p>
+                        <p>RevUp is a SaaS application that was created to supercharge the fundraising efforts of political campaigns, nonprofits, and academic insitutions.</p>
                         <h3>Responsibilities included:</h3>
                         <ul>
                           <li>Built the front-end for RevUp’s Nonprofit product from the ground up utilizing React, Redux, Immutable.js, Enzyme/Jest, and Webpack.</li>
