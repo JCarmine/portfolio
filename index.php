@@ -28,22 +28,22 @@
         <ul>
           <li class="startPage">
             <a href="#" data-nav="homepage" title="" class="current">
-              <span class="menu-label">Home</span>
+              Home
             </a>
           </li>
           <li>
             <a href="#" data-nav="about" title="" class="">
-              <span class="menu-label">About</span>
+              About
             </a>
           </li>
           <li>
             <a href="#" data-nav="portfolio" title="" class="">
-              <span class="menu-label">Portfolio</span>
+              Portfolio
             </a>
           </li>
           <li>
             <a href="#" data-nav="contact" title="" class="">
-              <span class="menu-label">Contact</span>
+              Contact
             </a>
           </li>
         </ul>

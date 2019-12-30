@@ -263,10 +263,9 @@
 
 /* NavButtons */
 #menu {
-  height: 65px;
-  position: absolute;
-  right: 10px;
   font-family: BebasNeue;
+  font-size: 2.7em;
+  line-height: 2.7em;
 
   ul {
     list-style: none;
@@ -280,16 +279,18 @@
     font-family: BebasNeue;
   }
 
-  > ul > li {
-    float: left;
-    margin: 15px 5px;
+  li {
     position: relative;
+    display: inline;
+  }
+
+  li:not(last-of-type) {
+    padding: 0 15px;
   }
 
   > ul > li > a {
     line-height: 1.4em;
     color: $md-grey;
-    padding: 0 15px;
   }
 
   > ul > li:hover > a {
@@ -298,10 +299,6 @@
 
   > ul > li > a.current {
     color: $dk-grey;
-  }
-
-  span {
-    font-size: 2.7em;
   }
 
   .menu-label {

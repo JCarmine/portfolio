@@ -40,6 +40,9 @@
 /* Header */
 header {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 65px;
   background: $white;
   width: 100%;
@@ -47,11 +50,6 @@ header {
 
   .set-size {
     position: relative;
-  }
-
-  #logo {
-    float: left;
-    padding: 5px 15px 0 0;
   }
 }
 
