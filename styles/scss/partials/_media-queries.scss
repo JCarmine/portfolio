@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /*Tablet*/
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
   /*General Styles Tablet*/
   html {
      overflow-y: auto;
@@ -32,6 +32,10 @@
   }
   .carousel-indicators {
      bottom: 20px;
+  }
+
+  #homepage p {
+    font-size: 5.38em;
   }
 }
 

@@ -37,13 +37,10 @@
       width: 100%;
       -webkit-transition: 0.6s ease-in-out left;
       transition: 0.6s ease-in-out left;
+      padding: 0 12%;
 
       p {
-        position: absolute;
-        right: 0;
-        left: 0;
         margin: 0;
-        padding: 0 10%;
       }
 
       &.slider-1 {
@@ -51,15 +48,36 @@
         color: $white;
 
         p {
+          position: absolute;
+          right: 0;
+          left: 0;
           top: 50%;
           transform: translateY(-50%);
+          padding: 0 12%;
         }
       }
 
       &.slider-2 {
         p {
           margin-top: 40px;
-          color: black;
+          color: #474747;
+        }
+
+        .logo-container-row {
+          display: flex;
+          margin-top: 10%;
+
+          .logo-image {
+            height: 75px;
+          }
+
+          &.row-1 {
+            justify-content: space-between;
+          }
+
+          &.row-2 {
+            justify-content: space-around;
+          }
         }
       }
     }
