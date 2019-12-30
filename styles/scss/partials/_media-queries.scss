@@ -33,10 +33,6 @@
   .carousel-indicators {
      bottom: 20px;
   }
-
-  #homepage p {
-    font-size: 5.38em;
-  }
 }
 
 /*Mobile*/
@@ -70,7 +66,6 @@
   header #logo {
     width: 105px;
     text-align: center;
-    padding: 5px 5px 0 0;
   }
 
   header #logo img {
@@ -83,22 +78,12 @@
   }
 
   #menu {
-    height: 30px;
-    top: 10px;
-    right: 2px;
-    span {
-      font-size: 1.7em;
-    }
+    font-size: 1.7em;
   }
 
   #menu > ul > li {
-     margin: 0px 3px;
-  }
-
-  #menu > ul > li > a {
-     padding: 7px 0px 10px;
+     padding: 0 5px;
      line-height: 1.4em;
-     color: $md-grey;
   }
 
   #homepage p {
