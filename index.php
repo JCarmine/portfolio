@@ -79,13 +79,13 @@
                 <p>Clients I've worked with:</p>
                 <div class="logo-container">
                   <div class="logo-container-row row-1">
-                    <img src="images/client_logos/revup_logo.png" alt="RevUp Software" class="logo-image">
-                    <img src="images/client_logos/gazelle_logo.png" alt="Gazelle" class="logo-image">
-                    <img src="images/client_logos/uaa_logo.png" alt="University of Alaska" class="logo-image">
+                    <img src="images/client_logos/revup_logo.png" alt="RevUp Software" title="RevUp Software" class="logo-image">
+                    <img src="images/client_logos/gazelle_logo.png" alt="Gazelle" title="Gazelle" class="logo-image">
+                    <img src="images/client_logos/uaa_logo.png" alt="University of Alaska" title="University of Alaska" class="logo-image">
                   </div>
                   <div class="logo-container-row row-2">
-                    <img src="images/client_logos/stride_rite_logo.png" alt="Stride Rite" class="logo-image">
-                    <img src="images/client_logos/hill_holliday_logo.png" alt="Hill Holliday" class="logo-image">
+                    <img src="images/client_logos/stride_rite_logo.png" alt="Stride Rite" title="Stride Rite" class="logo-image">
+                    <img src="images/client_logos/hill_holliday_logo.png" alt="Hill Holliday" title="Hill Holliday" class="logo-image">
                   </div>
                 </div>
               </div>
