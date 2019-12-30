@@ -48,10 +48,11 @@
           </li>
         </ul>
       </nav>
+      <div class="shadow"></div>
     </header>
-    <div class="shadow"></div>
+
     <!-- Home Page -->
-    <div id="homepage" style="display: none;">
+    <section id="homepage" style="display: none;">
       <div class="wrap">
         <div class="whiteBox background">
           <h1>
@@ -66,18 +67,14 @@
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
             <!-- Carousel slides. -->
             <div class="carousel-inner">
-              <div class="item active">
-                <img src="images/slider_1.jpg" alt="I create unique and elegant websites that both look great and work perfectly, on any device.">
+              <div class="item slider-1 active">
+                <p>I create unique and elegant websites that both look great and work perfectly, on any device.</p>
               </div>
-              <div class="item">
-                <img src="images/slider_2.jpg" alt="Inspire your visitors to imagine the possibilities, with stunning imagery.">
-              </div>
-              <div class="item">
-                <img src="images/slider_3.jpg" alt="Define your image with custom graphics and logos.">
+              <div class="item slider-2">
+                <p>Clients I've worked with:</p>
               </div>
             </div>
             <!-- Carousel controls. -->
@@ -93,19 +90,19 @@
           <span>&#169; Jesse Carmine 2019</span>
         </div>
       </div>
-    </div>
+    </section>
     <!-- About Page -->
     <section id="about" style="display: none;">
       <div class="wrap">
         <div class="whiteBox">
           <h1>About</h1>
           <div class="section group">
-            <div class="col span_2_of_3 justified">
+            <div class="col span_2_of_3">
               <h2 class="center">
                 Hello, I'm Jesse Carmine and welcome to&nbsp;my&nbsp;portfolio,
                 <br class="desktop"> I’m a Web Developer from Portland, OR U.S.A.
               </h2>
-              <p>
+              <p class="justified">
                 Creating innovative web experiences and graphic design have
                 always been passions of mine. With over 6 years of professional
                 web development experience, I have completed projects for
@@ -114,7 +111,7 @@
                 perfected my project management skills, and honed the attention
                 to detail that is required to create stunning and pixel-perfect websites.
               </p>
-              <p>
+              <p class="justified">
                 My current focus has been on developing enterprise level
                 applications (see the RevUp and Gazelle examples in my portfolio)
                 using cutting-edge development tooling including React, Redux,
@@ -122,14 +119,14 @@
                 and individuals using WordPress to deliver products
                 that are incredibly easy to manage and update.
               </p>
-              <p>
+              <p class="justified">
                 Regardless of what I’m building, I take pride in creating
                 products that are elegant, responsive, accessible, and performant.
               </p>
               <p>Need more detail? Click below to download my resume.</p>
-              <div>
-                <a href="resources/resume_for_jesse_carmine.pdf?ver=1.5" target="_blank">
-                  <button type="button" class="btn btn-primary center">Download Resume</button>
+              <div class="center">
+                <a href="resources/resume_for_jesse_carmine.pdf?ver=1.5" class="btn btn-primary download-resume" target="_blank">
+                  Download Resume
                 </a>
               </div>
             </div>
@@ -500,7 +497,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/vendor/sliding_min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -538,7 +535,7 @@
 
       /* Initialize carousel on Home page */
       $('.carousel').carousel({
-        interval: 9000
+        interval: 5000
       });
 
       /* Initialize gallery on Portfolio page */

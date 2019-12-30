@@ -1,3 +1,336 @@
+/* ==========================================================================
+   module.css
+   ========================================================================== */
+
+/* Upgrade Message */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+/* Carousel on Homepage */
+.carousel {
+  position: relative;
+  margin-top: 30px;
+  max-width: 920px;
+  text-align: center;
+  margin: 0 auto;
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 53.26%;
+    overflow: hidden;
+    background-color: #f2f2f2;
+
+    .item {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      -webkit-transition: 0.6s ease-in-out left;
+      transition: 0.6s ease-in-out left;
+
+      p {
+        position: absolute;
+        margin: 0;
+        padding: 0 10%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &.slider-1 {
+        background-image: url(../images/slider_1.png);
+      }
+
+      &.slider-2 {
+        p {
+          color: black;
+        }
+      }
+    }
+
+    .active,
+    .next,
+    .prev {
+      display: block;
+    }
+
+    .active {
+      left: 0;
+    }
+
+    .next,
+    .prev {
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    .next {
+      left: 100%;
+    }
+
+    .prev {
+      left: -100%;
+    }
+
+    .next.left,
+    .prev.right {
+      left: 0;
+    }
+
+    .active.left {
+      left: -100%;
+    }
+
+    .active.right {
+      left: 100%;
+    }
+  }
+
+  .carousel-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    font-size: 50px;
+    color: $white;
+    text-align: center;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+  }
+
+  .carousel-control.right {
+    left: auto;
+    right: 0;
+  }
+
+  .carousel-control:hover,
+  .carousel-control:focus {
+    color: $white;
+    text-decoration: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next,
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 5;
+    display: inline-block;
+  }
+
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+
+  .carousel-control .icon-prev:before {
+    content: '\2039';
+  }
+
+  .carousel-control .icon-next:before {
+    content: '\203a';
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid $white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: $white;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .carousel-caption .btn {
+    text-shadow: none;
+  }
+}
+
+
+/* Primary Button */
+.btn {
+  font-family: BebasNeue;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 0.125em;
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  user-select: none;
+}
+
+.btn-primary {
+  color: $white;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: $white;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.btn {
+  font-size: 2em;
+}
+
+
+/* NavButtons */
+#menu {
+  height: 65px;
+  position: absolute;
+  right: 10px;
+  font-family: BebasNeue;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: BebasNeue;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: BebasNeue;
+  }
+
+  > ul > li {
+    float: left;
+    margin: 15px 5px;
+    position: relative;
+  }
+
+  > ul > li > a {
+    line-height: 1.4em;
+    color: $md-grey;
+    padding: 0 15px;
+  }
+
+  > ul > li:hover > a {
+    color: $dk-grey;
+  }
+
+  > ul > li > a.current {
+    color: $dk-grey;
+  }
+
+  span {
+    font-size: 2.7em;
+  }
+
+  .menu-label {
+    padding-right: 0;
+  }
+
+  .menu-drop:hover .menu-label {
+    background-position: right -23px;
+  }
+
+  .menu-right {
+    float: right;
+  }
+
+  li:hover ul {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+
+/* Progress Bars */
+.progress {
+  width: 100%;
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+  background-repeat: repeat-x;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+
+.progress .bar {
+  width: 0;
+  height: 100%;
+  color: $white;
+  float: left;
+  font-size: 0.75em;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #428bca;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  transition: width 0.6s ease;
+}
+
+.progress .bar + .bar {
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, .15), inset 0 -1px 0 rgba(0, 0, 0, .15);
+}
+
+
+/* Portfolio Gallery */
 .featherlight .featherlight-content {
   width: 95%;
   max-width: 850px;
@@ -144,335 +477,7 @@
 }
 
 
-
-
-
-/* ==========================================================================
-   module.css
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-
-/*Carousel*/
-
-.carousel {
-  position: relative;
-  margin-top: 30px;
-  max-width: 920px;
-  text-align: center;
-  margin: 0 auto;
-
-  .carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-
-    .item {
-      display: none;
-      position: relative;
-      -webkit-transition: 0.6s ease-in-out left;
-      transition: 0.6s ease-in-out left;
-    }
-
-    .item > img,
-    .item > a > img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      line-height: 1;
-    }
-
-    .active,
-    .next,
-    .prev {
-      display: block;
-    }
-
-    .active {
-      left: 0;
-    }
-
-    .next,
-    .prev {
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
-
-    .next {
-      left: 100%;
-    }
-
-    .prev {
-      left: -100%;
-    }
-
-    .next.left,
-    .prev.right {
-      left: 0;
-    }
-
-    .active.left {
-      left: -100%;
-    }
-
-    .active.right {
-      left: 100%;
-    }
-  }
-
-  .carousel-control {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 15%;
-    opacity: 0.7;
-    filter: alpha(opacity=70);
-    font-size: 50px;
-    color: $white;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  }
-
-  .carousel-control.left {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-    background-repeat: repeat-x;
-  }
-
-  .carousel-control.right {
-    left: auto;
-    right: 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background-repeat: repeat-x;
-  }
-
-  .carousel-control:hover,
-  .carousel-control:focus {
-    color: $white;
-    text-decoration: none;
-    opacity: 0.9;
-    filter: alpha(opacity=90);
-  }
-
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next,
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    z-index: 5;
-    display: inline-block;
-  }
-
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
-    width: 20px;
-    height: 20px;
-    margin-top: -10px;
-    margin-left: -10px;
-  }
-
-  .carousel-control .icon-prev:before {
-    content: '\2039';
-  }
-
-  .carousel-control .icon-next:before {
-    content: '\203a';
-  }
-
-  .carousel-indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    margin-left: -30%;
-    padding-left: 0;
-    list-style: none;
-    text-align: center;
-  }
-
-  .carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    border: 1px solid $white;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-
-  .carousel-indicators .active {
-    margin: 0;
-    width: 12px;
-    height: 12px;
-    background-color: $white;
-  }
-
-  .carousel-caption {
-    position: absolute;
-    left: 15%;
-    right: 15%;
-    bottom: 20px;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: $white;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  }
-
-  .carousel-caption .btn {
-    text-shadow: none;
-  }
-}
-
-
-/* Primary Button */
-
-.btn {
-  font-family: BebasNeue;
-  font-weight: 100;
-  text-align: center;
-  letter-spacing: 0.125em;
-  display: inline-block;
-  margin-bottom: 0;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  user-select: none;
-}
-
-.btn-primary {
-  color: $white;
-  background-color: #428bca;
-  border-color: #357ebd;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: $white;
-  background-color: #3276b1;
-  border-color: #285e8e;
-}
-
-.btn {
-  font-size: 2em;
-}
-
-
-/* NavButtons */
-
-#menu {
-  height: 65px;
-  position: absolute;
-  right: 10px;
-  font-family: BebasNeue;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: BebasNeue;
-  }
-
-  a {
-    text-decoration: none;
-    font-family: BebasNeue;
-  }
-
-  > ul > li {
-    float: left;
-    margin: 15px 5px;
-    position: relative;
-  }
-
-  > ul > li > a {
-    line-height: 1.4em;
-    color: $md-grey;
-    padding: 0 15px;
-  }
-
-  > ul > li:hover > a {
-    color: $dk-grey;
-  }
-
-  > ul > li > a.current {
-    color: $dk-grey;
-  }
-
-  span {
-    font-size: 2.7em;
-  }
-
-  .menu-label {
-    padding-right: 0;
-  }
-
-  .menu-drop:hover .menu-label {
-    background-position: right -23px;
-  }
-
-  .menu-right {
-    float: right;
-  }
-
-  li:hover ul {
-    left: 0;
-    opacity: 1;
-  }
-}
-
-
-/*Progress Bars*/
-
-.progress {
-  width: 100%;
-  overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
-  background-color: #f7f7f7;
-  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
-  background-repeat: repeat-x;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 0;
-}
-
-.progress .bar {
-  width: 0;
-  height: 100%;
-  color: $white;
-  float: left;
-  font-size: 0.75em;
-  text-align: center;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #428bca;
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-sizing: border-box;
-  transition: width 0.6s ease;
-}
-
-.progress .bar + .bar {
-  box-shadow: inset 1px 0 0 rgba(0, 0, 0, .15), inset 0 -1px 0 rgba(0, 0, 0, .15);
-}
-
-
-/*Portfolio Images*/
-
+/* Portfolio Images */
 a.gallery img {
   width: 100%;
   transition: opacity .3s linear;
@@ -488,8 +493,7 @@ a.gallery img:hover {
 }
 
 
-/*Contact Page*/
-
+/* Contact Page */
 #contact p {
   margin-top: 5px;
 }

@@ -12,7 +12,7 @@
      width: 100%;
   }
 
-  /*Carousel Tablet*/
+  /* Carousel Tablet */
   .carousel-inner {
      position: relative;
      overflow: hidden;
@@ -39,23 +39,66 @@
 @media only screen and (max-width: 745px) {
   /*General Styles Mobile*/
   body {
-     font-size: 10px;
+    font-size: 10px;
   }
 
   .desktop {
-     display: none;
+    display: none;
   }
 
   .mobile {
-     display: block;
+    display: block;
   }
 
   .wrap {
-     padding-top: 38px;
+    padding-top: 38px;
   }
 
   h4 {
-     font-size: 2em;
+    font-size: 2em;
+  }
+
+  /* NavBar Mobile */
+  header {
+    height: 38px;
+  }
+
+  header #logo {
+    width: 105px;
+    text-align: center;
+    padding: 5px 5px 0 0;
+  }
+
+  header #logo img {
+    width: 105px;
+    height: 27.5px;
+  }
+
+  .shadow {
+    top: 38px;
+  }
+
+  #menu {
+    height: 30px;
+    top: 10px;
+    right: 2px;
+    span {
+      font-size: 1.7em;
+    }
+  }
+
+  #menu > ul > li {
+     margin: 0px 3px;
+  }
+  
+  #menu > ul > li > a {
+     padding: 7px 0px 10px;
+     line-height: 1.4em;
+     color: $md-grey;
+  }
+
+  #homepage p {
+    font-size: 4.38em;
   }
 
   #about p {
@@ -76,6 +119,10 @@
      padding: 50px 0 0 0;
   }
 
+  .download-resume {
+    display: block;
+  }
+
   .progress {
     width: 100%;
   }
@@ -83,38 +130,5 @@
   .contactItem {
     font-size: 1.7em;
     margin-top: 30px;
-  }
-
-  /* NavBar Mobile */
-  header {
-     height: 38px;
-  }
-  header #logo {
-     width: 105px;
-     text-align: center;
-     padding: 5px 5px 0 0;
-  }
-  header #logo img {
-     width: 105px;
-     height: 27.5px;
-  }
-  .shadow {
-     top: 38px;
-  }
-  #menu {
-     height: 30px;
-     top: 10px;
-     right: 2px;
-     span {
-       font-size: 1.7em;
-     }
-  }
-  #menu > ul > li {
-     margin: 0px 3px;
-  }
-  #menu > ul > li > a {
-     padding: 7px 0px 10px;
-     line-height: 1.4em;
-     color: $md-grey;
   }
 }
