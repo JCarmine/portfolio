@@ -132,7 +132,7 @@
               </p>
               <p class="justified">
                 Regardless of what I’m building, I take pride in creating
-                products that are elegant, responsive, accessible, and performant.
+                websites that are elegant, responsive, accessible, and performant.
               </p>
               <p>Need more detail? Click below to download my resume.</p>
               <div class="center">
@@ -546,7 +546,7 @@
 
       /* Initialize carousel on Home page */
       $('.carousel').carousel({
-        interval: 5000
+        interval: 7000
       });
 
       /* Initialize gallery on Portfolio page */
