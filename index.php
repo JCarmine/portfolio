@@ -82,8 +82,8 @@
                     <img src="images/client_logos/uaa_logo.png" alt="University of Alaska" class="logo-image">
                   </div>
                   <div class="logo-container-row row-2">
-                    <img src="images/client_logos/hill_holliday_logo.png" alt="Hill Holliday" class="logo-image">
                     <img src="images/client_logos/stride_rite_logo.png" alt="Stride Rite" class="logo-image">
+                    <img src="images/client_logos/hill_holliday_logo.png" alt="Hill Holliday" class="logo-image">
                   </div>
                 </div>
               </div>
