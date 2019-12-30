@@ -535,7 +535,7 @@
 
       /* Initialize carousel on Home page */
       $('.carousel').carousel({
-        interval: 5000
+        interval: 500000
       });
 
       /* Initialize gallery on Portfolio page */
