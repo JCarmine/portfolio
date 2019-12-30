@@ -30,23 +30,33 @@
   background: $light-grey;
 }
 
-.wrap {
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  z-index: 5000;
+  background: $white;
+}
+
+.wrap,
+.header-content {
   margin: 0 auto;
   width: 80%;
+  max-width: 1200px;
+}
+
+.wrap {
   padding-top: 65px;
 }
 
 
 /* Header */
-header {
-  position: fixed;
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 65px;
-  background: $white;
-  width: 100%;
-  z-index: 5000;
 
   .set-size {
     position: relative;

@@ -21,33 +21,35 @@
   <div id="contentSlide">
     <!--Nav-->
     <header>
-      <div id="logo">
-        <img src="images/logo.png" alt="Logo: Jesse Carmine - Web Developer" />
+      <div class="header-content">
+        <div id="logo">
+          <img src="images/logo.png" alt="Logo: Jesse Carmine - Web Developer" />
+        </div>
+        <nav id="menu">
+          <ul>
+            <li class="startPage">
+              <a href="#" data-nav="homepage" title="" class="current">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" data-nav="about" title="" class="">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" data-nav="portfolio" title="" class="">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="#" data-nav="contact" title="" class="">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav id="menu">
-        <ul>
-          <li class="startPage">
-            <a href="#" data-nav="homepage" title="" class="current">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#" data-nav="about" title="" class="">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#" data-nav="portfolio" title="" class="">
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a href="#" data-nav="contact" title="" class="">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
       <div class="shadow"></div>
     </header>
 
