@@ -10,7 +10,7 @@
 
     gtag('config', 'UA-45115716-4');
   </script>
-  
+
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -146,10 +146,10 @@
                 Regardless of what I’m building, I take pride in creating
                 websites that are elegant, responsive, accessible, and performant.
               </p>
-              <p>Need more detail? Click below to download my resume.</p>
+              <p>Need more detail? Click below to download my r&eacute;sum&eacute;.</p>
               <div class="center">
                 <a href="resources/resume_for_jesse_carmine.pdf?ver=1.5" class="btn btn-primary download-resume" target="_blank">
-                  Download Resume
+                  Download R&eacute;sum&eacute;
                 </a>
               </div>
             </div>
@@ -271,7 +271,7 @@
                         <h2>Leonid Chindelevitch</h2>
                         <span class="leonidTitle">Assistant Professor</span>
                         <span class="leonidUniversity">Simon Frasier University</span>
-                        <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio, so that he could share his work with the world.</p>
+                        <p>Leonid is a professor of Computer Science at Simon Frasier University. He requested that I design and develop his portfolio so that he could share his work with the world.</p>
                         <h3>His Portfolio Features:</h3>
                         <ul>
                           <li>A fully responsive, clean, and non-distracting design.</li>
